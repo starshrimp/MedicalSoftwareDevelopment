@@ -1,0 +1,50 @@
+#tax_id	GeneID	Symbol	LocusTag	Synonyms	dbXrefs	chromosome	map_location	description	type_of_gene	Symbol_from_nomenclature_authority	Full_name_from_nomenclature_authority	Nomenclature_status	Other_designations	Modification_date	Feature_type
+7	5692769	NEWENTRY	-	-	-	-	-	Record to support submission of GeneRIFs for a gene not in Gene (Azotirhizobium caulinodans.  Use when strain, subtype, isolate, etc. is unspecified, or when different from all specified ones in Gene.).	other	-	-	-	-	20230125	-
+9	2827857	NEWENTRY	-	-	-	-	-	Record to support submission of GeneRIFs for a gene not in Gene (Use when strain, subtype, isolate, etc. is unspecified, or when different from all specified ones in Gene.).	other	-	-	-	-	20230125	-
+11	10823747	NEWENTRY	-	-	-	-	-	Record to support submission of GeneRIFs for a gene not in Gene (Cellvibrio gilvus.  Use when strain, subtype, isolate, etc. is unspecified, or when different from all specified ones in Gene.).	other	-	-	-	-	20230215	-
+14	6951813	NEWENTRY	-	-	-	-	-	Record to support submission of GeneRIFs for a gene not in Gene (Use when strain, subtype, isolate, etc. is unspecified, or when different from all specified ones in Gene.).	other	-	-	-	-	20230306	-
+19	3758873	NEWENTRY	-	-	-	-	-	Record to support submission of GeneRIFs for a gene not in Gene (Pelobacter carbinolicus.  Use when strain, subtype, isolate, etc. is unspecified, or when different from all specified ones in Gene.).	other	-	-	-	-	20230306	-
+24	5129993	NEWENTRY	-	-	-	-	-	Record to support submission of GeneRIFs for a gene not in Gene (Alteromonas putrefaciens; Pseudomonas putrefaciens.  Use when strain, subtype, isolate, etc. is unspecified, or when different from all specified ones in Gene.).	other	-	-	-	-	20230125	-
+24	77267466	dnaA	N5094_RS00005	N5094_00005	-	-	-	chromosomal replication initiator protein DnaA	protein-coding	-	-	-	chromosomal replication initiator protein DnaA	20231120	-
+24	77267467	dnaN	N5094_RS00010	N5094_00010	-	-	-	DNA polymerase III subunit beta	protein-coding	-	-	-	DNA polymerase III subunit beta	20231120	-
+24	77267468	recF	N5094_RS00015	N5094_00015	-	-	-	DNA replication/repair protein RecF	protein-coding	-	-	-	DNA replication/repair protein RecF	20230411	-
+24	77267469	gyrB	N5094_RS00020	N5094_00020	-	-	-	DNA topoisomerase (ATP-hydrolyzing) subunit B	protein-coding	-	-	-	DNA topoisomerase (ATP-hydrolyzing) subunit B	20230411	-
+24	77267470	N5094_RS00025	N5094_RS00025	N5094_00025	-	-	-	HDOD domain-containing protein	protein-coding	-	-	-	HDOD domain-containing protein	20230929	-
+24	77267471	glyS	N5094_RS00030	N5094_00030	-	-	-	glycine--tRNA ligase subunit beta	protein-coding	-	-	-	glycine--tRNA ligase subunit beta	20230411	-
+24	77267472	glyQ	N5094_RS00035	N5094_00035	-	-	-	glycine--tRNA ligase subunit alpha	protein-coding	-	-	-	glycine--tRNA ligase subunit alpha	20240131	-
+24	77267473	N5094_RS00040	N5094_RS00040	N5094_00040	-	-	-	DNA-3-methyladenine glycosylase I	protein-coding	-	-	-	DNA-3-methyladenine glycosylase I	20240204	-
+24	77267474	N5094_RS00045	N5094_RS00045	N5094_00045	-	-	-	amidohydrolase family protein	protein-coding	-	-	-	amidohydrolase family protein	20231011	-
+24	77267475	N5094_RS00050	N5094_RS00050	N5094_00050	-	-	-	MOSC domain-containing protein	protein-coding	-	-	-	MOSC domain-containing protein	20231120	-
+24	77267476	tusA	N5094_RS00055	N5094_00055	-	-	-	sulfurtransferase TusA	protein-coding	-	-	-	sulfurtransferase TusA	20231120	-
+24	77267477	fadA	N5094_RS00060	N5094_00060	-	-	-	acetyl-CoA C-acyltransferase FadA	protein-coding	-	-	-	acetyl-CoA C-acyltransferase FadA	20230411	-
+24	77267478	fadB	N5094_RS00065	N5094_00065	-	-	-	fatty acid oxidation complex subunit alpha FadB	protein-coding	-	-	-	fatty acid oxidation complex subunit alpha FadB	20230929	-
+24	77267479	pepQ	N5094_RS00070	N5094_00070	-	-	-	Xaa-Pro dipeptidase	protein-coding	-	-	-	Xaa-Pro dipeptidase	20230411	-
+24	77267480	N5094_RS00075	N5094_RS00075	N5094_00075	-	-	-	YigZ family protein	protein-coding	-	-	-	YigZ family protein	20230411	-
+24	77267481	N5094_RS00080	N5094_RS00080	N5094_00080	-	-	-	TrkH family potassium uptake protein	protein-coding	-	-	-	TrkH family potassium uptake protein	20231120	-
+24	77267482	hemG	N5094_RS00085	N5094_00085	-	-	-	menaquinone-dependent protoporphyrinogen IX dehydrogenase	protein-coding	-	-	-	menaquinone-dependent protoporphyrinogen IX dehydrogenase	20231120	-
+24	77267483	N5094_RS00090	N5094_RS00090	N5094_00090	-	-	-	metalloregulator ArsR/SmtB family transcription factor	protein-coding	-	-	-	metalloregulator ArsR/SmtB family transcription factor	20231011	-
+24	77267484	hemG	N5094_RS00095	N5094_00095	-	-	-	menaquinone-dependent protoporphyrinogen IX dehydrogenase	protein-coding	-	-	-	menaquinone-dependent protoporphyrinogen IX dehydrogenase	20231120	-
+24	77267485	N5094_RS00100	N5094_RS00100	N5094_00100	-	-	-	TrkH family potassium uptake protein	protein-coding	-	-	-	TrkH family potassium uptake protein	20231011	-
+24	77267486	trkA	N5094_RS00105	N5094_00105	-	-	-	Trk system potassium transporter TrkA	protein-coding	-	-	-	Trk system potassium transporter TrkA	20231120	-
+24	77267487	rsmB	N5094_RS00110	N5094_00110	-	-	-	16S rRNA (cytosine(967)-C(5))-methyltransferase RsmB	protein-coding	-	-	-	16S rRNA (cytosine(967)-C(5))-methyltransferase RsmB	20230929	-
+24	77267488	fmt	N5094_RS00115	N5094_00115	-	-	-	methionyl-tRNA formyltransferase	protein-coding	-	-	-	methionyl-tRNA formyltransferase	20230929	-
+24	77267489	def	N5094_RS00120	N5094_00120	-	-	-	peptide deformylase	protein-coding	-	-	-	peptide deformylase	20231120	-
+24	77267490	N5094_RS00125	N5094_RS00125	N5094_00125	-	-	-	LysM domain-containing protein	protein-coding	-	-	-	LysM domain-containing protein	20230411	-
+24	77267491	dprA	N5094_RS00130	N5094_00130	-	-	-	DNA-processing protein DprA	protein-coding	-	-	-	DNA-processing protein DprA	20231011	-
+24	77267492	N5094_RS00135	N5094_RS00135	N5094_00135	-	-	-	DUF494 family protein	protein-coding	-	-	-	DUF494 family protein	20240131	-
+24	77267493	N5094_RS00140	N5094_RS00140	N5094_00140	-	-	-	type I DNA topoisomerase	protein-coding	-	-	-	type I DNA topoisomerase	20231011	-
+24	77267494	N5094_RS00145	N5094_RS00145	N5094_00145	-	-	-	L-threonylcarbamoyladenylate synthase	protein-coding	-	-	-	L-threonylcarbamoyladenylate synthase	20230929	-
+24	77267495	hemF	N5094_RS00150	N5094_00150	-	-	-	oxygen-dependent coproporphyrinogen oxidase	protein-coding	-	-	-	oxygen-dependent coproporphyrinogen oxidase	20230929	-
+24	77267496	N5094_RS00155	N5094_RS00155	N5094_00155	-	-	-	group II truncated hemoglobin	protein-coding	-	-	-	group II truncated hemoglobin	20230411	-
+24	77267497	aroE	N5094_RS00160	N5094_00160	-	-	-	shikimate dehydrogenase	protein-coding	-	-	-	shikimate dehydrogenase	20230922	-
+24	77267498	N5094_RS00165	N5094_RS00165	N5094_00165	-	-	-	DUF1488 domain-containing protein	protein-coding	-	-	-	DUF1488 domain-containing protein	20231120	-
+24	77267499	N5094_RS00170	N5094_RS00170	N5094_00170	-	-	-	gamma carbonic anhydrase family protein	protein-coding	-	-	-	gamma carbonic anhydrase family protein	20230411	-
+24	77267500	N5094_RS00175	N5094_RS00175	N5094_00175	-	-	-	16S ribosomal RNA	rRNA	-	-	-	-	20230411	-
+24	77267501	N5094_RS00180	N5094_RS00180	N5094_00180	-	-	-	23S ribosomal RNA	rRNA	-	-	-	-	20230411	-
+24	77267502	rrf	N5094_RS00185	N5094_00185	-	-	-	5S ribosomal RNA	rRNA	-	-	-	-	20230411	-
+24	77267503	N5094_RS00190	N5094_RS00190	N5094_00190	-	-	-	EAL domain-containing protein	protein-coding	-	-	-	EAL domain-containing protein	20231127	-
+24	77267504	N5094_RS00195	N5094_RS00195	N5094_00195	-	-	-	alpha/beta fold hydrolase	protein-coding	-	-	-	alpha/beta fold hydrolase	20231120	-
+24	77267505	N5094_RS00200	N5094_RS00200	N5094_00200	-	-	-	DUF885 domain-containing protein	protein-coding	-	-	-	DUF885 domain-containing protein	20231011	-
+24	77267506	add	N5094_RS00205	N5094_00205	-	-	-	adenosine deaminase	protein-coding	-	-	-	adenosine deaminase	20230929	-
+24	77267507	hemN	N5094_RS00210	N5094_00210	-	-	-	oxygen-independent coproporphyrinogen III oxidase	protein-coding	-	-	-	oxygen-independent coproporphyrinogen III oxidase	20230411	-
+24	77267508	N5094_RS00215	N5094_RS00215	N5094_00215	-	-	-	DUF2489 domain-containing protein	protein-coding	-	-	-	DUF2489 domain-containing protein	20231120	-
