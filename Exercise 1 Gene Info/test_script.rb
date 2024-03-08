@@ -31,9 +31,7 @@ class TestProcessFile < Minitest::Test
   end
 
   def test_process_file
-
     process_file(@file_path)
-  
     expected_output = <<~OUTPUT
     MD5 Hash of the file: 05a6d4cebb961127eea12bb3f0104a40
     Question 1: 50 genes in total
