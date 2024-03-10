@@ -24,8 +24,17 @@ def check_filename()
 end
 
 def validate_fasta_file!(file_path)
+  previous_line = ""
+  File.foreach(file_path) do |line|
+    if line.chomp.empty? || (previous_line.chomp.empty? && !line.start_with?('>'))
+      raise StandardError, "Invalid FASTA format found at: #{line}"
+    end
+    previous_line = line
+  end
+
   Bio::FlatFile.open(Bio::FastaFormat, file_path) do |ff|
     ff.each_entry do |entry|
+      # This checks if the sequence is empty, which should not happen in a valid FASTA file.
       unless entry.entry_id && !entry.seq.empty?
         raise StandardError, "Invalid FASTA entry found: #{entry}"
       end
@@ -43,10 +52,10 @@ def output(fasta_file)
   fasta_file.each_entry do |entry|
     total_entries += 1
     gc = entry.seq.count("CG")
-    percentage = gc.to_f / entry.length
+    portion = gc.to_f / entry.length
     puts "Entry ID: #{entry.entry_id}"
     #puts "Sequence: #{entry.seq}"
-    puts "GC Content Percentage: #{percentage * 100}%"
+    puts "GC Content Percentage: #{format('%.2f', portion * 100)}%\n\n"
   end
   puts "Total entries: #{total_entries}"
 end
