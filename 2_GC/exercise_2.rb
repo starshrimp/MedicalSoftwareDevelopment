@@ -35,15 +35,15 @@ def validate_fasta_file!(file_path)
 
   Bio::FlatFile.open(Bio::FastaFormat, file_path) do |ff|
     ff.each_entry do |entry|
-      begin 
+      begin
         # Check for an invalid entry_id (nil or empty)
-        raise InvalidEntryIDError, "Attention: Entry ID is invalid \n\n" if entry.entry_id.nil? || entry.entry_id.strip.empty?
-
-        # Check for an empty sequence
-        raise EmptySequenceError, "Attention: Sequence is empty \n\n" if entry.seq.empty?
-        # if no exceptions -> entry is valid
-        valid_entries << entry
+        raise InvalidEntryIDError, "Entry ID is invalid" if entry.entry_id.nil? || entry.entry_id.strip.empty?
         
+        # Check for an empty sequence
+        raise EmptySequenceError, "Sequence is empty" if entry.seq.empty?
+        
+        # If no exceptions were raised, the entry is valid
+        valid_entries << entry
       rescue InvalidEntryIDError => e
         puts e.message
         invalid_entries << entry
@@ -55,7 +55,6 @@ def validate_fasta_file!(file_path)
   end
   return [valid_entries, invalid_entries]
 end
-
 
 
 def output(valid_entries, invalid_entries)
