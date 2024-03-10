@@ -55,7 +55,7 @@ def output(fasta_file)
     portion = gc.to_f / entry.length
     puts "Entry ID: #{entry.entry_id}"
     #puts "Sequence: #{entry.seq}"
-    puts "GC Content Percentage: #{format('%.2f', portion * 100)}%\n\n"
+    puts "GC Content Percentage: #{format('%.10f', portion * 100)}%\n\n"
   end
   puts "Total entries: #{total_entries}"
 end
