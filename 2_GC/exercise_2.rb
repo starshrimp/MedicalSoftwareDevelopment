@@ -1,10 +1,14 @@
 require 'bio'
 
+# exception classes for error handling
+class InvalidEntryIDError < StandardError; end
+class EmptySequenceError < StandardError; end
+
 def main
   file_path = check_filename
   begin
-    validate_fasta_file!(file_path) #raises an exeption if FASTA is invalid
-    process_file(file_path)
+    valid_entries, invalid_entries = validate_fasta_file!(file_path) #raises an exeption if FASTA is invalid
+    output(valid_entries, invalid_entries)
   rescue StandardError => e
     puts "An error occurred: #{e.message}"
   end
@@ -26,42 +30,51 @@ end
 
 def validate_fasta_file!(file_path)
   #checks whether the provided file includes valid FASTA entries 
-  previous_line = ""
-  File.foreach(file_path) do |line|
-    #checks whether the header of the FASTA file is valid
-    if line.chomp.empty? || (previous_line.chomp.empty? && !line.start_with?('>'))
-      raise StandardError, "Invalid FASTA format found at: #{line}"
-    end
-    previous_line = line
-  end
+  valid_entries = []
+  invalid_entries = []
+
   Bio::FlatFile.open(Bio::FastaFormat, file_path) do |ff|
     ff.each_entry do |entry|
-      # checks if the sequence is empty, which should not happen in a valid FASTA file.
-      unless entry.entry_id && !entry.seq.empty?
-        raise StandardError, "Invalid FASTA entry found: #{entry}"
+      begin 
+        # Check for an invalid entry_id (nil or empty)
+        raise InvalidEntryIDError, "Attention: Entry ID is invalid \n\n" if entry.entry_id.nil? || entry.entry_id.strip.empty?
+
+        # Check for an empty sequence
+        raise EmptySequenceError, "Attention: Sequence is empty \n\n" if entry.seq.empty?
+        # if no exceptions -> entry is valid
+        valid_entries << entry
+        
+      rescue InvalidEntryIDError => e
+        puts e.message
+        invalid_entries << entry
+      rescue EmptySequenceError => e
+        puts e.message
+        invalid_entries << entry
       end
     end
   end
+  return [valid_entries, invalid_entries]
 end
 
-def process_file(file_path)
-  # reads the entries from the FASTA file and calls output function
-  fasta_file = Bio::FlatFile.open(Bio::FastaFormat, file_path)
-  output(fasta_file)
-end
 
-def output(fasta_file)
+
+def output(valid_entries, invalid_entries)
   # iterates through the entries in the FASTA file & outputs the results
-  total_entries = 0
-  fasta_file.each_entry do |entry|
-    total_entries += 1
+  valid_entries.each do |entry|
     gc = entry.seq.count("cgCG")
     portion = gc.to_f / entry.length
     puts "Entry ID: #{entry.entry_id}"
     #puts "Sequence: #{entry.seq}"
     puts "GC Content Percentage: #{format('%.10f', portion * 100)}%\n\n"
   end
-  puts "Total entries: #{total_entries}"
+  puts "Total valid entries: #{valid_entries.length} \n\n"
+
+  invalid_entries.each do |entry|
+    puts "Invalid FASTA entry found: #{entry.entry_id}"
+  end
+  if invalid_entries != []
+    puts "Total invalid entries: #{invalid_entries.length}"
+  end
 end
 
 if __FILE__ == $PROGRAM_NAME
