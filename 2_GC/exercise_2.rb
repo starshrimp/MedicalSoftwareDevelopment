@@ -51,7 +51,7 @@ def output(fasta_file)
   total_entries = 0
   fasta_file.each_entry do |entry|
     total_entries += 1
-    gc = entry.seq.count("CG")
+    gc = entry.seq.count("cgCG")
     portion = gc.to_f / entry.length
     puts "Entry ID: #{entry.entry_id}"
     #puts "Sequence: #{entry.seq}"
