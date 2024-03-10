@@ -10,7 +10,8 @@ def main
   end
 end
 
-def check_filename()
+def check_filename() 
+  # checks whether a valid file was provided to be examined
   if ARGV.length != 1
     puts "Please enter it in the format like this: ruby exercise_1.rb FILENAME"
     exit
@@ -24,17 +25,18 @@ def check_filename()
 end
 
 def validate_fasta_file!(file_path)
+  #checks whether the provided file includes valid FASTA entries 
   previous_line = ""
   File.foreach(file_path) do |line|
+    #checks whether the header of the FASTA file is valid
     if line.chomp.empty? || (previous_line.chomp.empty? && !line.start_with?('>'))
       raise StandardError, "Invalid FASTA format found at: #{line}"
     end
     previous_line = line
   end
-
   Bio::FlatFile.open(Bio::FastaFormat, file_path) do |ff|
     ff.each_entry do |entry|
-      # This checks if the sequence is empty, which should not happen in a valid FASTA file.
+      # checks if the sequence is empty, which should not happen in a valid FASTA file.
       unless entry.entry_id && !entry.seq.empty?
         raise StandardError, "Invalid FASTA entry found: #{entry}"
       end
@@ -43,11 +45,13 @@ def validate_fasta_file!(file_path)
 end
 
 def process_file(file_path)
+  # reads the entries from the FASTA file and calls output function
   fasta_file = Bio::FlatFile.open(Bio::FastaFormat, file_path)
   output(fasta_file)
 end
 
 def output(fasta_file)
+  # iterates through the entries in the FASTA file & outputs the results
   total_entries = 0
   fasta_file.each_entry do |entry|
     total_entries += 1
