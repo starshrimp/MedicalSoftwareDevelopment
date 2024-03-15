@@ -61,11 +61,14 @@ def output(valid_entries, invalid_entries)
   # iterates through the entries in the FASTA file & outputs the results
   valid_entries.each do |entry|
     gc = entry.seq.count("cgCG")
+    g = entry.seq.count("G")
+    c = entry.seq.count("C")
     portion = gc.to_f / entry.length
     puts "Entry ID: #{entry.entry_id}"
     #puts "Sequence: #{entry.seq}"
     puts "GC Content Percentage: #{format('%.10f', portion * 100)}%\n\n"
   end
+  
   puts "Total valid entries: #{valid_entries.length} \n\n"
 
   invalid_entries.each do |entry|
