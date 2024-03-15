@@ -32,53 +32,63 @@ def validate_fasta_file!(file_path)
   #checks whether the provided file includes valid FASTA entries 
   valid_entries = []
   invalid_entries = []
+  errors = []
 
   Bio::FlatFile.open(Bio::FastaFormat, file_path) do |ff|
     ff.each_entry do |entry|
-      begin
-        # Check for an invalid entry_id (nil or empty)
-        raise InvalidEntryIDError, "Entry ID is invalid" if entry.entry_id.nil? || entry.entry_id.strip.empty?
-        
-        # Check for an empty sequence
-        raise EmptySequenceError, "Sequence is empty" if entry.seq.empty?
-        
-        # If no exceptions were raised, the entry is valid
+      if valid_entry?(entry)
         valid_entries << entry
-      rescue InvalidEntryIDError => e
-        puts e.message
+      else 
         invalid_entries << entry
-      rescue EmptySequenceError => e
-        puts e.message
-        invalid_entries << entry
+        errors << raise_errors(entry).message
       end
     end
   end
   return [valid_entries, invalid_entries]
 end
 
+def valid_entry?(entry)
+  !entry.entry_id.nil? && !entry.entry_id.strip.empty? && !entry.seq.nil? && !entry.seq.empty?
+rescue StandardError
+  false
+end
+
+def raise_errors(entry)
+  if entry.entry_id.nil? || entry.entry_id.strip.empty?
+    InvalidEntryIDError.new("Entry ID is invalid")
+  elsif entry.seq.empty?
+    EmptySequenceError.new("Sequence is empty")
+  end
+end
 
 def output(valid_entries, invalid_entries)
-  # iterates through the entries in the FASTA file & outputs the results
-  valid_entries.each do |entry|
-    gc = entry.seq.count("cgCG")
-    g = entry.seq.count("G")
-    c = entry.seq.count("C")
-    portion = gc.to_f / entry.length
-    puts "Entry ID: #{entry.entry_id}"
-    #puts "Sequence: #{entry.seq}"
-    puts "GC Content Percentage: #{format('%.10f', portion * 100)}%\n\n"
-  end
-  
-  puts "Total valid entries: #{valid_entries.length} \n\n"
+  process_valid_entries(valid_entries)
+  process_invalid_entries(invalid_entries)
+end
 
+def process_valid_entries(valid_entries)
+  valid_entries.each do |entry|
+    puts "Entry ID: #{entry.entry_id}"
+    puts "GC Content Percentage: #{format('%.10f', count_gc(entry) * 100)}%\n\n"
+  end
+  puts "Total valid entries: #{valid_entries.length} \n\n"
+end
+
+def count_gc(entry)
+  gc = entry.seq.count("cgCG")
+  g = entry.seq.count("G")
+  c = entry.seq.count("C")
+  portion = gc.to_f / entry.length
+end
+
+def process_invalid_entries(invalid_entries)
   invalid_entries.each do |entry|
     puts "Invalid FASTA entry found: #{entry.entry_id}"
   end
-  if invalid_entries != []
-    puts "Total invalid entries: #{invalid_entries.length}"
-  end
+  puts "Total invalid entries: #{invalid_entries.length}" unless invalid_entries.empty?
 end
 
 if __FILE__ == $PROGRAM_NAME
   main()
 end
+
