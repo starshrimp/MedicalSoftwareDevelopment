@@ -84,13 +84,30 @@ def process_invalid_entries(invalid_entries):
 
 
 
-st.title('GC Content Calculator')
-st.caption('To calculate the GC content of a fasta file, please upload a fasta file beneath or enter a FASTA sequence in the text box below.')
-all_entries= file_upload.fasta_file_upload()
-st.text(all_entries)
+def main():
+    setup()
+    all_entries= file_upload.fasta_file_upload()
+    st.text(all_entries)
+    for entry in all_entries:
+        output_gc_content(entry.id, entry.seq)
 
+def setup():
+    st.title('GC Content Calculator')
+    st.caption('To calculate the GC content of a fasta file, please upload a fasta file beneath or enter a FASTA sequence in the text box below.')
+
+
+def calculate_gc_content(fasta):
+    gc = sum(fasta.upper().count(x) for x in ['G', 'C'])
+    return gc / len(fasta) if fasta else 0
+
+def output_gc_content(id, seq):
+    st.text(f"FASTA Record ID: {id} \n GC Content Percentage: {calculate_gc_content(seq) * 100:.10f}%\n")
+
+
+
+
+main()
 fasta = st.text_input('FASTA Sequence')
 if st.button('Calculate GC Content'):
-    fasta = FastaClass("some specific id", "seq")
-    st.text(f"Here is the fasta id: {fasta.id}")
     main()
+
