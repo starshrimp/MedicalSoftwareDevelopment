@@ -19,4 +19,3 @@ def fasta_file_upload():
 
     return all_entries
 
-
