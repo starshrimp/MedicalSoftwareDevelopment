@@ -7,23 +7,11 @@ import file_upload
 from fasta_class import FastaClass
 
 
-
-
-
-
-# # Exception classes for error handling
-# class InvalidEntryIDError(Exception):
-#     pass
-
-# class EmptySequenceError(Exception):
-#     pass
-
-
 def main():
     setup()
     process_fasta_from_textinput()
-    all_entries= file_upload.fasta_file_upload()
-    for entry in all_entries:
+    file_entries= file_upload.fasta_file_upload()
+    for entry in file_entries:
         output_gc_content(entry.id, entry.seq)
 
 def setup():
@@ -40,30 +28,22 @@ def output_gc_content(id, seq):
 
 
 def process_fasta_from_textinput():
-    all_entries = []
+    text_entries = []
     fasta = st.text_area('FASTA Sequence')
-    all_entries = parse_fasta_from_string(fasta)
+    text_entries = parse_fasta_from_string(fasta)
     if st.button('Calculate GC Content'):
-        for entry in all_entries:
+        for entry in text_entries:
             output_gc_content(entry.id, entry.seq)
 
 
 def parse_fasta_from_string(fasta_string):
-    all_entries = []
-    # Split the input string into entries based on '>'
-    entries = fasta_string.strip().split('>')
-    for entry in entries:
-        if not entry:
-            continue
-        # Split each entry into lines
-        lines = entry.split('\n')
-        # The first line is the ID
-        id = lines[0]
-        # The rest are the sequence lines, which we join together
-        seq = ''.join(lines[1:])
-        # Create a FastaClass object and add it to the list
-        all_entries.append(FastaClass(id, seq))
-    return all_entries
+    text_entries = []
+    fasta_io = StringIO(fasta_string)
+
+    for record in SeqIO.parse(fasta_io, "fasta"):
+        entry = FastaClass(record.id, record.seq)  
+        text_entries.append(entry)
+    return text_entries
 
 main()
 
