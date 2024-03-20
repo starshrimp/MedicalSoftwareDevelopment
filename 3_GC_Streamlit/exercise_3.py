@@ -1,6 +1,8 @@
 import sys
 import os
+import streamlit as st
 from Bio import SeqIO
+
 
 # Exception classes for error handling
 class InvalidEntryIDError(Exception):
