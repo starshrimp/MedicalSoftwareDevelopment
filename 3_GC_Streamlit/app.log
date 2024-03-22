@@ -332,3 +332,97 @@
 2024-03-22 10:45:55,594 - ERROR - Error message: This will get logged to a file.
 2024-03-22 10:45:55,594 - CRITICAL - Critical message: This will get logged to a file.
 2024-03-22 10:45:55,598 - ERROR - Error - Operation unsuccessful: Please enter a valid FASTA.
+2024-03-22 10:51:04,009 - DEBUG - Debug message: This will get logged to a file.
+2024-03-22 10:51:04,010 - INFO - Info message: This will get logged to a file.
+2024-03-22 10:51:04,010 - WARNING - Warning message: This will get logged to a file.
+2024-03-22 10:51:04,010 - ERROR - Error message: This will get logged to a file.
+2024-03-22 10:51:04,010 - CRITICAL - Critical message: This will get logged to a file.
+2024-03-22 10:51:04,010 - DEBUG - Debug message: This will get logged to a file.
+2024-03-22 10:51:04,010 - INFO - Info message: This will get logged to a file.
+2024-03-22 10:51:04,010 - WARNING - Warning message: This will get logged to a file.
+2024-03-22 10:51:04,011 - ERROR - Error message: This will get logged to a file.
+2024-03-22 10:51:04,011 - CRITICAL - Critical message: This will get logged to a file.
+2024-03-22 10:51:06,860 - DEBUG - Debug message: This will get logged to a file.
+2024-03-22 10:51:06,860 - INFO - Info message: This will get logged to a file.
+2024-03-22 10:51:06,860 - WARNING - Warning message: This will get logged to a file.
+2024-03-22 10:51:06,860 - ERROR - Error message: This will get logged to a file.
+2024-03-22 10:51:06,860 - CRITICAL - Critical message: This will get logged to a file.
+2024-03-22 10:51:06,860 - DEBUG - Debug message: This will get logged to a file.
+2024-03-22 10:51:06,860 - INFO - Info message: This will get logged to a file.
+2024-03-22 10:51:06,860 - WARNING - Warning message: This will get logged to a file.
+2024-03-22 10:51:06,860 - ERROR - Error message: This will get logged to a file.
+2024-03-22 10:51:06,860 - CRITICAL - Critical message: This will get logged to a file.
+2024-03-22 10:51:46,734 - DEBUG - NativeEvent(path="/Users/sarah/Code/MedicalSoftwareDevelopment/3_GC_Streamlit/test_exercise_3.py", inode=35825485, flags=11400, id=426631971): is_file, is_inode_meta_mod, is_modified
+2024-03-22 10:51:46,737 - DEBUG - queue_event <FileModifiedEvent: event_type=modified, src_path='/Users/sarah/Code/MedicalSoftwareDevelopment/3_GC_Streamlit/test_exercise_3.py', is_directory=False>
+2024-03-22 10:53:24,797 - DEBUG - Debug message: This will get logged to a file.
+2024-03-22 10:53:24,798 - INFO - Info message: This will get logged to a file.
+2024-03-22 10:53:24,798 - WARNING - Warning message: This will get logged to a file.
+2024-03-22 10:53:24,798 - ERROR - Error message: This will get logged to a file.
+2024-03-22 10:53:24,798 - CRITICAL - Critical message: This will get logged to a file.
+2024-03-22 10:53:24,798 - DEBUG - Debug message: This will get logged to a file.
+2024-03-22 10:53:24,798 - INFO - Info message: This will get logged to a file.
+2024-03-22 10:53:24,798 - WARNING - Warning message: This will get logged to a file.
+2024-03-22 10:53:24,798 - ERROR - Error message: This will get logged to a file.
+2024-03-22 10:53:24,799 - CRITICAL - Critical message: This will get logged to a file.
+2024-03-22 10:53:24,865 - DEBUG - Debug message: This will get logged to a file.
+2024-03-22 10:53:24,865 - INFO - Info message: This will get logged to a file.
+2024-03-22 10:53:24,866 - WARNING - Warning message: This will get logged to a file.
+2024-03-22 10:53:24,866 - ERROR - Error message: This will get logged to a file.
+2024-03-22 10:53:24,866 - CRITICAL - Critical message: This will get logged to a file.
+2024-03-22 10:53:24,866 - DEBUG - Debug message: This will get logged to a file.
+2024-03-22 10:53:24,866 - INFO - Info message: This will get logged to a file.
+2024-03-22 10:53:24,866 - WARNING - Warning message: This will get logged to a file.
+2024-03-22 10:53:24,866 - ERROR - Error message: This will get logged to a file.
+2024-03-22 10:53:24,866 - CRITICAL - Critical message: This will get logged to a file.
+2024-03-22 11:12:29,724 - DEBUG - NativeEvent(path="/Users/sarah/Code/MedicalSoftwareDevelopment/3_GC_Streamlit/logging_config.py", inode=35994796, flags=11400, id=426696061): is_file, is_inode_meta_mod, is_modified
+2024-03-22 11:12:29,727 - DEBUG - queue_event <FileModifiedEvent: event_type=modified, src_path='/Users/sarah/Code/MedicalSoftwareDevelopment/3_GC_Streamlit/logging_config.py', is_directory=False>
+2024-03-22 11:12:30,866 - DEBUG - NativeEvent(path="/Users/sarah/Code/MedicalSoftwareDevelopment/3_GC_Streamlit/logging_config.py", inode=35994796, flags=11400, id=426696160): is_file, is_inode_meta_mod, is_modified
+2024-03-22 11:12:30,866 - DEBUG - queue_event <FileModifiedEvent: event_type=modified, src_path='/Users/sarah/Code/MedicalSoftwareDevelopment/3_GC_Streamlit/logging_config.py', is_directory=False>
+2024-03-22 11:19:12,248 - DEBUG - NativeEvent(path="/Users/sarah/Code/MedicalSoftwareDevelopment/3_GC_Streamlit/__pycache__/logging_config.cpython-311.pyc.5079496336", inode=36008522, flags=11900, id=426715439): is_coalesced, is_created, is_file, is_modified, is_renamed
+2024-03-22 11:19:12,249 - DEBUG - NativeEvent(path="/Users/sarah/Code/MedicalSoftwareDevelopment/3_GC_Streamlit/__pycache__/logging_config.cpython-311.pyc", inode=36008522, flags=10800, id=426715440): is_file, is_renamed
+2024-03-22 11:19:12,249 - DEBUG - NativeEvent(path="/Users/sarah/Code/MedicalSoftwareDevelopment/3_GC_Streamlit/__pycache__/logging_config.cpython-311.pyc", inode=35997779, flags=10800, id=426715441): is_file, is_renamed
+2024-03-22 11:19:12,249 - DEBUG - queue_event <FileCreatedEvent: event_type=created, src_path='/Users/sarah/Code/MedicalSoftwareDevelopment/3_GC_Streamlit/__pycache__/logging_config.cpython-311.pyc.5079496336', is_directory=False>
+2024-03-22 11:19:12,249 - DEBUG - queue_event <DirModifiedEvent: event_type=modified, src_path='/Users/sarah/Code/MedicalSoftwareDevelopment/3_GC_Streamlit/__pycache__', is_directory=True>
+2024-03-22 11:19:12,249 - DEBUG - queue_event <FileModifiedEvent: event_type=modified, src_path='/Users/sarah/Code/MedicalSoftwareDevelopment/3_GC_Streamlit/__pycache__/logging_config.cpython-311.pyc.5079496336', is_directory=False>
+2024-03-22 11:19:12,249 - DEBUG - Destination event for rename is NativeEvent(path="/Users/sarah/Code/MedicalSoftwareDevelopment/3_GC_Streamlit/__pycache__/logging_config.cpython-311.pyc", inode=36008522, flags=10800, id=426715440)
+2024-03-22 11:19:12,249 - DEBUG - queue_event <FileMovedEvent: src_path='/Users/sarah/Code/MedicalSoftwareDevelopment/3_GC_Streamlit/__pycache__/logging_config.cpython-311.pyc.5079496336', dest_path='/Users/sarah/Code/MedicalSoftwareDevelopment/3_GC_Streamlit/__pycache__/logging_config.cpython-311.pyc', is_directory=False>
+2024-03-22 11:19:12,249 - DEBUG - queue_event <DirModifiedEvent: event_type=modified, src_path='/Users/sarah/Code/MedicalSoftwareDevelopment/3_GC_Streamlit/__pycache__', is_directory=True>
+2024-03-22 11:19:12,249 - DEBUG - queue_event <DirModifiedEvent: event_type=modified, src_path='/Users/sarah/Code/MedicalSoftwareDevelopment/3_GC_Streamlit/__pycache__', is_directory=True>
+2024-03-22 11:19:12,249 - DEBUG - queue_event <FileDeletedEvent: event_type=deleted, src_path='/Users/sarah/Code/MedicalSoftwareDevelopment/3_GC_Streamlit/__pycache__/logging_config.cpython-311.pyc', is_directory=False>
+2024-03-22 11:19:12,249 - DEBUG - queue_event <DirModifiedEvent: event_type=modified, src_path='/Users/sarah/Code/MedicalSoftwareDevelopment/3_GC_Streamlit/__pycache__', is_directory=True>
+2024-03-22 13:34:12,992 - DEBUG - NativeEvent(path="/Users/sarah/Code/MedicalSoftwareDevelopment/3_GC_Streamlit/main.py", inode=35817943, flags=11400, id=426970106): is_file, is_inode_meta_mod, is_modified
+2024-03-22 13:34:13,002 - DEBUG - queue_event <FileModifiedEvent: event_type=modified, src_path='/Users/sarah/Code/MedicalSoftwareDevelopment/3_GC_Streamlit/main.py', is_directory=False>
+2024-03-22 13:34:16,824 - DEBUG - NativeEvent(path="/Users/sarah/Code/MedicalSoftwareDevelopment/3_GC_Streamlit/main.py", inode=35817943, flags=11400, id=426970367): is_file, is_inode_meta_mod, is_modified
+2024-03-22 13:34:16,825 - DEBUG - queue_event <FileModifiedEvent: event_type=modified, src_path='/Users/sarah/Code/MedicalSoftwareDevelopment/3_GC_Streamlit/main.py', is_directory=False>
+2024-03-22 13:34:27,151 - DEBUG - NativeEvent(path="/Users/sarah/Code/MedicalSoftwareDevelopment/3_GC_Streamlit/main.py", inode=35817943, flags=11400, id=426970633): is_file, is_inode_meta_mod, is_modified
+2024-03-22 13:34:27,155 - DEBUG - queue_event <FileModifiedEvent: event_type=modified, src_path='/Users/sarah/Code/MedicalSoftwareDevelopment/3_GC_Streamlit/main.py', is_directory=False>
+2024-03-22 13:34:36,961 - DEBUG - NativeEvent(path="/Users/sarah/Code/MedicalSoftwareDevelopment/3_GC_Streamlit/main.py", inode=35817943, flags=11400, id=426970960): is_file, is_inode_meta_mod, is_modified
+2024-03-22 13:34:36,962 - DEBUG - queue_event <FileModifiedEvent: event_type=modified, src_path='/Users/sarah/Code/MedicalSoftwareDevelopment/3_GC_Streamlit/main.py', is_directory=False>
+2024-03-22 13:34:38,737 - DEBUG - NativeEvent(path="/Users/sarah/Code/MedicalSoftwareDevelopment/3_GC_Streamlit/main.py", inode=35817943, flags=11400, id=426971070): is_file, is_inode_meta_mod, is_modified
+2024-03-22 13:34:38,737 - DEBUG - queue_event <FileModifiedEvent: event_type=modified, src_path='/Users/sarah/Code/MedicalSoftwareDevelopment/3_GC_Streamlit/main.py', is_directory=False>
+2024-03-22 13:34:45,542 - DEBUG - NativeEvent(path="/Users/sarah/Code/MedicalSoftwareDevelopment/3_GC_Streamlit/main.py", inode=35817943, flags=11400, id=426971308): is_file, is_inode_meta_mod, is_modified
+2024-03-22 13:34:45,543 - DEBUG - queue_event <FileModifiedEvent: event_type=modified, src_path='/Users/sarah/Code/MedicalSoftwareDevelopment/3_GC_Streamlit/main.py', is_directory=False>
+2024-03-22 13:34:45,987 - DEBUG - NativeEvent(path="/Users/sarah/Code/MedicalSoftwareDevelopment/3_GC_Streamlit/main.py", inode=35817943, flags=11400, id=426971334): is_file, is_inode_meta_mod, is_modified
+2024-03-22 13:34:45,987 - DEBUG - queue_event <FileModifiedEvent: event_type=modified, src_path='/Users/sarah/Code/MedicalSoftwareDevelopment/3_GC_Streamlit/main.py', is_directory=False>
+2024-03-22 13:34:51,385 - DEBUG - NativeEvent(path="/Users/sarah/Code/MedicalSoftwareDevelopment/3_GC_Streamlit/main.py", inode=35817943, flags=11400, id=426971424): is_file, is_inode_meta_mod, is_modified
+2024-03-22 13:34:51,385 - DEBUG - queue_event <FileModifiedEvent: event_type=modified, src_path='/Users/sarah/Code/MedicalSoftwareDevelopment/3_GC_Streamlit/main.py', is_directory=False>
+2024-03-22 13:34:51,912 - DEBUG - NativeEvent(path="/Users/sarah/Code/MedicalSoftwareDevelopment/3_GC_Streamlit/main.py", inode=35817943, flags=11400, id=426971485): is_file, is_inode_meta_mod, is_modified
+2024-03-22 13:34:51,913 - DEBUG - queue_event <FileModifiedEvent: event_type=modified, src_path='/Users/sarah/Code/MedicalSoftwareDevelopment/3_GC_Streamlit/main.py', is_directory=False>
+2024-03-22 13:36:10,371 - DEBUG - NativeEvent(path="/Users/sarah/Code/MedicalSoftwareDevelopment/3_GC_Streamlit/test_exercise_3.py", inode=35825485, flags=11400, id=426974820): is_file, is_inode_meta_mod, is_modified
+2024-03-22 13:36:10,372 - DEBUG - queue_event <FileModifiedEvent: event_type=modified, src_path='/Users/sarah/Code/MedicalSoftwareDevelopment/3_GC_Streamlit/test_exercise_3.py', is_directory=False>
+2024-03-22 13:36:11,367 - DEBUG - NativeEvent(path="/Users/sarah/Code/MedicalSoftwareDevelopment/3_GC_Streamlit/test_exercise_3.py", inode=35825485, flags=11400, id=426974893): is_file, is_inode_meta_mod, is_modified
+2024-03-22 13:36:11,367 - DEBUG - queue_event <FileModifiedEvent: event_type=modified, src_path='/Users/sarah/Code/MedicalSoftwareDevelopment/3_GC_Streamlit/test_exercise_3.py', is_directory=False>
+2024-03-22 13:36:15,629 - DEBUG - NativeEvent(path="/Users/sarah/Code/MedicalSoftwareDevelopment/3_GC_Streamlit/test_exercise_3.py", inode=35825485, flags=11400, id=426975013): is_file, is_inode_meta_mod, is_modified
+2024-03-22 13:36:15,629 - DEBUG - queue_event <FileModifiedEvent: event_type=modified, src_path='/Users/sarah/Code/MedicalSoftwareDevelopment/3_GC_Streamlit/test_exercise_3.py', is_directory=False>
+2024-03-22 13:36:27,003 - DEBUG - NativeEvent(path="/Users/sarah/Code/MedicalSoftwareDevelopment/3_GC_Streamlit/test_exercise_3.py", inode=35825485, flags=11400, id=426975170): is_file, is_inode_meta_mod, is_modified
+2024-03-22 13:36:27,004 - DEBUG - queue_event <FileModifiedEvent: event_type=modified, src_path='/Users/sarah/Code/MedicalSoftwareDevelopment/3_GC_Streamlit/test_exercise_3.py', is_directory=False>
+2024-03-22 13:36:54,760 - DEBUG - NativeEvent(path="/Users/sarah/Code/MedicalSoftwareDevelopment/3_GC_Streamlit/test_exercise_3.py", inode=35825485, flags=11400, id=426975657): is_file, is_inode_meta_mod, is_modified
+2024-03-22 13:36:54,761 - DEBUG - queue_event <FileModifiedEvent: event_type=modified, src_path='/Users/sarah/Code/MedicalSoftwareDevelopment/3_GC_Streamlit/test_exercise_3.py', is_directory=False>
+2024-03-22 13:36:57,445 - DEBUG - NativeEvent(path="/Users/sarah/Code/MedicalSoftwareDevelopment/3_GC_Streamlit/test_exercise_3.py", inode=35825485, flags=11400, id=426975760): is_file, is_inode_meta_mod, is_modified
+2024-03-22 13:36:57,445 - DEBUG - queue_event <FileModifiedEvent: event_type=modified, src_path='/Users/sarah/Code/MedicalSoftwareDevelopment/3_GC_Streamlit/test_exercise_3.py', is_directory=False>
+2024-03-22 13:37:00,476 - DEBUG - NativeEvent(path="/Users/sarah/Code/MedicalSoftwareDevelopment/3_GC_Streamlit/test_exercise_3.py", inode=35825485, flags=11400, id=426975845): is_file, is_inode_meta_mod, is_modified
+2024-03-22 13:37:00,477 - DEBUG - queue_event <FileModifiedEvent: event_type=modified, src_path='/Users/sarah/Code/MedicalSoftwareDevelopment/3_GC_Streamlit/test_exercise_3.py', is_directory=False>
+2024-03-22 13:37:00,846 - DEBUG - NativeEvent(path="/Users/sarah/Code/MedicalSoftwareDevelopment/3_GC_Streamlit/test_exercise_3.py", inode=35825485, flags=11400, id=426975903): is_file, is_inode_meta_mod, is_modified
+2024-03-22 13:37:00,847 - DEBUG - queue_event <FileModifiedEvent: event_type=modified, src_path='/Users/sarah/Code/MedicalSoftwareDevelopment/3_GC_Streamlit/test_exercise_3.py', is_directory=False>
+2024-03-22 13:37:00,859 - DEBUG - NativeEvent(path="/Users/sarah/Code/MedicalSoftwareDevelopment/3_GC_Streamlit/test_exercise_3.py", inode=35825485, flags=11400, id=426975906): is_file, is_inode_meta_mod, is_modified
+2024-03-22 13:37:00,859 - DEBUG - queue_event <FileModifiedEvent: event_type=modified, src_path='/Users/sarah/Code/MedicalSoftwareDevelopment/3_GC_Streamlit/test_exercise_3.py', is_directory=False>
