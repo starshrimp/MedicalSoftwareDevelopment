@@ -8,12 +8,15 @@ from gc_content import output_gc_content
 
 def process_fasta_from_file(uploaded_file):
     all_entries = []
-    if uploaded_file is not None:
-        stringio = StringIO(uploaded_file.getvalue().decode("utf-8"))
+    try:
+        if uploaded_file is not None:
+            stringio = StringIO(uploaded_file.getvalue().decode("utf-8"))
 
-        for record in SeqIO.parse(stringio, "fasta"):
-            fasta = FastaRecord(record.id, record.seq)
-            all_entries.append(fasta)
+            for record in SeqIO.parse(stringio, "fasta"):
+                fasta = FastaRecord(record.id, record.seq)
+                all_entries.append(fasta)
+    except Exception as e:
+        st.warning(f"Upload of file unsuccesful: {e}")
 
     return all_entries
 
