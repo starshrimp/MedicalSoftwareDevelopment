@@ -4,7 +4,7 @@ from io import StringIO
 from Bio import SeqIO
 from fasta_class import FastaClass
 # from Bio.SeqUtils import GC
-
+from gc_content import output_gc_content
 
 
 def process_fasta_from_file(uploaded_file):
@@ -18,3 +18,7 @@ def process_fasta_from_file(uploaded_file):
 
     return all_entries
 
+def display_results_from_file(file_entries):
+    if file_entries:
+        for entry in file_entries:
+            output_gc_content(entry.id, entry.seq)
