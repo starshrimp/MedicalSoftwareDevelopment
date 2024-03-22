@@ -1,10 +1,12 @@
 import streamlit as st
 from file_upload import process_fasta_from_file, display_results_from_file
 from text_upload import display_results_from_text
-from fasta_class import FastaRecord
+from logging_config import setup_logging
 
+setup_logging()
 
 def main():
+    setup_logging()
     fasta, file_entries = setup()
     display_results_from_file(file_entries)
     display_results_from_text(fasta)
