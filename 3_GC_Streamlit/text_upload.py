@@ -31,11 +31,4 @@ def parse_fasta_from_string(fasta_string):
 
 
 def check_entry(text_entries):
-    if text_entries:
-        for entry in text_entries:
-            if entry.seq:
-                return True
-            else:
-                return False
-    else:
-        False
+    return any(entry.seq for entry in text_entries)
