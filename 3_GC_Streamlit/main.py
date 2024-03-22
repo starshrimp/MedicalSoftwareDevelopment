@@ -1,11 +1,7 @@
-import sys
-import os
 import streamlit as st
-from Bio import SeqIO
-from io import StringIO
 from file_upload import process_fasta_from_file, display_results_from_file
 from text_upload import display_results_from_text
-from fasta_class import FastaClass
+from fasta_class import FastaRecord
 
 
 def main():

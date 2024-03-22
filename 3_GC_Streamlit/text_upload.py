@@ -1,8 +1,7 @@
 import streamlit as st
-import pandas as pd
 from io import StringIO
 from Bio import SeqIO
-from fasta_class import FastaClass
+from fasta_class import FastaRecord
 # from Bio.SeqUtils import GC
 from gc_content import output_gc_content
 
@@ -26,7 +25,7 @@ def parse_fasta_from_string(fasta_string):
     fasta_io = StringIO(fasta_string)
 
     for record in SeqIO.parse(fasta_io, "fasta"):
-        entry = FastaClass(record.id, record.seq)  
+        entry = FastaRecord(record.id, record.seq)  
         text_entries.append(entry)
     return text_entries
 
