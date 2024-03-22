@@ -5,11 +5,10 @@ from Bio import SeqIO
 from fasta_class import FastaClass
 # from Bio.SeqUtils import GC
 
-all_entries = []
 
-def process_fasta_from_file():
-    uploaded_file = st.file_uploader("Upload your FASTA file", type=['fasta', 'fna'])
 
+def process_fasta_from_file(uploaded_file):
+    all_entries = []
     if uploaded_file is not None:
         stringio = StringIO(uploaded_file.getvalue().decode("utf-8"))
 
