@@ -7,7 +7,7 @@ from fasta_class import FastaClass
 
 all_entries = []
 
-def fasta_file_upload():
+def process_fasta_from_file():
     uploaded_file = st.file_uploader("Upload your FASTA file", type=['fasta', 'fna'])
 
     if uploaded_file is not None:
