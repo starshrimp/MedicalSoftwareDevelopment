@@ -1,0 +1,334 @@
+2024-03-22 10:12:45,196 - DEBUG - Debug message: This will get logged to a file.
+2024-03-22 10:12:45,196 - INFO - Info message: This will get logged to a file.
+2024-03-22 10:12:45,196 - WARNING - Warning message: This will get logged to a file.
+2024-03-22 10:12:45,196 - ERROR - Error message: This will get logged to a file.
+2024-03-22 10:12:45,196 - CRITICAL - Critical message: This will get logged to a file.
+2024-03-22 10:13:44,282 - DEBUG - Debug message: This will get logged to a file.
+2024-03-22 10:13:44,282 - INFO - Info message: This will get logged to a file.
+2024-03-22 10:13:44,282 - WARNING - Warning message: This will get logged to a file.
+2024-03-22 10:13:44,282 - ERROR - Error message: This will get logged to a file.
+2024-03-22 10:13:44,282 - CRITICAL - Critical message: This will get logged to a file.
+2024-03-22 10:15:09,766 - DEBUG - Debug message: This will get logged to a file.
+2024-03-22 10:15:09,766 - INFO - Info message: This will get logged to a file.
+2024-03-22 10:15:09,766 - WARNING - Warning message: This will get logged to a file.
+2024-03-22 10:15:09,766 - ERROR - Error message: This will get logged to a file.
+2024-03-22 10:15:09,766 - CRITICAL - Critical message: This will get logged to a file.
+2024-03-22 10:16:00,779 - DEBUG - Debug message: This will get logged to a file.
+2024-03-22 10:16:00,779 - INFO - Info message: This will get logged to a file.
+2024-03-22 10:16:00,779 - WARNING - Warning message: This will get logged to a file.
+2024-03-22 10:16:00,779 - ERROR - Error message: This will get logged to a file.
+2024-03-22 10:16:00,779 - CRITICAL - Critical message: This will get logged to a file.
+2024-03-22 10:16:43,985 - DEBUG - Debug message: This will get logged to a file.
+2024-03-22 10:16:43,985 - INFO - Info message: This will get logged to a file.
+2024-03-22 10:16:43,985 - WARNING - Warning message: This will get logged to a file.
+2024-03-22 10:16:43,985 - ERROR - Error message: This will get logged to a file.
+2024-03-22 10:16:43,985 - CRITICAL - Critical message: This will get logged to a file.
+2024-03-22 10:18:01,030 - DEBUG - Debug message: This will get logged to a file.
+2024-03-22 10:18:01,030 - INFO - Info message: This will get logged to a file.
+2024-03-22 10:18:01,030 - WARNING - Warning message: This will get logged to a file.
+2024-03-22 10:18:01,030 - ERROR - Error message: This will get logged to a file.
+2024-03-22 10:18:01,030 - CRITICAL - Critical message: This will get logged to a file.
+2024-03-22 10:18:40,559 - DEBUG - Debug message: This will get logged to a file.
+2024-03-22 10:18:40,559 - INFO - Info message: This will get logged to a file.
+2024-03-22 10:18:40,559 - WARNING - Warning message: This will get logged to a file.
+2024-03-22 10:18:40,559 - ERROR - Error message: This will get logged to a file.
+2024-03-22 10:18:40,559 - CRITICAL - Critical message: This will get logged to a file.
+2024-03-22 10:18:48,509 - DEBUG - Debug message: This will get logged to a file.
+2024-03-22 10:18:48,510 - INFO - Info message: This will get logged to a file.
+2024-03-22 10:18:48,510 - WARNING - Warning message: This will get logged to a file.
+2024-03-22 10:18:48,510 - ERROR - Error message: This will get logged to a file.
+2024-03-22 10:18:48,510 - CRITICAL - Critical message: This will get logged to a file.
+2024-03-22 10:19:14,877 - DEBUG - Debug message: This will get logged to a file.
+2024-03-22 10:19:14,877 - INFO - Info message: This will get logged to a file.
+2024-03-22 10:19:14,877 - WARNING - Warning message: This will get logged to a file.
+2024-03-22 10:19:14,877 - ERROR - Error message: This will get logged to a file.
+2024-03-22 10:19:14,877 - CRITICAL - Critical message: This will get logged to a file.
+2024-03-22 10:19:23,869 - DEBUG - Debug message: This will get logged to a file.
+2024-03-22 10:19:23,869 - INFO - Info message: This will get logged to a file.
+2024-03-22 10:19:23,869 - WARNING - Warning message: This will get logged to a file.
+2024-03-22 10:19:23,869 - ERROR - Error message: This will get logged to a file.
+2024-03-22 10:19:23,869 - CRITICAL - Critical message: This will get logged to a file.
+2024-03-22 10:19:23,871 - ERROR - Error - Operation unsuccessful: Simulated file reading exception
+2024-03-22 10:20:07,692 - DEBUG - Debug message: This will get logged to a file.
+2024-03-22 10:20:07,692 - INFO - Info message: This will get logged to a file.
+2024-03-22 10:20:07,692 - WARNING - Warning message: This will get logged to a file.
+2024-03-22 10:20:07,692 - ERROR - Error message: This will get logged to a file.
+2024-03-22 10:20:07,692 - CRITICAL - Critical message: This will get logged to a file.
+2024-03-22 10:20:07,694 - ERROR - Operation unsuccessful: Simulated file reading exception
+2024-03-22 10:20:54,105 - DEBUG - Debug message: This will get logged to a file.
+2024-03-22 10:20:54,105 - INFO - Info message: This will get logged to a file.
+2024-03-22 10:20:54,105 - WARNING - Warning message: This will get logged to a file.
+2024-03-22 10:20:54,105 - ERROR - Error message: This will get logged to a file.
+2024-03-22 10:20:54,105 - CRITICAL - Critical message: This will get logged to a file.
+2024-03-22 10:23:08,793 - DEBUG - Debug message: This will get logged to a file.
+2024-03-22 10:23:08,793 - INFO - Info message: This will get logged to a file.
+2024-03-22 10:23:08,793 - WARNING - Warning message: This will get logged to a file.
+2024-03-22 10:23:08,793 - ERROR - Error message: This will get logged to a file.
+2024-03-22 10:23:08,793 - CRITICAL - Critical message: This will get logged to a file.
+2024-03-22 10:23:14,541 - DEBUG - Debug message: This will get logged to a file.
+2024-03-22 10:23:14,541 - INFO - Info message: This will get logged to a file.
+2024-03-22 10:23:14,541 - WARNING - Warning message: This will get logged to a file.
+2024-03-22 10:23:14,541 - ERROR - Error message: This will get logged to a file.
+2024-03-22 10:23:14,541 - CRITICAL - Critical message: This will get logged to a file.
+2024-03-22 10:23:14,541 - DEBUG - Debug message: This will get logged to a file.
+2024-03-22 10:23:14,541 - INFO - Info message: This will get logged to a file.
+2024-03-22 10:23:14,542 - WARNING - Warning message: This will get logged to a file.
+2024-03-22 10:23:14,542 - ERROR - Error message: This will get logged to a file.
+2024-03-22 10:23:14,542 - CRITICAL - Critical message: This will get logged to a file.
+2024-03-22 10:23:14,626 - DEBUG - NativeEvent(path="/Users/sarah/Code/MedicalSoftwareDevelopment/3_GC_Streamlit/__pycache__/text_upload.cpython-311.pyc.5080628272", inode=36000214, flags=11900, id=426592138): is_coalesced, is_created, is_file, is_modified, is_renamed
+2024-03-22 10:23:14,627 - DEBUG - NativeEvent(path="/Users/sarah/Code/MedicalSoftwareDevelopment/3_GC_Streamlit/__pycache__/text_upload.cpython-311.pyc", inode=36000214, flags=10800, id=426592139): is_file, is_renamed
+2024-03-22 10:23:14,627 - DEBUG - NativeEvent(path="/Users/sarah/Code/MedicalSoftwareDevelopment/3_GC_Streamlit/__pycache__/text_upload.cpython-311.pyc", inode=35993563, flags=10800, id=426592140): is_file, is_renamed
+2024-03-22 10:23:14,627 - DEBUG - queue_event <FileCreatedEvent: event_type=created, src_path='/Users/sarah/Code/MedicalSoftwareDevelopment/3_GC_Streamlit/__pycache__/text_upload.cpython-311.pyc.5080628272', is_directory=False>
+2024-03-22 10:23:14,627 - DEBUG - queue_event <DirModifiedEvent: event_type=modified, src_path='/Users/sarah/Code/MedicalSoftwareDevelopment/3_GC_Streamlit/__pycache__', is_directory=True>
+2024-03-22 10:23:14,627 - DEBUG - queue_event <FileModifiedEvent: event_type=modified, src_path='/Users/sarah/Code/MedicalSoftwareDevelopment/3_GC_Streamlit/__pycache__/text_upload.cpython-311.pyc.5080628272', is_directory=False>
+2024-03-22 10:23:14,627 - DEBUG - Destination event for rename is NativeEvent(path="/Users/sarah/Code/MedicalSoftwareDevelopment/3_GC_Streamlit/__pycache__/text_upload.cpython-311.pyc", inode=36000214, flags=10800, id=426592139)
+2024-03-22 10:23:14,627 - DEBUG - queue_event <FileMovedEvent: src_path='/Users/sarah/Code/MedicalSoftwareDevelopment/3_GC_Streamlit/__pycache__/text_upload.cpython-311.pyc.5080628272', dest_path='/Users/sarah/Code/MedicalSoftwareDevelopment/3_GC_Streamlit/__pycache__/text_upload.cpython-311.pyc', is_directory=False>
+2024-03-22 10:23:14,627 - DEBUG - queue_event <DirModifiedEvent: event_type=modified, src_path='/Users/sarah/Code/MedicalSoftwareDevelopment/3_GC_Streamlit/__pycache__', is_directory=True>
+2024-03-22 10:23:14,627 - DEBUG - queue_event <DirModifiedEvent: event_type=modified, src_path='/Users/sarah/Code/MedicalSoftwareDevelopment/3_GC_Streamlit/__pycache__', is_directory=True>
+2024-03-22 10:23:14,627 - DEBUG - queue_event <FileDeletedEvent: event_type=deleted, src_path='/Users/sarah/Code/MedicalSoftwareDevelopment/3_GC_Streamlit/__pycache__/text_upload.cpython-311.pyc', is_directory=False>
+2024-03-22 10:23:14,627 - DEBUG - queue_event <DirModifiedEvent: event_type=modified, src_path='/Users/sarah/Code/MedicalSoftwareDevelopment/3_GC_Streamlit/__pycache__', is_directory=True>
+2024-03-22 10:39:41,633 - DEBUG - Debug message: This will get logged to a file.
+2024-03-22 10:39:41,636 - INFO - Info message: This will get logged to a file.
+2024-03-22 10:39:41,637 - WARNING - Warning message: This will get logged to a file.
+2024-03-22 10:39:41,637 - ERROR - Error message: This will get logged to a file.
+2024-03-22 10:39:41,637 - CRITICAL - Critical message: This will get logged to a file.
+2024-03-22 10:39:41,637 - DEBUG - Debug message: This will get logged to a file.
+2024-03-22 10:39:41,637 - INFO - Info message: This will get logged to a file.
+2024-03-22 10:39:41,638 - WARNING - Warning message: This will get logged to a file.
+2024-03-22 10:39:41,638 - ERROR - Error message: This will get logged to a file.
+2024-03-22 10:39:41,638 - CRITICAL - Critical message: This will get logged to a file.
+2024-03-22 10:40:13,487 - DEBUG - NativeEvent(path="/Users/sarah/Code/MedicalSoftwareDevelopment/3_GC_Streamlit/main.py", inode=35817943, flags=11400, id=426601684): is_file, is_inode_meta_mod, is_modified
+2024-03-22 10:40:13,491 - DEBUG - queue_event <FileModifiedEvent: event_type=modified, src_path='/Users/sarah/Code/MedicalSoftwareDevelopment/3_GC_Streamlit/main.py', is_directory=False>
+2024-03-22 10:40:55,486 - DEBUG - NativeEvent(path="/Users/sarah/Code/MedicalSoftwareDevelopment/3_GC_Streamlit/text_upload.py", inode=35986308, flags=11400, id=426602379): is_file, is_inode_meta_mod, is_modified
+2024-03-22 10:40:55,487 - DEBUG - queue_event <FileModifiedEvent: event_type=modified, src_path='/Users/sarah/Code/MedicalSoftwareDevelopment/3_GC_Streamlit/text_upload.py', is_directory=False>
+2024-03-22 10:41:02,013 - DEBUG - NativeEvent(path="/Users/sarah/Code/MedicalSoftwareDevelopment/3_GC_Streamlit/text_upload.py", inode=35986308, flags=11400, id=426602567): is_file, is_inode_meta_mod, is_modified
+2024-03-22 10:41:02,013 - DEBUG - queue_event <FileModifiedEvent: event_type=modified, src_path='/Users/sarah/Code/MedicalSoftwareDevelopment/3_GC_Streamlit/text_upload.py', is_directory=False>
+2024-03-22 10:41:05,567 - DEBUG - NativeEvent(path="/Users/sarah/Code/MedicalSoftwareDevelopment/3_GC_Streamlit/text_upload.py", inode=35986308, flags=11400, id=426602677): is_file, is_inode_meta_mod, is_modified
+2024-03-22 10:41:05,567 - DEBUG - queue_event <FileModifiedEvent: event_type=modified, src_path='/Users/sarah/Code/MedicalSoftwareDevelopment/3_GC_Streamlit/text_upload.py', is_directory=False>
+2024-03-22 10:41:08,738 - DEBUG - NativeEvent(path="/Users/sarah/Code/MedicalSoftwareDevelopment/3_GC_Streamlit/text_upload.py", inode=35986308, flags=11400, id=426602831): is_file, is_inode_meta_mod, is_modified
+2024-03-22 10:41:08,738 - DEBUG - queue_event <FileModifiedEvent: event_type=modified, src_path='/Users/sarah/Code/MedicalSoftwareDevelopment/3_GC_Streamlit/text_upload.py', is_directory=False>
+2024-03-22 10:41:11,275 - DEBUG - NativeEvent(path="/Users/sarah/Code/MedicalSoftwareDevelopment/3_GC_Streamlit/text_upload.py", inode=35986308, flags=11400, id=426602920): is_file, is_inode_meta_mod, is_modified
+2024-03-22 10:41:11,275 - DEBUG - queue_event <FileModifiedEvent: event_type=modified, src_path='/Users/sarah/Code/MedicalSoftwareDevelopment/3_GC_Streamlit/text_upload.py', is_directory=False>
+2024-03-22 10:41:14,220 - DEBUG - NativeEvent(path="/Users/sarah/Code/MedicalSoftwareDevelopment/3_GC_Streamlit/text_upload.py", inode=35986308, flags=11400, id=426603053): is_file, is_inode_meta_mod, is_modified
+2024-03-22 10:41:14,220 - DEBUG - queue_event <FileModifiedEvent: event_type=modified, src_path='/Users/sarah/Code/MedicalSoftwareDevelopment/3_GC_Streamlit/text_upload.py', is_directory=False>
+2024-03-22 10:41:15,362 - DEBUG - NativeEvent(path="/Users/sarah/Code/MedicalSoftwareDevelopment/3_GC_Streamlit/text_upload.py", inode=35986308, flags=11400, id=426603103): is_file, is_inode_meta_mod, is_modified
+2024-03-22 10:41:15,363 - DEBUG - queue_event <FileModifiedEvent: event_type=modified, src_path='/Users/sarah/Code/MedicalSoftwareDevelopment/3_GC_Streamlit/text_upload.py', is_directory=False>
+2024-03-22 10:41:22,674 - DEBUG - NativeEvent(path="/Users/sarah/Code/MedicalSoftwareDevelopment/3_GC_Streamlit/text_upload.py", inode=35986308, flags=11400, id=426603383): is_file, is_inode_meta_mod, is_modified
+2024-03-22 10:41:22,675 - DEBUG - queue_event <FileModifiedEvent: event_type=modified, src_path='/Users/sarah/Code/MedicalSoftwareDevelopment/3_GC_Streamlit/text_upload.py', is_directory=False>
+2024-03-22 10:41:30,231 - DEBUG - NativeEvent(path="/Users/sarah/Code/MedicalSoftwareDevelopment/3_GC_Streamlit/text_upload.py", inode=35986308, flags=11400, id=426603522): is_file, is_inode_meta_mod, is_modified
+2024-03-22 10:41:30,232 - DEBUG - queue_event <FileModifiedEvent: event_type=modified, src_path='/Users/sarah/Code/MedicalSoftwareDevelopment/3_GC_Streamlit/text_upload.py', is_directory=False>
+2024-03-22 10:41:32,068 - DEBUG - NativeEvent(path="/Users/sarah/Code/MedicalSoftwareDevelopment/3_GC_Streamlit/text_upload.py", inode=35986308, flags=11400, id=426603597): is_file, is_inode_meta_mod, is_modified
+2024-03-22 10:41:32,069 - DEBUG - queue_event <FileModifiedEvent: event_type=modified, src_path='/Users/sarah/Code/MedicalSoftwareDevelopment/3_GC_Streamlit/text_upload.py', is_directory=False>
+2024-03-22 10:41:32,748 - DEBUG - NativeEvent(path="/Users/sarah/Code/MedicalSoftwareDevelopment/3_GC_Streamlit/text_upload.py", inode=35986308, flags=11400, id=426603658): is_file, is_inode_meta_mod, is_modified
+2024-03-22 10:41:32,748 - DEBUG - queue_event <FileModifiedEvent: event_type=modified, src_path='/Users/sarah/Code/MedicalSoftwareDevelopment/3_GC_Streamlit/text_upload.py', is_directory=False>
+2024-03-22 10:41:51,850 - DEBUG - NativeEvent(path="/Users/sarah/Code/MedicalSoftwareDevelopment/3_GC_Streamlit/text_upload.py", inode=35986308, flags=11400, id=426604836): is_file, is_inode_meta_mod, is_modified
+2024-03-22 10:41:51,851 - DEBUG - queue_event <FileModifiedEvent: event_type=modified, src_path='/Users/sarah/Code/MedicalSoftwareDevelopment/3_GC_Streamlit/text_upload.py', is_directory=False>
+2024-03-22 10:41:59,325 - DEBUG - Debug message: This will get logged to a file.
+2024-03-22 10:41:59,325 - INFO - Info message: This will get logged to a file.
+2024-03-22 10:41:59,325 - WARNING - Warning message: This will get logged to a file.
+2024-03-22 10:41:59,325 - ERROR - Error message: This will get logged to a file.
+2024-03-22 10:41:59,325 - CRITICAL - Critical message: This will get logged to a file.
+2024-03-22 10:41:59,325 - DEBUG - Debug message: This will get logged to a file.
+2024-03-22 10:41:59,325 - INFO - Info message: This will get logged to a file.
+2024-03-22 10:41:59,326 - WARNING - Warning message: This will get logged to a file.
+2024-03-22 10:41:59,326 - ERROR - Error message: This will get logged to a file.
+2024-03-22 10:41:59,326 - CRITICAL - Critical message: This will get logged to a file.
+2024-03-22 10:41:59,380 - DEBUG - NativeEvent(path="/Users/sarah/Code/MedicalSoftwareDevelopment/3_GC_Streamlit/__pycache__/text_upload.cpython-311.pyc.4408364048", inode=36001131, flags=11900, id=426605825): is_coalesced, is_created, is_file, is_modified, is_renamed
+2024-03-22 10:41:59,381 - DEBUG - NativeEvent(path="/Users/sarah/Code/MedicalSoftwareDevelopment/3_GC_Streamlit/__pycache__/text_upload.cpython-311.pyc", inode=36001131, flags=10800, id=426605826): is_file, is_renamed
+2024-03-22 10:41:59,381 - DEBUG - NativeEvent(path="/Users/sarah/Code/MedicalSoftwareDevelopment/3_GC_Streamlit/__pycache__/text_upload.cpython-311.pyc", inode=36000214, flags=10800, id=426605827): is_file, is_renamed
+2024-03-22 10:41:59,381 - DEBUG - queue_event <FileCreatedEvent: event_type=created, src_path='/Users/sarah/Code/MedicalSoftwareDevelopment/3_GC_Streamlit/__pycache__/text_upload.cpython-311.pyc.4408364048', is_directory=False>
+2024-03-22 10:41:59,381 - DEBUG - queue_event <DirModifiedEvent: event_type=modified, src_path='/Users/sarah/Code/MedicalSoftwareDevelopment/3_GC_Streamlit/__pycache__', is_directory=True>
+2024-03-22 10:41:59,381 - DEBUG - queue_event <FileModifiedEvent: event_type=modified, src_path='/Users/sarah/Code/MedicalSoftwareDevelopment/3_GC_Streamlit/__pycache__/text_upload.cpython-311.pyc.4408364048', is_directory=False>
+2024-03-22 10:41:59,381 - DEBUG - Destination event for rename is NativeEvent(path="/Users/sarah/Code/MedicalSoftwareDevelopment/3_GC_Streamlit/__pycache__/text_upload.cpython-311.pyc", inode=36001131, flags=10800, id=426605826)
+2024-03-22 10:41:59,381 - DEBUG - queue_event <FileMovedEvent: src_path='/Users/sarah/Code/MedicalSoftwareDevelopment/3_GC_Streamlit/__pycache__/text_upload.cpython-311.pyc.4408364048', dest_path='/Users/sarah/Code/MedicalSoftwareDevelopment/3_GC_Streamlit/__pycache__/text_upload.cpython-311.pyc', is_directory=False>
+2024-03-22 10:41:59,381 - DEBUG - queue_event <DirModifiedEvent: event_type=modified, src_path='/Users/sarah/Code/MedicalSoftwareDevelopment/3_GC_Streamlit/__pycache__', is_directory=True>
+2024-03-22 10:41:59,381 - DEBUG - queue_event <DirModifiedEvent: event_type=modified, src_path='/Users/sarah/Code/MedicalSoftwareDevelopment/3_GC_Streamlit/__pycache__', is_directory=True>
+2024-03-22 10:41:59,381 - DEBUG - queue_event <FileDeletedEvent: event_type=deleted, src_path='/Users/sarah/Code/MedicalSoftwareDevelopment/3_GC_Streamlit/__pycache__/text_upload.cpython-311.pyc', is_directory=False>
+2024-03-22 10:41:59,381 - DEBUG - queue_event <DirModifiedEvent: event_type=modified, src_path='/Users/sarah/Code/MedicalSoftwareDevelopment/3_GC_Streamlit/__pycache__', is_directory=True>
+2024-03-22 10:42:02,619 - DEBUG - Debug message: This will get logged to a file.
+2024-03-22 10:42:02,619 - INFO - Info message: This will get logged to a file.
+2024-03-22 10:42:02,619 - WARNING - Warning message: This will get logged to a file.
+2024-03-22 10:42:02,619 - ERROR - Error message: This will get logged to a file.
+2024-03-22 10:42:02,620 - CRITICAL - Critical message: This will get logged to a file.
+2024-03-22 10:42:02,620 - DEBUG - Debug message: This will get logged to a file.
+2024-03-22 10:42:02,620 - INFO - Info message: This will get logged to a file.
+2024-03-22 10:42:02,620 - WARNING - Warning message: This will get logged to a file.
+2024-03-22 10:42:02,620 - ERROR - Error message: This will get logged to a file.
+2024-03-22 10:42:02,620 - CRITICAL - Critical message: This will get logged to a file.
+2024-03-22 10:42:03,394 - DEBUG - Debug message: This will get logged to a file.
+2024-03-22 10:42:03,394 - INFO - Info message: This will get logged to a file.
+2024-03-22 10:42:03,394 - WARNING - Warning message: This will get logged to a file.
+2024-03-22 10:42:03,395 - ERROR - Error message: This will get logged to a file.
+2024-03-22 10:42:03,395 - CRITICAL - Critical message: This will get logged to a file.
+2024-03-22 10:42:03,395 - DEBUG - Debug message: This will get logged to a file.
+2024-03-22 10:42:03,395 - INFO - Info message: This will get logged to a file.
+2024-03-22 10:42:03,395 - WARNING - Warning message: This will get logged to a file.
+2024-03-22 10:42:03,395 - ERROR - Error message: This will get logged to a file.
+2024-03-22 10:42:03,395 - CRITICAL - Critical message: This will get logged to a file.
+2024-03-22 10:42:04,961 - DEBUG - Debug message: This will get logged to a file.
+2024-03-22 10:42:04,961 - INFO - Info message: This will get logged to a file.
+2024-03-22 10:42:04,961 - WARNING - Warning message: This will get logged to a file.
+2024-03-22 10:42:04,961 - ERROR - Error message: This will get logged to a file.
+2024-03-22 10:42:04,962 - CRITICAL - Critical message: This will get logged to a file.
+2024-03-22 10:42:04,962 - DEBUG - Debug message: This will get logged to a file.
+2024-03-22 10:42:04,962 - INFO - Info message: This will get logged to a file.
+2024-03-22 10:42:04,962 - WARNING - Warning message: This will get logged to a file.
+2024-03-22 10:42:04,962 - ERROR - Error message: This will get logged to a file.
+2024-03-22 10:42:04,962 - CRITICAL - Critical message: This will get logged to a file.
+2024-03-22 10:42:23,933 - DEBUG - NativeEvent(path="/Users/sarah/Code/MedicalSoftwareDevelopment/3_GC_Streamlit/text_upload.py", inode=35986308, flags=11400, id=426606746): is_file, is_inode_meta_mod, is_modified
+2024-03-22 10:42:23,934 - DEBUG - queue_event <FileModifiedEvent: event_type=modified, src_path='/Users/sarah/Code/MedicalSoftwareDevelopment/3_GC_Streamlit/text_upload.py', is_directory=False>
+2024-03-22 10:42:24,217 - DEBUG - NativeEvent(path="/Users/sarah/Code/MedicalSoftwareDevelopment/3_GC_Streamlit/text_upload.py", inode=35986308, flags=11400, id=426606764): is_file, is_inode_meta_mod, is_modified
+2024-03-22 10:42:24,217 - DEBUG - queue_event <FileModifiedEvent: event_type=modified, src_path='/Users/sarah/Code/MedicalSoftwareDevelopment/3_GC_Streamlit/text_upload.py', is_directory=False>
+2024-03-22 10:42:28,910 - DEBUG - Debug message: This will get logged to a file.
+2024-03-22 10:42:28,910 - INFO - Info message: This will get logged to a file.
+2024-03-22 10:42:28,910 - WARNING - Warning message: This will get logged to a file.
+2024-03-22 10:42:28,910 - ERROR - Error message: This will get logged to a file.
+2024-03-22 10:42:28,910 - CRITICAL - Critical message: This will get logged to a file.
+2024-03-22 10:42:28,910 - DEBUG - Debug message: This will get logged to a file.
+2024-03-22 10:42:28,910 - INFO - Info message: This will get logged to a file.
+2024-03-22 10:42:28,910 - WARNING - Warning message: This will get logged to a file.
+2024-03-22 10:42:28,910 - ERROR - Error message: This will get logged to a file.
+2024-03-22 10:42:28,910 - CRITICAL - Critical message: This will get logged to a file.
+2024-03-22 10:42:28,951 - DEBUG - NativeEvent(path="/Users/sarah/Code/MedicalSoftwareDevelopment/3_GC_Streamlit/__pycache__/text_upload.cpython-311.pyc.4406687376", inode=36001251, flags=11900, id=426607652): is_coalesced, is_created, is_file, is_modified, is_renamed
+2024-03-22 10:42:28,952 - DEBUG - NativeEvent(path="/Users/sarah/Code/MedicalSoftwareDevelopment/3_GC_Streamlit/__pycache__/text_upload.cpython-311.pyc", inode=36001251, flags=10800, id=426607653): is_file, is_renamed
+2024-03-22 10:42:28,952 - DEBUG - NativeEvent(path="/Users/sarah/Code/MedicalSoftwareDevelopment/3_GC_Streamlit/__pycache__/text_upload.cpython-311.pyc", inode=36001131, flags=10800, id=426607654): is_file, is_renamed
+2024-03-22 10:42:28,952 - DEBUG - queue_event <FileCreatedEvent: event_type=created, src_path='/Users/sarah/Code/MedicalSoftwareDevelopment/3_GC_Streamlit/__pycache__/text_upload.cpython-311.pyc.4406687376', is_directory=False>
+2024-03-22 10:42:28,952 - DEBUG - queue_event <DirModifiedEvent: event_type=modified, src_path='/Users/sarah/Code/MedicalSoftwareDevelopment/3_GC_Streamlit/__pycache__', is_directory=True>
+2024-03-22 10:42:28,952 - DEBUG - queue_event <FileModifiedEvent: event_type=modified, src_path='/Users/sarah/Code/MedicalSoftwareDevelopment/3_GC_Streamlit/__pycache__/text_upload.cpython-311.pyc.4406687376', is_directory=False>
+2024-03-22 10:42:28,952 - DEBUG - Destination event for rename is NativeEvent(path="/Users/sarah/Code/MedicalSoftwareDevelopment/3_GC_Streamlit/__pycache__/text_upload.cpython-311.pyc", inode=36001251, flags=10800, id=426607653)
+2024-03-22 10:42:28,953 - DEBUG - queue_event <FileMovedEvent: src_path='/Users/sarah/Code/MedicalSoftwareDevelopment/3_GC_Streamlit/__pycache__/text_upload.cpython-311.pyc.4406687376', dest_path='/Users/sarah/Code/MedicalSoftwareDevelopment/3_GC_Streamlit/__pycache__/text_upload.cpython-311.pyc', is_directory=False>
+2024-03-22 10:42:28,953 - DEBUG - queue_event <DirModifiedEvent: event_type=modified, src_path='/Users/sarah/Code/MedicalSoftwareDevelopment/3_GC_Streamlit/__pycache__', is_directory=True>
+2024-03-22 10:42:28,953 - DEBUG - queue_event <DirModifiedEvent: event_type=modified, src_path='/Users/sarah/Code/MedicalSoftwareDevelopment/3_GC_Streamlit/__pycache__', is_directory=True>
+2024-03-22 10:42:28,953 - DEBUG - queue_event <FileDeletedEvent: event_type=deleted, src_path='/Users/sarah/Code/MedicalSoftwareDevelopment/3_GC_Streamlit/__pycache__/text_upload.cpython-311.pyc', is_directory=False>
+2024-03-22 10:42:28,953 - DEBUG - queue_event <DirModifiedEvent: event_type=modified, src_path='/Users/sarah/Code/MedicalSoftwareDevelopment/3_GC_Streamlit/__pycache__', is_directory=True>
+2024-03-22 10:42:30,676 - DEBUG - Debug message: This will get logged to a file.
+2024-03-22 10:42:30,676 - INFO - Info message: This will get logged to a file.
+2024-03-22 10:42:30,676 - WARNING - Warning message: This will get logged to a file.
+2024-03-22 10:42:30,676 - ERROR - Error message: This will get logged to a file.
+2024-03-22 10:42:30,676 - CRITICAL - Critical message: This will get logged to a file.
+2024-03-22 10:42:30,676 - DEBUG - Debug message: This will get logged to a file.
+2024-03-22 10:42:30,676 - INFO - Info message: This will get logged to a file.
+2024-03-22 10:42:30,677 - WARNING - Warning message: This will get logged to a file.
+2024-03-22 10:42:30,677 - ERROR - Error message: This will get logged to a file.
+2024-03-22 10:42:30,677 - CRITICAL - Critical message: This will get logged to a file.
+2024-03-22 10:42:31,349 - DEBUG - Debug message: This will get logged to a file.
+2024-03-22 10:42:31,350 - INFO - Info message: This will get logged to a file.
+2024-03-22 10:42:31,350 - WARNING - Warning message: This will get logged to a file.
+2024-03-22 10:42:31,350 - ERROR - Error message: This will get logged to a file.
+2024-03-22 10:42:31,350 - CRITICAL - Critical message: This will get logged to a file.
+2024-03-22 10:42:31,350 - DEBUG - Debug message: This will get logged to a file.
+2024-03-22 10:42:31,350 - INFO - Info message: This will get logged to a file.
+2024-03-22 10:42:31,350 - WARNING - Warning message: This will get logged to a file.
+2024-03-22 10:42:31,350 - ERROR - Error message: This will get logged to a file.
+2024-03-22 10:42:31,350 - CRITICAL - Critical message: This will get logged to a file.
+2024-03-22 10:42:42,300 - DEBUG - NativeEvent(path="/Users/sarah/Code/MedicalSoftwareDevelopment/3_GC_Streamlit/text_upload.py", inode=35986308, flags=11400, id=426608366): is_file, is_inode_meta_mod, is_modified
+2024-03-22 10:42:42,301 - DEBUG - queue_event <FileModifiedEvent: event_type=modified, src_path='/Users/sarah/Code/MedicalSoftwareDevelopment/3_GC_Streamlit/text_upload.py', is_directory=False>
+2024-03-22 10:42:46,007 - DEBUG - NativeEvent(path="/Users/sarah/Code/MedicalSoftwareDevelopment/3_GC_Streamlit/text_upload.py", inode=35986308, flags=11400, id=426608515): is_file, is_inode_meta_mod, is_modified
+2024-03-22 10:42:46,007 - DEBUG - queue_event <FileModifiedEvent: event_type=modified, src_path='/Users/sarah/Code/MedicalSoftwareDevelopment/3_GC_Streamlit/text_upload.py', is_directory=False>
+2024-03-22 10:42:50,278 - DEBUG - NativeEvent(path="/Users/sarah/Code/MedicalSoftwareDevelopment/3_GC_Streamlit/text_upload.py", inode=35986308, flags=11400, id=426608756): is_file, is_inode_meta_mod, is_modified
+2024-03-22 10:42:50,278 - DEBUG - queue_event <FileModifiedEvent: event_type=modified, src_path='/Users/sarah/Code/MedicalSoftwareDevelopment/3_GC_Streamlit/text_upload.py', is_directory=False>
+2024-03-22 10:42:56,588 - DEBUG - Debug message: This will get logged to a file.
+2024-03-22 10:42:56,588 - INFO - Info message: This will get logged to a file.
+2024-03-22 10:42:56,589 - WARNING - Warning message: This will get logged to a file.
+2024-03-22 10:42:56,589 - ERROR - Error message: This will get logged to a file.
+2024-03-22 10:42:56,589 - CRITICAL - Critical message: This will get logged to a file.
+2024-03-22 10:42:56,589 - DEBUG - Debug message: This will get logged to a file.
+2024-03-22 10:42:56,589 - INFO - Info message: This will get logged to a file.
+2024-03-22 10:42:56,589 - WARNING - Warning message: This will get logged to a file.
+2024-03-22 10:42:56,589 - ERROR - Error message: This will get logged to a file.
+2024-03-22 10:42:56,589 - CRITICAL - Critical message: This will get logged to a file.
+2024-03-22 10:42:56,634 - DEBUG - NativeEvent(path="/Users/sarah/Code/MedicalSoftwareDevelopment/3_GC_Streamlit/__pycache__/text_upload.cpython-311.pyc.4408362448", inode=36001389, flags=11900, id=426609772): is_coalesced, is_created, is_file, is_modified, is_renamed
+2024-03-22 10:42:56,634 - DEBUG - NativeEvent(path="/Users/sarah/Code/MedicalSoftwareDevelopment/3_GC_Streamlit/__pycache__/text_upload.cpython-311.pyc", inode=36001389, flags=10800, id=426609773): is_file, is_renamed
+2024-03-22 10:42:56,634 - DEBUG - NativeEvent(path="/Users/sarah/Code/MedicalSoftwareDevelopment/3_GC_Streamlit/__pycache__/text_upload.cpython-311.pyc", inode=36001251, flags=10800, id=426609774): is_file, is_renamed
+2024-03-22 10:42:56,635 - DEBUG - queue_event <FileCreatedEvent: event_type=created, src_path='/Users/sarah/Code/MedicalSoftwareDevelopment/3_GC_Streamlit/__pycache__/text_upload.cpython-311.pyc.4408362448', is_directory=False>
+2024-03-22 10:42:56,635 - DEBUG - queue_event <DirModifiedEvent: event_type=modified, src_path='/Users/sarah/Code/MedicalSoftwareDevelopment/3_GC_Streamlit/__pycache__', is_directory=True>
+2024-03-22 10:42:56,635 - DEBUG - queue_event <FileModifiedEvent: event_type=modified, src_path='/Users/sarah/Code/MedicalSoftwareDevelopment/3_GC_Streamlit/__pycache__/text_upload.cpython-311.pyc.4408362448', is_directory=False>
+2024-03-22 10:42:56,635 - DEBUG - Destination event for rename is NativeEvent(path="/Users/sarah/Code/MedicalSoftwareDevelopment/3_GC_Streamlit/__pycache__/text_upload.cpython-311.pyc", inode=36001389, flags=10800, id=426609773)
+2024-03-22 10:42:56,635 - DEBUG - queue_event <FileMovedEvent: src_path='/Users/sarah/Code/MedicalSoftwareDevelopment/3_GC_Streamlit/__pycache__/text_upload.cpython-311.pyc.4408362448', dest_path='/Users/sarah/Code/MedicalSoftwareDevelopment/3_GC_Streamlit/__pycache__/text_upload.cpython-311.pyc', is_directory=False>
+2024-03-22 10:42:56,635 - DEBUG - queue_event <DirModifiedEvent: event_type=modified, src_path='/Users/sarah/Code/MedicalSoftwareDevelopment/3_GC_Streamlit/__pycache__', is_directory=True>
+2024-03-22 10:42:56,635 - DEBUG - queue_event <DirModifiedEvent: event_type=modified, src_path='/Users/sarah/Code/MedicalSoftwareDevelopment/3_GC_Streamlit/__pycache__', is_directory=True>
+2024-03-22 10:42:56,635 - DEBUG - queue_event <FileDeletedEvent: event_type=deleted, src_path='/Users/sarah/Code/MedicalSoftwareDevelopment/3_GC_Streamlit/__pycache__/text_upload.cpython-311.pyc', is_directory=False>
+2024-03-22 10:42:56,635 - DEBUG - queue_event <DirModifiedEvent: event_type=modified, src_path='/Users/sarah/Code/MedicalSoftwareDevelopment/3_GC_Streamlit/__pycache__', is_directory=True>
+2024-03-22 10:42:57,429 - DEBUG - Debug message: This will get logged to a file.
+2024-03-22 10:42:57,429 - INFO - Info message: This will get logged to a file.
+2024-03-22 10:42:57,429 - WARNING - Warning message: This will get logged to a file.
+2024-03-22 10:42:57,429 - ERROR - Error message: This will get logged to a file.
+2024-03-22 10:42:57,429 - CRITICAL - Critical message: This will get logged to a file.
+2024-03-22 10:42:57,429 - DEBUG - Debug message: This will get logged to a file.
+2024-03-22 10:42:57,429 - INFO - Info message: This will get logged to a file.
+2024-03-22 10:42:57,429 - WARNING - Warning message: This will get logged to a file.
+2024-03-22 10:42:57,429 - ERROR - Error message: This will get logged to a file.
+2024-03-22 10:42:57,429 - CRITICAL - Critical message: This will get logged to a file.
+2024-03-22 10:42:58,126 - DEBUG - Debug message: This will get logged to a file.
+2024-03-22 10:42:58,126 - INFO - Info message: This will get logged to a file.
+2024-03-22 10:42:58,127 - WARNING - Warning message: This will get logged to a file.
+2024-03-22 10:42:58,127 - ERROR - Error message: This will get logged to a file.
+2024-03-22 10:42:58,127 - CRITICAL - Critical message: This will get logged to a file.
+2024-03-22 10:42:58,127 - DEBUG - Debug message: This will get logged to a file.
+2024-03-22 10:42:58,127 - INFO - Info message: This will get logged to a file.
+2024-03-22 10:42:58,127 - WARNING - Warning message: This will get logged to a file.
+2024-03-22 10:42:58,127 - ERROR - Error message: This will get logged to a file.
+2024-03-22 10:42:58,127 - CRITICAL - Critical message: This will get logged to a file.
+2024-03-22 10:43:04,126 - DEBUG - NativeEvent(path="/Users/sarah/Code/MedicalSoftwareDevelopment/3_GC_Streamlit/text_upload.py", inode=35986308, flags=11400, id=426610190): is_file, is_inode_meta_mod, is_modified
+2024-03-22 10:43:04,131 - DEBUG - queue_event <FileModifiedEvent: event_type=modified, src_path='/Users/sarah/Code/MedicalSoftwareDevelopment/3_GC_Streamlit/text_upload.py', is_directory=False>
+2024-03-22 10:43:17,212 - DEBUG - NativeEvent(path="/Users/sarah/Code/MedicalSoftwareDevelopment/3_GC_Streamlit/text_upload.py", inode=35986308, flags=11400, id=426611632): is_file, is_inode_meta_mod, is_modified
+2024-03-22 10:43:17,213 - DEBUG - queue_event <FileModifiedEvent: event_type=modified, src_path='/Users/sarah/Code/MedicalSoftwareDevelopment/3_GC_Streamlit/text_upload.py', is_directory=False>
+2024-03-22 10:45:04,429 - DEBUG - NativeEvent(path="/Users/sarah/Code/MedicalSoftwareDevelopment/3_GC_Streamlit/text_upload.py", inode=35986308, flags=11400, id=426615721): is_file, is_inode_meta_mod, is_modified
+2024-03-22 10:45:04,433 - DEBUG - queue_event <FileModifiedEvent: event_type=modified, src_path='/Users/sarah/Code/MedicalSoftwareDevelopment/3_GC_Streamlit/text_upload.py', is_directory=False>
+2024-03-22 10:45:04,727 - DEBUG - NativeEvent(path="/Users/sarah/Code/MedicalSoftwareDevelopment/3_GC_Streamlit/text_upload.py", inode=35986308, flags=11400, id=426615843): is_file, is_inode_meta_mod, is_modified
+2024-03-22 10:45:04,728 - DEBUG - queue_event <FileModifiedEvent: event_type=modified, src_path='/Users/sarah/Code/MedicalSoftwareDevelopment/3_GC_Streamlit/text_upload.py', is_directory=False>
+2024-03-22 10:45:18,548 - DEBUG - NativeEvent(path="/Users/sarah/Code/MedicalSoftwareDevelopment/3_GC_Streamlit/error_handling.py", inode=36000037, flags=11400, id=426617173): is_file, is_inode_meta_mod, is_modified
+2024-03-22 10:45:18,549 - DEBUG - queue_event <FileModifiedEvent: event_type=modified, src_path='/Users/sarah/Code/MedicalSoftwareDevelopment/3_GC_Streamlit/error_handling.py', is_directory=False>
+2024-03-22 10:45:29,340 - DEBUG - NativeEvent(path="/Users/sarah/Code/MedicalSoftwareDevelopment/3_GC_Streamlit/text_upload.py", inode=35986308, flags=11400, id=426617350): is_file, is_inode_meta_mod, is_modified
+2024-03-22 10:45:29,340 - DEBUG - queue_event <FileModifiedEvent: event_type=modified, src_path='/Users/sarah/Code/MedicalSoftwareDevelopment/3_GC_Streamlit/text_upload.py', is_directory=False>
+2024-03-22 10:45:43,709 - DEBUG - NativeEvent(path="/Users/sarah/Code/MedicalSoftwareDevelopment/3_GC_Streamlit/text_upload.py", inode=35986308, flags=11400, id=426617797): is_file, is_inode_meta_mod, is_modified
+2024-03-22 10:45:43,710 - DEBUG - queue_event <FileModifiedEvent: event_type=modified, src_path='/Users/sarah/Code/MedicalSoftwareDevelopment/3_GC_Streamlit/text_upload.py', is_directory=False>
+2024-03-22 10:45:46,001 - DEBUG - NativeEvent(path="/Users/sarah/Code/MedicalSoftwareDevelopment/3_GC_Streamlit/text_upload.py", inode=35986308, flags=11400, id=426617943): is_file, is_inode_meta_mod, is_modified
+2024-03-22 10:45:46,001 - DEBUG - queue_event <FileModifiedEvent: event_type=modified, src_path='/Users/sarah/Code/MedicalSoftwareDevelopment/3_GC_Streamlit/text_upload.py', is_directory=False>
+2024-03-22 10:45:47,452 - DEBUG - NativeEvent(path="/Users/sarah/Code/MedicalSoftwareDevelopment/3_GC_Streamlit/text_upload.py", inode=35986308, flags=11400, id=426618017): is_file, is_inode_meta_mod, is_modified
+2024-03-22 10:45:47,452 - DEBUG - queue_event <FileModifiedEvent: event_type=modified, src_path='/Users/sarah/Code/MedicalSoftwareDevelopment/3_GC_Streamlit/text_upload.py', is_directory=False>
+2024-03-22 10:45:53,885 - DEBUG - Debug message: This will get logged to a file.
+2024-03-22 10:45:53,885 - INFO - Info message: This will get logged to a file.
+2024-03-22 10:45:53,885 - WARNING - Warning message: This will get logged to a file.
+2024-03-22 10:45:53,885 - ERROR - Error message: This will get logged to a file.
+2024-03-22 10:45:53,885 - CRITICAL - Critical message: This will get logged to a file.
+2024-03-22 10:45:53,885 - DEBUG - Debug message: This will get logged to a file.
+2024-03-22 10:45:53,885 - INFO - Info message: This will get logged to a file.
+2024-03-22 10:45:53,886 - WARNING - Warning message: This will get logged to a file.
+2024-03-22 10:45:53,886 - ERROR - Error message: This will get logged to a file.
+2024-03-22 10:45:53,886 - CRITICAL - Critical message: This will get logged to a file.
+2024-03-22 10:45:53,948 - DEBUG - NativeEvent(path="/Users/sarah/Code/MedicalSoftwareDevelopment/3_GC_Streamlit/__pycache__/error_handling.cpython-311.pyc.5081175248", inode=36002015, flags=11900, id=426618879): is_coalesced, is_created, is_file, is_modified, is_renamed
+2024-03-22 10:45:53,948 - DEBUG - NativeEvent(path="/Users/sarah/Code/MedicalSoftwareDevelopment/3_GC_Streamlit/__pycache__/error_handling.cpython-311.pyc", inode=36002015, flags=10800, id=426618880): is_file, is_renamed
+2024-03-22 10:45:53,948 - DEBUG - NativeEvent(path="/Users/sarah/Code/MedicalSoftwareDevelopment/3_GC_Streamlit/__pycache__/error_handling.cpython-311.pyc", inode=36000191, flags=10800, id=426618881): is_file, is_renamed
+2024-03-22 10:45:53,948 - DEBUG - NativeEvent(path="/Users/sarah/Code/MedicalSoftwareDevelopment/3_GC_Streamlit/__pycache__/text_upload.cpython-311.pyc.5080626192", inode=36002016, flags=11900, id=426618890): is_coalesced, is_created, is_file, is_modified, is_renamed
+2024-03-22 10:45:53,948 - DEBUG - NativeEvent(path="/Users/sarah/Code/MedicalSoftwareDevelopment/3_GC_Streamlit/__pycache__/text_upload.cpython-311.pyc", inode=36002016, flags=10800, id=426618891): is_file, is_renamed
+2024-03-22 10:45:53,948 - DEBUG - NativeEvent(path="/Users/sarah/Code/MedicalSoftwareDevelopment/3_GC_Streamlit/__pycache__/text_upload.cpython-311.pyc", inode=36001389, flags=10800, id=426618892): is_file, is_renamed
+2024-03-22 10:45:53,948 - DEBUG - queue_event <FileCreatedEvent: event_type=created, src_path='/Users/sarah/Code/MedicalSoftwareDevelopment/3_GC_Streamlit/__pycache__/error_handling.cpython-311.pyc.5081175248', is_directory=False>
+2024-03-22 10:45:53,949 - DEBUG - queue_event <DirModifiedEvent: event_type=modified, src_path='/Users/sarah/Code/MedicalSoftwareDevelopment/3_GC_Streamlit/__pycache__', is_directory=True>
+2024-03-22 10:45:53,949 - DEBUG - queue_event <FileModifiedEvent: event_type=modified, src_path='/Users/sarah/Code/MedicalSoftwareDevelopment/3_GC_Streamlit/__pycache__/error_handling.cpython-311.pyc.5081175248', is_directory=False>
+2024-03-22 10:45:53,949 - DEBUG - Destination event for rename is NativeEvent(path="/Users/sarah/Code/MedicalSoftwareDevelopment/3_GC_Streamlit/__pycache__/error_handling.cpython-311.pyc", inode=36002015, flags=10800, id=426618880)
+2024-03-22 10:45:53,949 - DEBUG - queue_event <FileMovedEvent: src_path='/Users/sarah/Code/MedicalSoftwareDevelopment/3_GC_Streamlit/__pycache__/error_handling.cpython-311.pyc.5081175248', dest_path='/Users/sarah/Code/MedicalSoftwareDevelopment/3_GC_Streamlit/__pycache__/error_handling.cpython-311.pyc', is_directory=False>
+2024-03-22 10:45:53,949 - DEBUG - queue_event <DirModifiedEvent: event_type=modified, src_path='/Users/sarah/Code/MedicalSoftwareDevelopment/3_GC_Streamlit/__pycache__', is_directory=True>
+2024-03-22 10:45:53,949 - DEBUG - queue_event <DirModifiedEvent: event_type=modified, src_path='/Users/sarah/Code/MedicalSoftwareDevelopment/3_GC_Streamlit/__pycache__', is_directory=True>
+2024-03-22 10:45:53,949 - DEBUG - queue_event <FileDeletedEvent: event_type=deleted, src_path='/Users/sarah/Code/MedicalSoftwareDevelopment/3_GC_Streamlit/__pycache__/error_handling.cpython-311.pyc', is_directory=False>
+2024-03-22 10:45:53,949 - DEBUG - queue_event <DirModifiedEvent: event_type=modified, src_path='/Users/sarah/Code/MedicalSoftwareDevelopment/3_GC_Streamlit/__pycache__', is_directory=True>
+2024-03-22 10:45:53,949 - DEBUG - queue_event <FileCreatedEvent: event_type=created, src_path='/Users/sarah/Code/MedicalSoftwareDevelopment/3_GC_Streamlit/__pycache__/text_upload.cpython-311.pyc.5080626192', is_directory=False>
+2024-03-22 10:45:53,949 - DEBUG - queue_event <DirModifiedEvent: event_type=modified, src_path='/Users/sarah/Code/MedicalSoftwareDevelopment/3_GC_Streamlit/__pycache__', is_directory=True>
+2024-03-22 10:45:53,949 - DEBUG - queue_event <FileModifiedEvent: event_type=modified, src_path='/Users/sarah/Code/MedicalSoftwareDevelopment/3_GC_Streamlit/__pycache__/text_upload.cpython-311.pyc.5080626192', is_directory=False>
+2024-03-22 10:45:53,949 - DEBUG - Destination event for rename is NativeEvent(path="/Users/sarah/Code/MedicalSoftwareDevelopment/3_GC_Streamlit/__pycache__/text_upload.cpython-311.pyc", inode=36002016, flags=10800, id=426618891)
+2024-03-22 10:45:53,949 - DEBUG - queue_event <FileMovedEvent: src_path='/Users/sarah/Code/MedicalSoftwareDevelopment/3_GC_Streamlit/__pycache__/text_upload.cpython-311.pyc.5080626192', dest_path='/Users/sarah/Code/MedicalSoftwareDevelopment/3_GC_Streamlit/__pycache__/text_upload.cpython-311.pyc', is_directory=False>
+2024-03-22 10:45:53,949 - DEBUG - queue_event <DirModifiedEvent: event_type=modified, src_path='/Users/sarah/Code/MedicalSoftwareDevelopment/3_GC_Streamlit/__pycache__', is_directory=True>
+2024-03-22 10:45:53,949 - DEBUG - queue_event <DirModifiedEvent: event_type=modified, src_path='/Users/sarah/Code/MedicalSoftwareDevelopment/3_GC_Streamlit/__pycache__', is_directory=True>
+2024-03-22 10:45:53,949 - DEBUG - queue_event <FileDeletedEvent: event_type=deleted, src_path='/Users/sarah/Code/MedicalSoftwareDevelopment/3_GC_Streamlit/__pycache__/text_upload.cpython-311.pyc', is_directory=False>
+2024-03-22 10:45:53,949 - DEBUG - queue_event <DirModifiedEvent: event_type=modified, src_path='/Users/sarah/Code/MedicalSoftwareDevelopment/3_GC_Streamlit/__pycache__', is_directory=True>
+2024-03-22 10:45:55,592 - DEBUG - Debug message: This will get logged to a file.
+2024-03-22 10:45:55,593 - INFO - Info message: This will get logged to a file.
+2024-03-22 10:45:55,593 - WARNING - Warning message: This will get logged to a file.
+2024-03-22 10:45:55,593 - ERROR - Error message: This will get logged to a file.
+2024-03-22 10:45:55,593 - CRITICAL - Critical message: This will get logged to a file.
+2024-03-22 10:45:55,594 - DEBUG - Debug message: This will get logged to a file.
+2024-03-22 10:45:55,594 - INFO - Info message: This will get logged to a file.
+2024-03-22 10:45:55,594 - WARNING - Warning message: This will get logged to a file.
+2024-03-22 10:45:55,594 - ERROR - Error message: This will get logged to a file.
+2024-03-22 10:45:55,594 - CRITICAL - Critical message: This will get logged to a file.
+2024-03-22 10:45:55,598 - ERROR - Error - Operation unsuccessful: Please enter a valid FASTA.
