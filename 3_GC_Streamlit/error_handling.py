@@ -6,6 +6,5 @@ class EntryCheckError(Exception):
     pass
 
 def handle_errors(e):
-    print(f"Error - Operation unsuccessful: {e}")
     st.warning(f"Operation unsuccessful: {e}")
     logging.error(f"Error - Operation unsuccessful: {e}")
