@@ -14,8 +14,9 @@ def index():
 def create_experiment():
   ds = datastorage.DataStorage()
   if request.method == 'POST':
-    name = request.args.get('name')
-    id = ds.create_experiment(name)
+    form_data = request.data
+    data = json.loads(form_data)
+    id = ds.create_experiment(data['name'])
     return json.dumps({'result' : id})
   elif request.method == 'GET':
     return ds.get_experiments()
