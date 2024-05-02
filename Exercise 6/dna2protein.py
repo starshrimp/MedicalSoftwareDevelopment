@@ -1,12 +1,17 @@
 from Bio.Seq import Seq
 import random
-def transcribe_dna_to_rna(dna):
-    result = dna.transcribe()
-    return result
 
-def translate_rna_to_protein(rna):
-    result = rna.translate()
-    return result
+class DNASequenceTranslator:
+    staticmethod
+    def transcribe_dna_to_rna(dna):
+        result = dna.transcribe()
+        return result
+
+    staticmethod
+    def translate_rna_to_protein(rna):
+        result = rna.translate()
+        return result
+    
 class SequenceStorage:
 
     def __init__(self):
@@ -26,7 +31,6 @@ class DNASequenceGenerator:
             idx = random.randint(0,3)
             result = result + DNASequenceGenerator.alphabet[idx]
         return result
-    
 
 
 if __name__ == '__main__':
@@ -36,12 +40,13 @@ if __name__ == '__main__':
     #creating a Seq onject for the sequence
     dna_seq_obj = Seq(sequence)
 
-    rna_seq_obj = transcribe_dna_to_rna(dna_seq_obj)
+    
+
+    rna_seq_obj = DNASequenceTranslator.transcribe_dna_to_rna(dna_seq_obj)
     
     # RNA to protein sequence
-    protein_seq = translate_rna_to_protein(rna_seq_obj)
+    protein_seq = DNASequenceTranslator.translate_rna_to_protein(rna_seq_obj)
     
-    # Print the results to verify
     print("DNA Sequence:", sequence)
     print("RNA Sequence:", rna_seq_obj)
     print("Protein Sequence:", protein_seq)
