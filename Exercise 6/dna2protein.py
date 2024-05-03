@@ -32,11 +32,13 @@ class SequenceStorage:
         return self.data[name]
     
 class SequenceGenerator(ABC):
+    #this is an abstract base class so the individual calsses can make use of polymorphism
     @abstractmethod
     def create_sequence(self,n):
         pass
     
 class DNASequenceGenerator(SequenceGenerator):
+    #individual class using polymorphism
     alphabet = ['A','C','G','T']
     def create_sequence(self, n):
         result = ''
@@ -46,15 +48,31 @@ class DNASequenceGenerator(SequenceGenerator):
         return result
 
 class ProteinSequenceGenerator(SequenceGenerator):
+    #individual class 2 with polymorphism
     # List of one-letter codes for standard amino acids
     amino_acids = ['A', 'R', 'N', 'D', 'C', 'Q', 'E', 'G', 'H', 'I', 'L', 'K', 'M', 'F', 'P', 'S', 'T', 'W', 'Y', 'V']
 
     def create_sequence(self, n):
         result = ''
         for i in range(n):
-            idx = random.randint(0,3)
+            idx = random.randint(0,19)
             result = result + ProteinSequenceGenerator.amino_acids[idx]
         return result
+    
+
+
+
+def output():
+    print("Random DNA Sequence:", random_dna_seq)
+    print("Random Protein Sequence:", random__protein_seq)
+
+    print("Original Sequences: ")
+    print("DNA Sequence:", storage.read('DNA'))
+    print("RNA Sequence:", rna_seq_obj)
+    print("Protein Sequence:", protein_seq)
+
+def main():
+    output()
 
 if __name__ == '__main__':
 
@@ -73,17 +91,11 @@ if __name__ == '__main__':
     storage.save('DNA', sequence)
 
     # Creating a random Sequence with DNASequenceGeneratir
-    random_seq = DNASequenceGenerator()
-    random_sequence = random_seq.create_sequence(20)
+    dna_generator = DNASequenceGenerator()
+    random_dna_seq = dna_generator.create_sequence(20)
 
-    random_protein_seq = ProteinSequenceGenerator()
-    random__protein_sequence = random_protein_seq.create_sequence(20)
+    protein_generator = ProteinSequenceGenerator()
+    random__protein_seq = protein_generator.create_sequence(20)
+    main()
 
-    print("Random DNA Sequence:", random_sequence)
-    print("Random Protein Sequence:", random__protein_sequence)
-
-    print("Original Sequences: ")
-    print("DNA Sequence:", storage.read('DNA'))
-    print("RNA Sequence:", rna_seq_obj)
-    print("Protein Sequence:", protein_seq)
 
