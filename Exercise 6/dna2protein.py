@@ -1,31 +1,22 @@
-from Bio.Seq import Seq
+import sys
 import random
 from abc import ABC, abstractmethod
-
+from Bio.Seq import Seq
 
 class DNASequenceTranslator: 
     #this is a utility class containing static methods
     @staticmethod
-    def transcribe_dna_to_rna(dna):
+    def transcribe_dna_to_rna(dna, storage):
         result = dna.transcribe()
         storage.save('RNA', result)
         return result, storage
         
     @staticmethod
-    def translate_rna_to_protein(rna):
+    def translate_rna_to_protein(rna, storage):
         result = rna.translate()
         storage.save('Protein', result)
-        return storage
+        return storage #returns the storage object
     
-    
-# class SequenceStorage(ABC):
-#     #this holds the instance that will be created
-
-#     def save(self, name, seq):
-#         pass
-
-#     def read(self, name):
-#         pass
     
 class SequenceStorage():
     #this holds the instance that will be created
@@ -74,47 +65,57 @@ class ProteinSequenceGenerator(SequenceGenerator):
     
 
 
+def main():
+    sequence = initialize_storage()
+    storage = other(sequence)
+    output(storage)
 
-def output():
-    print("Random DNA Sequence:", random_dna_seq)
-    print("Random Protein Sequence:", random__protein_seq)
-
+def output(storage):
     print("Original Sequences: ")
     print("DNA Sequence:", storage.read('DNA'))
-    print("RNA Sequence:", rna_seq_obj)
-    #print("Protein Sequence:", protein_seq)
+    print("RNA Sequence:", storage.read('RNA'))
+    print("Protein Sequence:", storage.read('Protein'))
+    print("The following random sequences have been generated:")
+    generate_random_DNA_sequence()
+    generate_random_protein_sequence()
 
+def generate_random_DNA_sequence():
+    # Creating a random Sequence with DNASequenceGeneratir
+    dna_generator = DNASequenceGenerator()
+    random_dna_seq = dna_generator.create_sequence(20)
+    print("Random DNA Sequence:", random_dna_seq)
 
+def generate_random_protein_sequence():
+    # Creating a random Sequence with DNASequenceGeneratir
+    protein_generator = ProteinSequenceGenerator()
+    random_protein_seq = protein_generator.create_sequence(20)
+    print("Random Protein Sequence:", random_protein_seq)
 
-def main():
-    output()
+def initialize_storage():
+    if len(sys.argv) == 2:
+        sequence = sys.argv[1]
+    else:
+        sequence = "GTGGCCATTGTAATGGGCCGCTGAAAGGGTGCCCGATAG"
+    print("Argument:", sequence)
+    return sequence
 
-if __name__ == '__main__':
+def other(sequence):
 
-    sequence = 'GTGGCCATTGTAATGGGCCGCTGAAAGGGTGCCCGATAG'
     storage = SequenceStorage()
     storage.save('DNA', sequence)
     #creating a Seq onject for the sequence
     dna_seq_obj = Seq(sequence)
 
-    rna_seq_obj, storage = DNASequenceTranslator.transcribe_dna_to_rna(dna_seq_obj)
+    rna_seq_obj, storage = DNASequenceTranslator.transcribe_dna_to_rna(dna_seq_obj, storage)
     
     # RNA to protein sequence
-    stored_protein = DNASequenceTranslator.translate_rna_to_protein(rna_seq_obj)
-    print("Protein from storage:", stored_protein.read("Protein"))
-    # Create a new object of the SequenceStorage class
-    # storage = SequenceStorage()
-    # storage.save('DNA', sequence)
-    print(storage.read('DNA'))
-    print(storage.read('RNA'))
-    print(storage.read('Protein'))
+    stored_protein = DNASequenceTranslator.translate_rna_to_protein(rna_seq_obj, storage)
+    return storage
 
-    # Creating a random Sequence with DNASequenceGeneratir
-    dna_generator = DNASequenceGenerator()
-    random_dna_seq = dna_generator.create_sequence(20)
+if __name__ == '__main__':
 
-    protein_generator = ProteinSequenceGenerator()
-    random__protein_seq = protein_generator.create_sequence(20)
+
+
     main()
 
 
