@@ -8,7 +8,7 @@ from error_handling import handle_errors
 
 def process_fasta_from_file(uploaded_file):
     all_entries = []
-    
+
     try:
         if uploaded_file is not None:
             stringio = StringIO(uploaded_file.getvalue().decode("utf-8"))
