@@ -2,12 +2,12 @@ from Bio.Seq import Seq
 import random
 
 class DNASequenceTranslator:
-    staticmethod
+    @staticmethod
     def transcribe_dna_to_rna(dna):
         result = dna.transcribe()
         return result
 
-    staticmethod
+    @staticmethod
     def translate_rna_to_protein(rna):
         result = rna.translate()
         return result
