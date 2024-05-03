@@ -54,3 +54,16 @@ Files:
 - What happens if the fasta file is invalid? -> an error is raised
 - What happens if there are upper case and lower case letters in the sequence? -> both upper- and lowercase letters are included in the calculation; (FASTA typically converts lowercase letters to uppercase anyway, but as I was manually checking for G and C, I had to include search for g and c as well)
 - Where to download a sequence for a human gene? e.g. NCBI
+
+## Exercise 3: GC Content Streamlit App
+Files:
+- exercise_3.py: main file that should be executed
+- main.py: contains the main function
+- file_upload.py: contains all functions for the upload of a file, imports files gc_content.py
+- text_upload.py: contains all functions for the upload of text in the Streamlit App, imports files gc_content.py
+- logging_config.py: sets up logging functionality
+- app.log: file where the logging is written to
+- test_exercise_3: contains test for file upload
+
+## Exercise 6: Classes & Design Patterns with DNA2Protein
+Implemented directly in file dna2protein.py
