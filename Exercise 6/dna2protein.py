@@ -18,6 +18,28 @@ class DNASequenceTranslator:
         storage.save('Protein', result)
         # return storage #returns the storage object
     
+class SequenceFactory:
+    @staticmethod
+    def create_sequence(type):
+        if type == "DNA":
+            SequenceFactory.generate_random_DNA_sequence()  # Changed to a static call
+        elif type == "Protein":
+            SequenceFactory.generate_random_protein_sequence()  # Added () to actually call the method
+
+    @staticmethod
+    def generate_random_DNA_sequence():
+        # Creating a random Sequence with DNASequenceGenerator
+        dna_generator = DNASequenceGenerator()
+        random_dna_seq = dna_generator.create_sequence(20)
+        print("Random DNA Sequence:", random_dna_seq)
+
+    @staticmethod
+    def generate_random_protein_sequence():
+        # Creating a random Sequence with ProteinSequenceGenerator
+        protein_generator = ProteinSequenceGenerator()
+        random_protein_seq = protein_generator.create_sequence(20)
+        print("Random Protein Sequence:", random_protein_seq)
+
     
 class SequenceStorage():
     #this holds the instance that will be created
@@ -65,27 +87,16 @@ class ProteinSequenceGenerator(SequenceGenerator):
         return result
     
 
-
 def main():
     sequence = initialize_sequence()
     storage = initialize_storage(sequence)
 
-    generate_random_DNA_sequence()
-    generate_random_protein_sequence()
+    SequenceFactory.create_sequence("DNA")
+    SequenceFactory.create_sequence("Protein")
+
     transcribe_and_translate(storage)
     output(storage)
 
-def generate_random_DNA_sequence():
-    # Creating a random Sequence with DNASequenceGeneratir
-    dna_generator = DNASequenceGenerator()
-    random_dna_seq = dna_generator.create_sequence(20)
-    print("Random DNA Sequence:", random_dna_seq)
-
-def generate_random_protein_sequence():
-    # Creating a random Sequence with DNASequenceGeneratir
-    protein_generator = ProteinSequenceGenerator()
-    random_protein_seq = protein_generator.create_sequence(20)
-    print("Random Protein Sequence:", random_protein_seq)
 
 def initialize_sequence():
     if len(sys.argv) == 2:
@@ -105,7 +116,7 @@ def transcribe_and_translate(storage):
     # return storage
 
 def output(storage):
-    print("Original Sequences: ")
+    print("\nOriginal Sequences: ")
     print("DNA Sequence:", storage.read('DNA'))
     print("RNA Sequence:", storage.read('RNA'))
     print("Protein Sequence:", storage.read('Protein'))
