@@ -3,28 +3,30 @@ import random
 from abc import ABC, abstractmethod
 from Bio.Seq import Seq
 
-class DNASequenceTranslator: 
-    #this is a utility class containing static methods
+
+class DNASequenceTranslator:
+    # this is a utility class containing static methods
     @staticmethod
     def transcribe_dna_to_rna(dna, storage):
         dna_seq_obj = Seq(dna)
         result = dna_seq_obj.transcribe()
         storage.save('RNA', result)
         # return result, storage
-        
+
     @staticmethod
     def translate_rna_to_protein(rna, storage):
         result = rna.translate()
         storage.save('Protein', result)
         # return storage #returns the storage object
-    
+
+
 class SequenceFactory:
     @staticmethod
     def create_sequence(type):
         if type == "DNA":
-            SequenceFactory.generate_random_DNA_sequence()  # Changed to a static call
+            SequenceFactory.generate_random_DNA_sequence()
         elif type == "Protein":
-            SequenceFactory.generate_random_protein_sequence()  # Added () to actually call the method
+            SequenceFactory.generate_random_protein_sequence()
 
     @staticmethod
     def generate_random_DNA_sequence():
@@ -40,9 +42,9 @@ class SequenceFactory:
         random_protein_seq = protein_generator.create_sequence(20)
         print("Random Protein Sequence:", random_protein_seq)
 
-    
+
 class SequenceStorage():
-    #this holds the instance that will be created
+    # this holds the instance that will be created
     _instance = None
 
     def __new__(cls):
@@ -59,33 +61,37 @@ class SequenceStorage():
 
 
 class SequenceGenerator(ABC):
-    #this is an abstract base class so the individual calsses can make use of polymorphism
+    # this is an abstract base class so the individual classes
+    # can make use of polymorphism
     @abstractmethod
-    def create_sequence(self,n):
+    def create_sequence(self, n):
         pass
-    
+
+
 class DNASequenceGenerator(SequenceGenerator):
-    #individual class using polymorphism
-    alphabet = ['A','C','G','T']
+    # individual class using polymorphism
+    alphabet = ['A', 'C', 'G', 'T']
+
     def create_sequence(self, n):
         result = ''
         for i in range(n):
-            idx = random.randint(0,len(DNASequenceGenerator.alphabet) - 1)
+            idx = random.randint(0, len(DNASequenceGenerator.alphabet) - 1)
             result = result + DNASequenceGenerator.alphabet[idx]
         return result
 
+
 class ProteinSequenceGenerator(SequenceGenerator):
-    #individual class 2 with polymorphism
+    # individual class 2 with polymorphism
     # List of one-letter codes for standard amino acids
     amino_acids = ['A', 'R', 'N', 'D', 'C', 'Q', 'E', 'G', 'H', 'I', 'L', 'K', 'M', 'F', 'P', 'S', 'T', 'W', 'Y', 'V']
 
     def create_sequence(self, n):
         result = ''
         for i in range(n):
-            idx = random.randint(0,len(ProteinSequenceGenerator.amino_acids) - 1)
+            idx = random.randint(0, len(ProteinSequenceGenerator.amino_acids) - 1)
             result = result + ProteinSequenceGenerator.amino_acids[idx]
         return result
-    
+
 
 def main():
     sequence = initialize_sequence()
@@ -105,15 +111,18 @@ def initialize_sequence():
         sequence = "GTGGCCATTGTAATGGGCCGCTGAAAGGGTGCCCGATAG"
     return sequence
 
+
 def initialize_storage(sequence):
     storage = SequenceStorage()
     storage.save('DNA', sequence)
     return storage
 
+
 def transcribe_and_translate(storage):
     DNASequenceTranslator.transcribe_dna_to_rna(storage.read('DNA'), storage)
     DNASequenceTranslator.translate_rna_to_protein(storage.read('RNA'), storage)
     # return storage
+
 
 def output(storage):
     print("\nOriginal Sequences: ")
