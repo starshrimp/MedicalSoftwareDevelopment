@@ -1,5 +1,7 @@
 from Bio.Seq import Seq
 import random
+from abc import ABC, abstractmethod
+
 
 class DNASequenceTranslator: 
     #this is a utility class containing static methods
@@ -29,7 +31,12 @@ class SequenceStorage:
     def read(self, name):
         return self.data[name]
     
-class DNASequenceGenerator:
+class SequenceGenerator(ABC):
+    @abstractmethod
+    def create_sequence(self,n):
+        pass
+    
+class DNASequenceGenerator(SequenceGenerator):
     alphabet = ['A','C','G','T']
     def create_sequence(self, n):
         result = ''
@@ -38,6 +45,16 @@ class DNASequenceGenerator:
             result = result + DNASequenceGenerator.alphabet[idx]
         return result
 
+class ProteinSequenceGenerator(SequenceGenerator):
+    # List of one-letter codes for standard amino acids
+    amino_acids = ['A', 'R', 'N', 'D', 'C', 'Q', 'E', 'G', 'H', 'I', 'L', 'K', 'M', 'F', 'P', 'S', 'T', 'W', 'Y', 'V']
+
+    def create_sequence(self, n):
+        result = ''
+        for i in range(n):
+            idx = random.randint(0,3)
+            result = result + ProteinSequenceGenerator.amino_acids[idx]
+        return result
 
 if __name__ == '__main__':
 
@@ -53,9 +70,19 @@ if __name__ == '__main__':
 
     # Create a new object of the SequenceStorage class
     storage = SequenceStorage()
-
     storage.save('DNA', sequence)
 
+    # Creating a random Sequence with DNASequenceGeneratir
+    random_seq = DNASequenceGenerator()
+    random_sequence = random_seq.create_sequence(20)
+
+    random_protein_seq = ProteinSequenceGenerator()
+    random__protein_sequence = random_protein_seq.create_sequence(20)
+
+    print("Random DNA Sequence:", random_sequence)
+    print("Random Protein Sequence:", random__protein_sequence)
+
+    print("Original Sequences: ")
     print("DNA Sequence:", storage.read('DNA'))
     print("RNA Sequence:", rna_seq_obj)
     print("Protein Sequence:", protein_seq)
