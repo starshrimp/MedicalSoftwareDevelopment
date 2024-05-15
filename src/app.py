@@ -56,6 +56,8 @@ def upload_data():
   form_data = request.data
   print(form_data)
   data = json.loads(form_data)
+  ds = datastorage.DataStorage()
+  ds.add_data(data)
   return json.dumps({'success':True}), 200, {'ContentType':'application/json'}
   
 

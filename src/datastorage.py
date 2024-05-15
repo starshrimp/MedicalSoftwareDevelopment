@@ -14,7 +14,7 @@ class DataStorage(object):
       cls.instance = super(DataStorage, cls).__new__(cls)
       cls.instance.experiments = {}
       cls.instance.patients = {}
-      cls.instance.data = {}
+      cls.instance.data = []
     return cls.instance
     
   def create_patient(self, name):
@@ -33,9 +33,8 @@ class DataStorage(object):
   def get_experiments(self):
     return self.experiments
     
-  def add_data(self, patient_id, experiment_id, data):
-    dObj = Data(patient_id, experiment_id, data)
-    self.data.append(dObj)
+  def add_data(self, dataobj):
+    self.data.append(dataobj)
 
   def store_data(self, filename):
     # store data into file
