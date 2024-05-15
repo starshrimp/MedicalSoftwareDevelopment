@@ -1,3 +1,4 @@
+import json
 import idgenerator
 
 class DataPoint(object):
@@ -38,4 +39,16 @@ class DataStorage(object):
 
   def store_data(self, filename):
     # store data into file
+    self.store(filename, self.data)
     self.data.clear()
+    
+  def store_patients(self, filename):
+    self.store(filename, self.patients)
+    
+  def store_experiments(self, filename):
+    self.store(filename, self.experiments)
+    
+  def store(self, filename, data):
+    json_object = json.dumps(data, indent=4)
+    with open(filename + ".json", "w") as outfile:
+      outfile.write(json_object)

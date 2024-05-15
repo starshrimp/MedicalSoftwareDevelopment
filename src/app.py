@@ -5,10 +5,10 @@ from flask import request, Flask
 
 app = Flask(__name__)
 
-@app.route('/', methods=['GET'])
+@app.route('/info', methods=['GET'])
 def index():
-    return json.dumps({'name' : 'David',
-    'mail' : 'david.herzig@roche.com'})
+    return json.dumps({'application' : 'Data Collection Service',
+    'author' : 'David Herzig', 'version' : 'v1_0_0', 'Support' : 'dave.herzig@gmail.com'})
 
 @app.route('/experiment', methods=['POST', 'GET'])
 def create_experiment():
@@ -18,38 +18,48 @@ def create_experiment():
     data = json.loads(form_data)
     id = ds.create_experiment(data['name'])
     return json.dumps({'result' : id})
-  elif request.method == 'GET':
+  if request.method == 'GET':
     return ds.get_experiments()
   
 @app.route('/patient', methods=['POST', 'GET'])
 def create_patient():
   ds = datastorage.DataStorage()
   if request.method == 'POST':
-    name = request.args.get('name')
-    ds = datastorage.DataStorage()
-    id = ds.create_patient(name)
+    form_data = request.data
+    data = json.loads(form_data)
+    id = ds.create_patient(data['name'])
     return json.dumps({'result' : id})
-  elif request.method == 'GET':
+  if request.method == 'GET':
     return ds.get_patients()
   
 @app.route('/store', methods=['POST'])
 def store_data():
-  pass
+  ds = datastorage.DataStorage()
+  form_data = request.data
+  data = json.loads(form_data)
+  filename = data['filename']
+  type = data['type']
   
-@app.route('/upload', methods=['POST'])
-def upload_data(data):
-  pass
+  if type == 'experiments':
+    ds.store_experiments(filename)
+  elif type == 'patients':
+    ds.store_patients(filename)
+  elif type == 'data':
+    ds.store_data(filename)
+  else:
+    print('invalid data type: ' + type)
+    
+  return json.dumps({'success':True}), 200, {'ContentType':'application/json'}
+  
+@app.route('/data', methods=['POST'])
+def upload_data():
+  form_data = request.data
+  print(form_data)
+  data = json.loads(form_data)
+  return json.dumps({'success':True}), 200, {'ContentType':'application/json'}
   
 
 if __name__ == '__main__':
-  print('Hello World')
-  
-  ds = datastorage.DataStorage()
-  print(ds.create_experiment('Experiment'))
-  print(ds.get_experiments())
-  
-  ds2 = datastorage.DataStorage()
-  print(ds2.create_experiment('Experiment2'))
-  print(ds2.get_experiments())
+  app.run(debug=True, host="0.0.0.0", port=8080)
   
 
