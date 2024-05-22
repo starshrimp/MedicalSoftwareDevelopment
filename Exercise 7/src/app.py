@@ -1,8 +1,4 @@
 """ Main application file for the data collection service exercise"""
-# import os
-# import tracemalloc
-# import psutil
-
 
 import json
 import logging
