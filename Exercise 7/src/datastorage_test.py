@@ -11,7 +11,11 @@ class TestDataStorage(unittest.TestCase):
     def setUp(self):
         """ Set up test environment """
         self.data_storage = datastorage.DataStorage()
-    
+        self.data_storage.patients = {}  # Resetting the singleton data
+        self.data_storage.experiments = {}
+        self.data_storage.data = []
+
+
     def test_create_patient(self):
         """ Test the create_patient method """
         data_storage = datastorage.DataStorage()
@@ -63,9 +67,8 @@ class TestDataStorage(unittest.TestCase):
         # Check the content written to the file
         handle = mock_file()
         written_content = handle.write.call_args[0][0]
-        expected_content = json.dumps(self.data_storage.data, indent=4)
+        expected_content = json.dumps([data_point.to_dict()], indent=4)
         self.assertEqual(written_content, expected_content)
-
 
 if __name__ == '__main__':
     unittest.main()

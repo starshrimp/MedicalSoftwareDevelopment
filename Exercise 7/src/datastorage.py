@@ -18,8 +18,20 @@ class DataPoint(object):
         self.experiment_record_id = experiment_record_id
         self.data = data
 
+    def to_dict(self):
+        """ Convert DataPoint to a dictionary """
+        return {
+            'record_id': str(self.record_id),  # Convert UUID to string
+            'patient_record_id': self.patient_record_id,
+            'experiment_record_id': self.experiment_record_id,
+            'data': self.data
+        }
+
+
 class DataStorage(object):
     """ Data storage class"""
+    _instance = None
+    
     def __new__(cls):
         """ Singleton pattern"""
         if not hasattr(cls, 'instance'):
@@ -65,26 +77,31 @@ class DataStorage(object):
 
     def store_data(self, filename):
         """ Store data into file"""
-        self.store(filename, self.data)
+        self.store(filename, self.data, is_data=True)
+        logger.info("Stored data to %s.json", filename,)
         self.data.clear()
-        logger.info("Stored data to %s.json", filename)
 
 
     def store_patients(self, filename):
         """ Store patients into file"""
-        self.store(filename, self.patients)
+        self.store(filename, self.patients, is_dict=True)
         logger.info("Stored patient to %s.json", filename)
 
 
     def store_experiments(self, filename):
         """ Store experiments into file"""
-        self.store(filename, self.experiments)
+        self.store(filename, self.experiments, is_dict=True)
         logger.info("Stored experiment to %s.json", filename)
 
 
-    def store(self, filename, data):
+    def store(self, filename, data, is_dict=False, is_data=False):
         """ Store data into file"""
-        json_object = json.dumps(data, indent=4)
+        if is_dict:
+          json_object = json.dumps(data, indent=4)
+        elif is_data:
+          json_object = json.dumps([item.to_dict() for item in data], indent=4)
+        else:
+          json_object = json.dumps(data, indent=4)
         with open(filename + ".json", "w") as outfile:
-            outfile.write(json_object)
+          outfile.write(json_object)
         logger.info("Stored %s items to %s.json", len(data), filename)
