@@ -33,7 +33,8 @@ def index():
     logger.info("Accessed the info endpoint")
     return json.dumps({'application' : 'Data Collection Service',
     'author' : 'Davrecord_id Herzig', 'version' : 'v1_0_1', 
-    'Support' : 'dave.herzig@gmail.com', 'adjusted by' : 'Sarah Rebecca Meyer', 'logging' : 'app.log'})
+    'Support' : 'dave.herzig@gmail.com', 'adjusted by' : 'Sarah Rebecca Meyer', 
+    'logging' : 'app.log'})
 
 @app.route('/experiment', methods=['POST', 'GET'])
 

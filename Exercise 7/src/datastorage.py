@@ -10,7 +10,7 @@ logging.basicConfig(filename='datastorage.log', level=logging.INFO,
 logger = logging.getLogger(__name__)
 
 
-class DataPoint(object):
+class DataPoint:
     """ Data point class"""
     def __init__(self, patient_record_id, experiment_record_id, data):
         self.record_id = idgenerator.generate_unique_identifier()
@@ -28,10 +28,10 @@ class DataPoint(object):
         }
 
 
-class DataStorage(object):
+class DataStorage:
     """ Data storage class"""
     _instance = None
-    
+
     def __new__(cls):
         """ Singleton pattern"""
         if not hasattr(cls, 'instance'):
@@ -97,11 +97,11 @@ class DataStorage(object):
     def store(self, filename, data, is_dict=False, is_data=False):
         """ Store data into file"""
         if is_dict:
-          json_object = json.dumps(data, indent=4)
+            json_object = json.dumps(data, indent=4)
         elif is_data:
-          json_object = json.dumps([item.to_dict() for item in data], indent=4)
+            json_object = json.dumps([item.to_dict() for item in data], indent=4)
         else:
-          json_object = json.dumps(data, indent=4)
+            json_object = json.dumps(data, indent=4)
         with open(filename + ".json", "w") as outfile:
-          outfile.write(json_object)
+            outfile.write(json_object)
         logger.info("Stored %s items to %s.json", len(data), filename)
