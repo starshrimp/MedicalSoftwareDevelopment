@@ -1,0 +1,182 @@
+2024-05-22 10:23:45,793 INFO werkzeug [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8080
+ * Running on http://192.168.1.115:8080
+2024-05-22 10:23:45,793 INFO werkzeug [33mPress CTRL+C to quit[0m
+2024-05-22 10:23:45,817 INFO werkzeug  * Restarting with watchdog (fsevents)
+2024-05-22 10:23:45,899 WARNING werkzeug  * Debugger is active!
+2024-05-22 10:23:45,913 INFO werkzeug  * Debugger PIN: 185-591-295
+2024-05-22 10:24:00,923 INFO werkzeug [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8080
+ * Running on http://192.168.1.115:8080
+2024-05-22 10:24:00,924 INFO werkzeug [33mPress CTRL+C to quit[0m
+2024-05-22 10:24:00,929 INFO werkzeug  * Restarting with watchdog (fsevents)
+2024-05-22 10:24:01,012 WARNING werkzeug  * Debugger is active!
+2024-05-22 10:24:01,027 INFO werkzeug  * Debugger PIN: 185-591-295
+2024-05-22 10:27:22,450 INFO werkzeug [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8080
+ * Running on http://192.168.1.115:8080
+2024-05-22 10:27:22,451 INFO werkzeug [33mPress CTRL+C to quit[0m
+2024-05-22 10:27:22,463 INFO werkzeug  * Restarting with watchdog (fsevents)
+2024-05-22 10:27:22,548 WARNING werkzeug  * Debugger is active!
+2024-05-22 10:27:22,555 INFO werkzeug  * Debugger PIN: 185-591-295
+2024-05-22 10:28:06,372 INFO __main__ GET: Retrieved all patients
+2024-05-22 10:28:06,373 INFO werkzeug 127.0.0.1 - - [22/May/2024 10:28:06] "GET /patient HTTP/1.1" 200 -
+2024-05-22 10:28:12,438 INFO __main__ Accessed the info endpoint
+2024-05-22 10:28:12,440 INFO werkzeug 127.0.0.1 - - [22/May/2024 10:28:12] "GET /info HTTP/1.1" 200 -
+2024-05-22 10:28:29,319 INFO werkzeug  * Detected change in '/Users/sarah/Code/MedicalSoftwareDevelopment/Exercise 7/src/app.py', reloading
+2024-05-22 10:28:30,385 INFO werkzeug  * Restarting with watchdog (fsevents)
+2024-05-22 10:28:30,595 WARNING werkzeug  * Debugger is active!
+2024-05-22 10:28:30,603 INFO werkzeug  * Debugger PIN: 185-591-295
+2024-05-22 10:28:36,438 INFO werkzeug  * Detected change in '/Users/sarah/Code/MedicalSoftwareDevelopment/Exercise 7/src/app.py', reloading
+2024-05-22 10:28:37,497 INFO werkzeug  * Restarting with watchdog (fsevents)
+2024-05-22 10:28:37,622 WARNING werkzeug  * Debugger is active!
+2024-05-22 10:28:37,628 INFO werkzeug  * Debugger PIN: 185-591-295
+2024-05-22 10:28:41,085 INFO werkzeug  * Detected change in '/Users/sarah/Code/MedicalSoftwareDevelopment/Exercise 7/src/app.py', reloading
+2024-05-22 10:28:42,146 INFO werkzeug  * Restarting with watchdog (fsevents)
+2024-05-22 10:29:14,183 INFO werkzeug [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8080
+ * Running on http://192.168.1.115:8080
+2024-05-22 10:29:14,183 INFO werkzeug [33mPress CTRL+C to quit[0m
+2024-05-22 10:29:14,193 INFO werkzeug  * Restarting with watchdog (fsevents)
+2024-05-22 10:29:14,277 WARNING werkzeug  * Debugger is active!
+2024-05-22 10:29:14,285 INFO werkzeug  * Debugger PIN: 185-591-295
+2024-05-22 10:29:22,493 INFO __main__ Accessed the info endpoint
+2024-05-22 10:29:22,495 INFO werkzeug 127.0.0.1 - - [22/May/2024 10:29:22] "GET /info HTTP/1.1" 200 -
+2024-05-22 10:29:32,874 INFO __main__ GET: Retrieved all patients
+2024-05-22 10:29:32,875 INFO werkzeug 127.0.0.1 - - [22/May/2024 10:29:32] "GET /patient HTTP/1.1" 200 -
+2024-05-22 10:29:39,186 INFO datastorage Created patient with ID: 0, Name: Ylvis Dog
+2024-05-22 10:29:39,187 INFO __main__ POST: Created patient with ID: 0
+2024-05-22 10:29:39,187 INFO werkzeug 127.0.0.1 - - [22/May/2024 10:29:39] "POST /patient HTTP/1.1" 200 -
+2024-05-22 10:29:50,320 INFO datastorage Created patient with ID: 1, Name: Nico Spieler
+2024-05-22 10:29:50,321 INFO __main__ POST: Created patient with ID: 1
+2024-05-22 10:29:50,321 INFO werkzeug 127.0.0.1 - - [22/May/2024 10:29:50] "POST /patient HTTP/1.1" 200 -
+2024-05-22 10:29:59,468 INFO datastorage Created patient with ID: 2, Name: Sarah Meyer
+2024-05-22 10:29:59,469 INFO __main__ POST: Created patient with ID: 2
+2024-05-22 10:29:59,469 INFO werkzeug 127.0.0.1 - - [22/May/2024 10:29:59] "POST /patient HTTP/1.1" 200 -
+2024-05-22 10:30:04,914 INFO __main__ GET: Retrieved all patients
+2024-05-22 10:30:04,915 INFO werkzeug 127.0.0.1 - - [22/May/2024 10:30:04] "GET /patient HTTP/1.1" 200 -
+2024-05-22 10:30:32,661 INFO werkzeug 127.0.0.1 - - [22/May/2024 10:30:32] "[35m[1mPOST /store HTTP/1.1[0m" 500 -
+2024-05-22 10:30:53,527 INFO datastorage Added data: {'name': 'Sarah Meyer'}
+2024-05-22 10:30:53,528 INFO __main__ Data uploaded: {'name': 'Sarah Meyer'}
+2024-05-22 10:30:53,529 INFO werkzeug 127.0.0.1 - - [22/May/2024 10:30:53] "POST /data HTTP/1.1" 200 -
+2024-05-22 10:33:16,944 INFO werkzeug  * Detected change in '/Users/sarah/Code/MedicalSoftwareDevelopment/Exercise 7/src/app.py', reloading
+2024-05-22 10:33:18,024 INFO werkzeug  * Restarting with watchdog (fsevents)
+2024-05-22 10:33:18,277 WARNING werkzeug  * Debugger is active!
+2024-05-22 10:33:18,288 INFO werkzeug  * Debugger PIN: 185-591-295
+2024-05-22 10:33:18,661 INFO werkzeug  * Detected change in '/Users/sarah/Code/MedicalSoftwareDevelopment/Exercise 7/src/app.py', reloading
+2024-05-22 10:33:19,702 INFO werkzeug  * Restarting with watchdog (fsevents)
+2024-05-22 10:33:19,842 WARNING werkzeug  * Debugger is active!
+2024-05-22 10:33:19,851 INFO werkzeug  * Debugger PIN: 185-591-295
+2024-05-22 10:33:21,659 INFO werkzeug  * Detected change in '/Users/sarah/Code/MedicalSoftwareDevelopment/Exercise 7/src/app.py', reloading
+2024-05-22 10:33:22,718 INFO werkzeug  * Restarting with watchdog (fsevents)
+2024-05-22 10:33:22,810 WARNING werkzeug  * Debugger is active!
+2024-05-22 10:33:22,816 INFO werkzeug  * Debugger PIN: 185-591-295
+2024-05-22 10:33:27,254 INFO werkzeug  * Detected change in '/Users/sarah/Code/MedicalSoftwareDevelopment/Exercise 7/src/app.py', reloading
+2024-05-22 10:33:28,304 INFO werkzeug  * Restarting with watchdog (fsevents)
+2024-05-22 10:33:28,400 WARNING werkzeug  * Debugger is active!
+2024-05-22 10:33:28,415 INFO werkzeug  * Debugger PIN: 185-591-295
+2024-05-22 10:33:36,480 INFO werkzeug  * Detected change in '/Users/sarah/Code/MedicalSoftwareDevelopment/Exercise 7/src/app.py', reloading
+2024-05-22 10:33:36,550 INFO werkzeug  * Restarting with watchdog (fsevents)
+2024-05-22 10:33:36,685 WARNING werkzeug  * Debugger is active!
+2024-05-22 10:33:36,692 INFO werkzeug  * Debugger PIN: 185-591-295
+2024-05-22 10:33:49,897 INFO werkzeug  * Detected change in '/Users/sarah/Code/MedicalSoftwareDevelopment/Exercise 7/src/datastorage.py', reloading
+2024-05-22 10:33:50,947 INFO werkzeug  * Restarting with watchdog (fsevents)
+2024-05-22 10:33:53,608 INFO werkzeug  * Restarting with watchdog (fsevents)
+2024-05-22 10:33:57,922 INFO werkzeug  * Restarting with watchdog (fsevents)
+2024-05-22 10:34:09,359 INFO werkzeug  * Restarting with watchdog (fsevents)
+2024-05-22 10:34:10,603 INFO werkzeug  * Restarting with watchdog (fsevents)
+2024-05-22 10:34:13,595 INFO werkzeug  * Restarting with watchdog (fsevents)
+2024-05-22 10:34:15,471 INFO werkzeug  * Restarting with watchdog (fsevents)
+2024-05-22 10:34:20,048 INFO werkzeug  * Restarting with watchdog (fsevents)
+2024-05-22 10:35:19,871 WARNING werkzeug  * Debugger is active!
+2024-05-22 10:35:19,878 INFO werkzeug  * Debugger PIN: 185-591-295
+2024-05-22 10:35:32,686 INFO werkzeug [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8080
+ * Running on http://192.168.1.115:8080
+2024-05-22 10:35:32,686 INFO werkzeug [33mPress CTRL+C to quit[0m
+2024-05-22 10:35:32,692 INFO werkzeug  * Restarting with watchdog (fsevents)
+2024-05-22 10:35:32,777 WARNING werkzeug  * Debugger is active!
+2024-05-22 10:35:32,782 INFO werkzeug  * Debugger PIN: 185-591-295
+2024-05-22 10:35:36,338 INFO __main__ GET: Retrieved all patients
+2024-05-22 10:35:36,340 INFO werkzeug 127.0.0.1 - - [22/May/2024 10:35:36] "GET /patient HTTP/1.1" 200 -
+2024-05-22 10:35:40,248 INFO datastorage Created patient with ID: 0, Name: Sarah Meyer
+2024-05-22 10:35:40,249 INFO __main__ POST: Created patient with ID: 0
+2024-05-22 10:35:40,249 INFO werkzeug 127.0.0.1 - - [22/May/2024 10:35:40] "POST /patient HTTP/1.1" 200 -
+2024-05-22 10:35:43,392 INFO __main__ GET: Retrieved all patients
+2024-05-22 10:35:43,393 INFO werkzeug 127.0.0.1 - - [22/May/2024 10:35:43] "GET /patient HTTP/1.1" 200 -
+2024-05-22 10:36:33,518 INFO werkzeug  * Detected change in '/Users/sarah/Code/MedicalSoftwareDevelopment/Exercise 7/src/datastorage_test.py', reloading
+2024-05-22 10:36:34,576 INFO werkzeug  * Restarting with watchdog (fsevents)
+2024-05-22 10:36:34,756 WARNING werkzeug  * Debugger is active!
+2024-05-22 10:36:34,765 INFO werkzeug  * Debugger PIN: 185-591-295
+2024-05-22 10:36:35,982 INFO werkzeug  * Detected change in '/Users/sarah/Code/MedicalSoftwareDevelopment/Exercise 7/src/datastorage_test.py', reloading
+2024-05-22 10:36:37,031 INFO werkzeug  * Restarting with watchdog (fsevents)
+2024-05-22 10:36:37,121 WARNING werkzeug  * Debugger is active!
+2024-05-22 10:36:37,125 INFO werkzeug  * Debugger PIN: 185-591-295
+2024-05-22 10:36:40,137 INFO werkzeug  * Detected change in '/Users/sarah/Code/MedicalSoftwareDevelopment/Exercise 7/src/datastorage_test.py', reloading
+2024-05-22 10:36:41,191 INFO werkzeug  * Restarting with watchdog (fsevents)
+2024-05-22 10:36:41,298 WARNING werkzeug  * Debugger is active!
+2024-05-22 10:36:41,304 INFO werkzeug  * Debugger PIN: 185-591-295
+2024-05-22 10:36:42,009 INFO werkzeug  * Detected change in '/Users/sarah/Code/MedicalSoftwareDevelopment/Exercise 7/src/datastorage_test.py', reloading
+2024-05-22 10:36:43,055 INFO werkzeug  * Restarting with watchdog (fsevents)
+2024-05-22 10:36:43,161 WARNING werkzeug  * Debugger is active!
+2024-05-22 10:36:43,170 INFO werkzeug  * Debugger PIN: 185-591-295
+2024-05-22 10:37:13,635 INFO werkzeug  * Detected change in '/Users/sarah/Code/MedicalSoftwareDevelopment/Exercise 7/src/datastorage_test.py', reloading
+2024-05-22 10:37:14,684 INFO werkzeug  * Restarting with watchdog (fsevents)
+2024-05-22 10:37:14,855 WARNING werkzeug  * Debugger is active!
+2024-05-22 10:37:14,862 INFO werkzeug  * Debugger PIN: 185-591-295
+2024-05-22 10:37:16,949 INFO werkzeug  * Detected change in '/Users/sarah/Code/MedicalSoftwareDevelopment/Exercise 7/src/datastorage_test.py', reloading
+2024-05-22 10:37:17,997 INFO werkzeug  * Restarting with watchdog (fsevents)
+2024-05-22 10:37:18,101 WARNING werkzeug  * Debugger is active!
+2024-05-22 10:37:18,112 INFO werkzeug  * Debugger PIN: 185-591-295
+2024-05-22 10:37:18,619 INFO werkzeug  * Detected change in '/Users/sarah/Code/MedicalSoftwareDevelopment/Exercise 7/src/datastorage_test.py', reloading
+2024-05-22 10:37:19,667 INFO werkzeug  * Restarting with watchdog (fsevents)
+2024-05-22 10:37:19,754 WARNING werkzeug  * Debugger is active!
+2024-05-22 10:37:19,759 INFO werkzeug  * Debugger PIN: 185-591-295
+2024-05-22 10:37:20,949 INFO werkzeug  * Detected change in '/Users/sarah/Code/MedicalSoftwareDevelopment/Exercise 7/src/datastorage_test.py', reloading
+2024-05-22 10:37:22,009 INFO werkzeug  * Restarting with watchdog (fsevents)
+2024-05-22 10:37:22,102 WARNING werkzeug  * Debugger is active!
+2024-05-22 10:37:22,110 INFO werkzeug  * Debugger PIN: 185-591-295
+2024-05-22 10:37:39,319 INFO werkzeug  * Detected change in '/Users/sarah/Code/MedicalSoftwareDevelopment/Exercise 7/src/datastorage_test.py', reloading
+2024-05-22 10:37:40,388 INFO werkzeug  * Restarting with watchdog (fsevents)
+2024-05-22 10:37:40,512 WARNING werkzeug  * Debugger is active!
+2024-05-22 10:37:40,518 INFO werkzeug  * Debugger PIN: 185-591-295
+2024-05-22 10:37:50,222 INFO werkzeug  * Detected change in '/Users/sarah/Code/MedicalSoftwareDevelopment/Exercise 7/src/datastorage_test.py', reloading
+2024-05-22 10:37:51,274 INFO werkzeug  * Restarting with watchdog (fsevents)
+2024-05-22 10:37:51,447 WARNING werkzeug  * Debugger is active!
+2024-05-22 10:37:51,454 INFO werkzeug  * Debugger PIN: 185-591-295
+2024-05-22 10:38:04,772 INFO werkzeug  * Detected change in '/Users/sarah/Code/MedicalSoftwareDevelopment/Exercise 7/src/datastorage_test.py', reloading
+2024-05-22 10:38:05,817 INFO werkzeug  * Restarting with watchdog (fsevents)
+2024-05-22 10:38:05,952 WARNING werkzeug  * Debugger is active!
+2024-05-22 10:38:05,961 INFO werkzeug  * Debugger PIN: 185-591-295
+2024-05-22 10:38:06,678 INFO werkzeug  * Detected change in '/Users/sarah/Code/MedicalSoftwareDevelopment/Exercise 7/src/datastorage_test.py', reloading
+2024-05-22 10:38:07,732 INFO werkzeug  * Restarting with watchdog (fsevents)
+2024-05-22 10:38:07,834 WARNING werkzeug  * Debugger is active!
+2024-05-22 10:38:07,839 INFO werkzeug  * Debugger PIN: 185-591-295
+2024-05-22 10:38:14,054 INFO werkzeug  * Detected change in '/Users/sarah/Code/MedicalSoftwareDevelopment/Exercise 7/src/datastorage_test.py', reloading
+2024-05-22 10:38:15,109 INFO werkzeug  * Restarting with watchdog (fsevents)
+2024-05-22 10:38:15,212 WARNING werkzeug  * Debugger is active!
+2024-05-22 10:38:15,218 INFO werkzeug  * Debugger PIN: 185-591-295
+2024-05-22 10:38:19,941 INFO werkzeug  * Detected change in '/Users/sarah/Code/MedicalSoftwareDevelopment/Exercise 7/src/datastorage_test.py', reloading
+2024-05-22 10:38:21,006 INFO werkzeug  * Restarting with watchdog (fsevents)
+2024-05-22 10:38:21,105 WARNING werkzeug  * Debugger is active!
+2024-05-22 10:38:21,114 INFO werkzeug  * Debugger PIN: 185-591-295
+2024-05-22 10:38:32,690 INFO werkzeug  * Detected change in '/Users/sarah/Code/MedicalSoftwareDevelopment/Exercise 7/src/datastorage_test.py', reloading
+2024-05-22 10:38:32,998 INFO werkzeug  * Detected change in '/Users/sarah/Code/MedicalSoftwareDevelopment/Exercise 7/src/datastorage_test.py', reloading
+2024-05-22 10:38:34,054 INFO werkzeug  * Restarting with watchdog (fsevents)
+2024-05-22 10:38:34,223 WARNING werkzeug  * Debugger is active!
+2024-05-22 10:38:34,230 INFO werkzeug  * Debugger PIN: 185-591-295
+2024-05-22 10:38:54,220 INFO datastorage Created patient with ID: 0, Name: David Herzig
+2024-05-22 10:38:54,221 INFO datastorage Added data: <datastorage.DataPoint object at 0x100ff1e90>
+2024-05-22 10:38:54,224 INFO datastorage Created experiment with ID: 0, Name: Experiment 1
+2024-05-22 10:38:54,224 INFO datastorage Created experiment with ID: 1, Name: Experiment 2
+2024-05-22 10:38:54,224 INFO datastorage Stored 2 items to experiments_test.json
+2024-05-22 10:38:54,224 INFO datastorage Stored experiment to experiments_test.json
+2024-05-22 10:38:54,225 INFO datastorage Created patient with ID: 1, Name: Patient 1
+2024-05-22 10:38:54,225 INFO datastorage Created patient with ID: 2, Name: Patient 2
+2024-05-22 10:38:54,225 INFO datastorage Stored 3 items to patients_test.json
+2024-05-22 10:38:54,225 INFO datastorage Stored patient to patients_test.json

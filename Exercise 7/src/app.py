@@ -1,16 +1,20 @@
 """ Main application file for the data collection service exercise"""
 # import os
-# import logging
 # import tracemalloc
 # import psutil
 
 
 import json
+import logging
 from flask import request, Flask
 import datastorage
 
 
 app = Flask(__name__)
+
+logging.basicConfig(filename='app.log', level=logging.INFO,
+                    format='%(asctime)s %(levelname)s %(name)s %(message)s')
+logger = logging.getLogger(__name__)
 
 class Experiment:
     """Experiment class"""
@@ -26,10 +30,10 @@ def to_json(obj):
 @app.route('/info', methods=['GET'])
 def index():
     """Return information about the application"""
-
+    logger.info("Accessed the info endpoint")
     return json.dumps({'application' : 'Data Collection Service',
-    'author' : 'Davrecord_id Herzig', 'version' : 'v1_0_0', 
-    'Support' : 'dave.herzig@gmail.com', 'adjusted by' : 'Sarah Rebecca Meyer'})
+    'author' : 'Davrecord_id Herzig', 'version' : 'v1_0_1', 
+    'Support' : 'dave.herzig@gmail.com', 'adjusted by' : 'Sarah Rebecca Meyer', 'logging' : 'app.log'})
 
 @app.route('/experiment', methods=['POST', 'GET'])
 
@@ -41,6 +45,7 @@ def experiment_action():
         form_data = request.data
         data = json.loads(form_data)
         record_id = data_storage.create_experiment(data['name'])
+        logger.info("POST: Created experiment with ID: %s", record_id)
         return json.dumps({'result' : record_id})
     if request.method == 'GET':
         exps = data_storage.get_experiments()
@@ -48,6 +53,7 @@ def experiment_action():
         for key, value in exps.items():
             exp = Experiment(key, value)
             exps_array.append(exp)
+        logger.info("GET: Retrieved all experiments")
         return to_json(exps_array)
 
 @app.route('/patient', methods=['POST', 'GET'])
@@ -58,8 +64,10 @@ def patient_action():
         form_data = request.data
         data = json.loads(form_data)
         record_id = data_storage.create_patient(data['name'])
+        logger.info("POST: Created patient with ID: %s", record_id)
         return json.dumps({'result' : record_id})
     if request.method == 'GET':
+        logger.info("GET: Retrieved all patients")
         return data_storage.get_patients()
 
 
@@ -80,8 +88,9 @@ def store_data():
     elif data_type == 'data':
         data_storage.store_data(filename)
     else:
-        print('invalrecord_id data type: ' + data_type)
+        logger.error("Invalid data type: %s", data_type)
 
+    logger.info("Stored %s data to %s.json", data_type, filename)
     return json.dumps({'success':True}), 200, {'ContentType':'application/json'}
 
 
@@ -93,7 +102,7 @@ def upload_data():
     data = json.loads(form_data)
     data_storage = datastorage.DataStorage()
     data_storage.add_data(data)
-
+    logger.info("Data uploaded: %s", data)
     return json.dumps({'success':True}), 200, {'ContentType':'application/json'}
 
 

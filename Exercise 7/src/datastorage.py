@@ -1,7 +1,14 @@
 """ Data storage module"""
 
 import json
+import logging
 import idgenerator
+
+
+logging.basicConfig(filename='datastorage.log', level=logging.INFO,
+                    format='%(asctime)s %(levelname)s %(name)s %(message)s')
+logger = logging.getLogger(__name__)
+
 
 class DataPoint(object):
     """ Data point class"""
@@ -28,6 +35,7 @@ class DataStorage(object):
 
         record_id = len(self.patients)
         self.patients[record_id] = name
+        logger.info("Created patient with ID: %s, Name: %s", record_id, name)
         return record_id
 
 
@@ -35,6 +43,7 @@ class DataStorage(object):
         """ Create a new experiment and return the record_id"""
         record_id = len(self.experiments)
         self.experiments[record_id] = name
+        logger.info("Created experiment with ID: %s, Name: %s", record_id, name)
         return record_id
 
 
@@ -51,22 +60,26 @@ class DataStorage(object):
     def add_data(self, dataobj):
         """ Add data to the data storage"""
         self.data.append(dataobj)
+        logger.info("Added data: %s", dataobj)
 
 
     def store_data(self, filename):
         """ Store data into file"""
         self.store(filename, self.data)
         self.data.clear()
+        logger.info("Stored data to %s.json", filename)
 
 
     def store_patients(self, filename):
         """ Store patients into file"""
         self.store(filename, self.patients)
+        logger.info("Stored patient to %s.json", filename)
 
 
     def store_experiments(self, filename):
         """ Store experiments into file"""
         self.store(filename, self.experiments)
+        logger.info("Stored experiment to %s.json", filename)
 
 
     def store(self, filename, data):
@@ -74,3 +87,4 @@ class DataStorage(object):
         json_object = json.dumps(data, indent=4)
         with open(filename + ".json", "w") as outfile:
             outfile.write(json_object)
+        logger.info("Stored %s items to %s.json", len(data), filename)
