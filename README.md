@@ -67,3 +67,11 @@ Files:
 
 ## Exercise 6: Classes & Design Patterns with DNA2Protein
 Implemented directly in file dna2protein.py
+
+## Evercise 7: Data Collection Service
+- Cloned source code from https://gitlab.fhnw.ch/david.herzig/datacollectionservice
+- Used Postman and cURL to try out whether Flask was working
+- Used Pylint in Console + VS Code to improve Pylint Score
+- wrote Unittests for the datastorage.py
+- did Performance Tests using Apache JMeter
+- commited to Github with a Tag
