@@ -180,3 +180,120 @@
 2024-05-22 10:38:54,225 INFO datastorage Created patient with ID: 2, Name: Patient 2
 2024-05-22 10:38:54,225 INFO datastorage Stored 3 items to patients_test.json
 2024-05-22 10:38:54,225 INFO datastorage Stored patient to patients_test.json
+2024-05-22 10:43:39,202 INFO datastorage Created patient with ID: 0, Name: David Herzig
+2024-05-22 10:43:39,204 INFO datastorage Added data: <datastorage.DataPoint object at 0x105618e50>
+2024-05-22 10:43:39,205 INFO datastorage Stored 1 items to data_test.json
+2024-05-22 10:43:39,205 INFO datastorage Stored data to data_test.json
+2024-05-22 10:43:39,207 INFO datastorage Created experiment with ID: 0, Name: Experiment 1
+2024-05-22 10:43:39,207 INFO datastorage Created experiment with ID: 1, Name: Experiment 2
+2024-05-22 10:43:39,208 INFO datastorage Stored 2 items to experiments_test.json
+2024-05-22 10:43:39,208 INFO datastorage Stored experiment to experiments_test.json
+2024-05-22 10:43:39,209 INFO datastorage Created patient with ID: 1, Name: Patient 1
+2024-05-22 10:43:39,209 INFO datastorage Created patient with ID: 2, Name: Patient 2
+2024-05-22 10:43:39,209 INFO datastorage Stored 3 items to patients_test.json
+2024-05-22 10:43:39,209 INFO datastorage Stored patient to patients_test.json
+2024-05-22 10:46:11,344 INFO datastorage Created patient with ID: 0, Name: David Herzig
+2024-05-22 10:46:11,345 INFO datastorage Added data: <datastorage.DataPoint object at 0x103542b10>
+2024-05-22 10:46:11,345 INFO datastorage Stored 1 items to data_test.json
+2024-05-22 10:46:11,345 INFO datastorage Stored data to data_test.json
+2024-05-22 10:46:11,348 INFO datastorage Created experiment with ID: 0, Name: Experiment 1
+2024-05-22 10:46:11,348 INFO datastorage Created experiment with ID: 1, Name: Experiment 2
+2024-05-22 10:46:11,348 INFO datastorage Stored 2 items to experiments_test.json
+2024-05-22 10:46:11,348 INFO datastorage Stored experiment to experiments_test.json
+2024-05-22 10:46:11,349 INFO datastorage Created patient with ID: 0, Name: Patient 1
+2024-05-22 10:46:11,349 INFO datastorage Created patient with ID: 1, Name: Patient 2
+2024-05-22 10:46:11,349 INFO datastorage Stored 2 items to patients_test.json
+2024-05-22 10:46:11,349 INFO datastorage Stored patient to patients_test.json
+2024-05-22 10:48:14,374 INFO datastorage Created patient with ID: 0, Name: David Herzig
+2024-05-22 10:48:14,376 INFO datastorage Added data: <datastorage.DataPoint object at 0x1015dad50>
+2024-05-22 10:48:14,380 INFO datastorage Created experiment with ID: 0, Name: Experiment 1
+2024-05-22 10:48:14,380 INFO datastorage Created experiment with ID: 1, Name: Experiment 2
+2024-05-22 10:48:14,380 INFO datastorage Stored 2 items to experiments_test.json
+2024-05-22 10:48:14,382 INFO datastorage Created patient with ID: 0, Name: Patient 1
+2024-05-22 10:48:14,382 INFO datastorage Created patient with ID: 1, Name: Patient 2
+2024-05-22 10:48:14,382 INFO datastorage Stored 2 items to patients_test.json
+2024-05-22 10:49:11,263 INFO datastorage Created patient with ID: 0, Name: David Herzig
+2024-05-22 10:49:11,267 INFO datastorage Created experiment with ID: 0, Name: Experiment 1
+2024-05-22 10:49:11,267 INFO datastorage Created experiment with ID: 1, Name: Experiment 2
+2024-05-22 10:49:11,267 INFO datastorage Stored 2 items to experiments_test.json
+2024-05-22 10:49:11,269 INFO datastorage Created patient with ID: 0, Name: David Herzig
+2024-05-22 10:49:11,269 INFO datastorage Created patient with ID: 1, Name: Patient 1
+2024-05-22 10:49:11,269 INFO datastorage Created patient with ID: 2, Name: Patient 2
+2024-05-22 10:49:11,269 INFO datastorage Stored 3 items to patients_test.json
+2024-05-22 10:49:54,098 INFO datastorage Created patient with ID: 0, Name: David Herzig
+2024-05-22 10:49:54,100 INFO datastorage Added data: <datastorage.DataPoint object at 0x101a05cd0>
+2024-05-22 10:49:54,103 INFO datastorage Created experiment with ID: 0, Name: Experiment 1
+2024-05-22 10:49:54,104 INFO datastorage Created experiment with ID: 1, Name: Experiment 2
+2024-05-22 10:49:54,104 INFO datastorage Stored 2 items to experiments_test.json
+2024-05-22 10:49:54,106 INFO datastorage Created patient with ID: 0, Name: Patient 1
+2024-05-22 10:49:54,106 INFO datastorage Created patient with ID: 1, Name: Patient 2
+2024-05-22 10:49:54,106 INFO datastorage Stored 2 items to patients_test.json
+2024-05-22 12:50:33,276 INFO datastorage Created patient with ID: 0, Name: David Herzig
+2024-05-22 12:50:33,278 INFO datastorage Added data: <datastorage.DataPoint object at 0x101e3ad50>
+2024-05-22 12:50:33,278 INFO datastorage Stored 1 items to data_test.json
+2024-05-22 12:50:33,278 INFO datastorage Stored data to data_test.json
+2024-05-22 12:50:33,280 INFO datastorage Created experiment with ID: 0, Name: Experiment 1
+2024-05-22 12:50:33,280 INFO datastorage Created experiment with ID: 1, Name: Experiment 2
+2024-05-22 12:50:33,280 INFO datastorage Stored 2 items to experiments_test.json
+2024-05-22 12:50:33,280 INFO datastorage Stored experiment to experiments_test.json
+2024-05-22 12:50:33,281 INFO datastorage Created patient with ID: 0, Name: Patient 1
+2024-05-22 12:50:33,281 INFO datastorage Created patient with ID: 1, Name: Patient 2
+2024-05-22 12:50:33,281 INFO datastorage Stored 2 items to patients_test.json
+2024-05-22 12:50:33,281 INFO datastorage Stored patient to patients_test.json
+2024-05-22 12:51:53,657 INFO datastorage Created patient with ID: 0, Name: David Herzig
+2024-05-22 12:51:53,658 INFO datastorage Added data: <datastorage.DataPoint object at 0x105182d50>
+2024-05-22 12:51:53,658 INFO datastorage Stored 1 items to data_test.json
+2024-05-22 12:51:53,658 INFO datastorage Stored data to data_test.json
+2024-05-22 12:51:53,661 INFO datastorage Created experiment with ID: 0, Name: Experiment 1
+2024-05-22 12:51:53,661 INFO datastorage Created experiment with ID: 1, Name: Experiment 2
+2024-05-22 12:51:53,661 INFO datastorage Stored 2 items to experiments_test.json
+2024-05-22 12:51:53,661 INFO datastorage Stored experiment to experiments_test.json
+2024-05-22 12:51:53,662 INFO datastorage Created patient with ID: 0, Name: Patient 1
+2024-05-22 12:51:53,662 INFO datastorage Created patient with ID: 1, Name: Patient 2
+2024-05-22 12:51:53,662 INFO datastorage Stored 2 items to patients_test.json
+2024-05-22 12:51:53,662 INFO datastorage Stored patient to patients_test.json
+2024-05-22 12:54:06,352 INFO datastorage Created patient with ID: 0, Name: David Herzig
+2024-05-22 12:54:06,354 INFO datastorage Added data: <datastorage.DataPoint object at 0x105f5ad50>
+2024-05-22 12:54:06,354 INFO datastorage Stored 1 items to data_test.json
+2024-05-22 12:54:06,354 INFO datastorage Stored data to data_test.json
+2024-05-22 12:54:06,356 INFO datastorage Created experiment with ID: 0, Name: Experiment 1
+2024-05-22 12:54:06,356 INFO datastorage Created experiment with ID: 1, Name: Experiment 2
+2024-05-22 12:54:06,356 INFO datastorage Stored 2 items to experiments_test.json
+2024-05-22 12:54:06,356 INFO datastorage Stored experiment to experiments_test.json
+2024-05-22 12:54:06,357 INFO datastorage Created patient with ID: 0, Name: Patient 1
+2024-05-22 12:54:06,358 INFO datastorage Created patient with ID: 1, Name: Patient 2
+2024-05-22 12:54:06,359 INFO datastorage Stored 2 items to patients_test.json
+2024-05-22 12:54:06,359 INFO datastorage Stored patient to patients_test.json
+2024-05-22 12:54:50,183 INFO datastorage Created patient with ID: 0, Name: David Herzig
+2024-05-22 12:54:50,184 INFO datastorage Created experiment with ID: 0, Name: Experiment 1
+2024-05-22 12:54:50,185 INFO datastorage Created experiment with ID: 1, Name: Experiment 2
+2024-05-22 12:54:50,185 INFO datastorage Stored 2 items to experiments_test.json
+2024-05-22 12:54:50,185 INFO datastorage Stored experiment to experiments_test.json
+2024-05-22 12:54:50,185 INFO datastorage Created patient with ID: 0, Name: Patient 1
+2024-05-22 12:54:50,186 INFO datastorage Created patient with ID: 1, Name: Patient 2
+2024-05-22 12:54:50,186 INFO datastorage Stored 2 items to patients_test.json
+2024-05-22 12:54:50,186 INFO datastorage Stored patient to patients_test.json
+2024-05-22 12:55:05,229 INFO datastorage Created patient with ID: 0, Name: David Herzig
+2024-05-22 12:55:05,230 INFO datastorage Added data: <datastorage.DataPoint object at 0x1050e2710>
+2024-05-22 12:55:05,231 INFO datastorage Stored 1 items to data_test.json
+2024-05-22 12:55:05,231 INFO datastorage Stored data to data_test.json
+2024-05-22 12:55:05,231 INFO datastorage Created experiment with ID: 0, Name: Experiment 1
+2024-05-22 12:55:05,231 INFO datastorage Created experiment with ID: 1, Name: Experiment 2
+2024-05-22 12:55:05,232 INFO datastorage Stored 2 items to experiments_test.json
+2024-05-22 12:55:05,232 INFO datastorage Stored experiment to experiments_test.json
+2024-05-22 12:55:05,232 INFO datastorage Created patient with ID: 0, Name: Patient 1
+2024-05-22 12:55:05,232 INFO datastorage Created patient with ID: 1, Name: Patient 2
+2024-05-22 12:55:05,232 INFO datastorage Stored 2 items to patients_test.json
+2024-05-22 12:55:05,233 INFO datastorage Stored patient to patients_test.json
+2024-05-22 12:55:17,585 INFO datastorage Created patient with ID: 0, Name: David Herzig
+2024-05-22 12:55:17,587 INFO datastorage Added data: <datastorage.DataPoint object at 0x1013be710>
+2024-05-22 12:55:17,587 INFO datastorage Stored 1 items to data_test.json
+2024-05-22 12:55:17,587 INFO datastorage Stored data to data_test.json
+2024-05-22 12:55:17,588 INFO datastorage Created experiment with ID: 0, Name: Experiment 1
+2024-05-22 12:55:17,588 INFO datastorage Created experiment with ID: 1, Name: Experiment 2
+2024-05-22 12:55:17,588 INFO datastorage Stored 2 items to experiments_test.json
+2024-05-22 12:55:17,588 INFO datastorage Stored experiment to experiments_test.json
+2024-05-22 12:55:17,589 INFO datastorage Created patient with ID: 0, Name: Patient 1
+2024-05-22 12:55:17,589 INFO datastorage Created patient with ID: 1, Name: Patient 2
+2024-05-22 12:55:17,589 INFO datastorage Stored 2 items to patients_test.json
+2024-05-22 12:55:17,589 INFO datastorage Stored patient to patients_test.json
