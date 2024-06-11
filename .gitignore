@@ -1,3 +1,9 @@
 */gene_info
 genes.db
 md5_test_genes.tsv
+
+mv androidsensoroverview androidsensoroverview_tmp
+git submodule deinit androidsensoroverview
+git rm --cached androidsensoroverview
+mv androidsensoroverview_tmp androidsensoroverview
+git add androidsensoroverview
