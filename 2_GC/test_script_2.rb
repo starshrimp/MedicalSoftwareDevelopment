@@ -1,27 +1,33 @@
 require 'minitest/autorun'
 require 'minitest/mock'
 require 'bio'
-require_relative 'exercise_2.rb' 
-
+require_relative 'exercise_2'
 
 class TestCalculateMD5 < Minitest::Test
-  
   class Exercise1Test < Minitest::Test
     def test_check_filename_with_no_arguments
       ARGV.clear
-      assert_output("Please enter it in the format like this: ruby exercise_1.rb FILENAME\n") { exit_assertion { check_filename } }
+      assert_output("Please enter it in the format like this: ruby exercise_1.rb FILENAME\n") do
+        exit_assertion do
+          check_filename
+        end
+      end
     end
-  
+
     def test_check_filename_with_multiple_arguments
       ARGV.replace(['file1.fna', 'file2.fna'])
-      assert_output("Please enter it in the format like this: ruby exercise_1.rb FILENAME\n") { exit_assertion { check_filename } }
+      assert_output("Please enter it in the format like this: ruby exercise_1.rb FILENAME\n") do
+        exit_assertion do
+          check_filename
+        end
+      end
     end
-  
+
     def test_check_filename_with_nonexistent_file
       ARGV.replace(['nonexistent.fna'])
       assert_output("File does not exist or is not readable.\n") { exit_assertion { check_filename } }
     end
-  
+
     def test_check_filename_with_valid_file
       file_path = 'valid_file.fna'
       File.write(file_path, ">Sample\nATCG")
@@ -30,25 +36,24 @@ class TestCalculateMD5 < Minitest::Test
     ensure
       File.delete(file_path) if File.exist?(file_path)
     end
-  
+
     private
-  
+
     def exit_assertion
       yield
     rescue SystemExit => e
-      assert true  # If we get here, it means exit was called, which is expected in some tests
+      assert true # If we get here, it means exit was called, which is expected in some tests
     else
       assert false, "Expected script to exit but it didn't"
     end
   end
-  
 end
 
 class Exercise1Test < Minitest::Test
   # Helper method to create a temporary FASTA file
   def create_temp_fasta(content)
-    file_path = "temp.fasta"
-    File.open(file_path, "w") do |file|
+    file_path = 'temp.fasta'
+    File.open(file_path, 'w') do |file|
       file.write(content)
     end
     file_path
