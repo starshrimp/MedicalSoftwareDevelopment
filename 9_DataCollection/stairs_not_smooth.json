@@ -1,0 +1,4084 @@
+[
+    {
+        "accuracy": 3,
+        "data": [
+            0.9947941,
+            -0.21197024,
+            0.62980205
+        ],
+        "experimentId": 16,
+        "patientId": 12,
+        "sensorId": "LSM6DSV Gyroscope",
+        "sensorType": 4,
+        "timestamp": 1553985449656067
+    },
+    {
+        "accuracy": 3,
+        "data": [
+            0.17073683,
+            -0.11835514,
+            -1.4706581
+        ],
+        "experimentId": 16,
+        "patientId": 12,
+        "sensorId": "LSM6DSV Gyroscope",
+        "sensorType": 4,
+        "timestamp": 1553985312630359
+    },
+    {
+        "accuracy": 3,
+        "data": [
+            -0.84604836,
+            2.5509732,
+            0.19349156
+        ],
+        "experimentId": 16,
+        "patientId": 12,
+        "sensorId": "LSM6DSV Gyroscope",
+        "sensorType": 4,
+        "timestamp": 1553985644817724
+    },
+    {
+        "accuracy": 3,
+        "data": [
+            0.43310347,
+            -1.3040446,
+            -1.2275337
+        ],
+        "experimentId": 16,
+        "patientId": 12,
+        "sensorId": "LSM6DSV Gyroscope",
+        "sensorType": 4,
+        "timestamp": 1553985134084961
+    },
+    {
+        "accuracy": 3,
+        "data": [
+            0.077121735,
+            -0.13713925,
+            -1.4831808
+        ],
+        "experimentId": 16,
+        "patientId": 12,
+        "sensorId": "LSM6DSV Gyroscope",
+        "sensorType": 4,
+        "timestamp": 1553985304336178
+    },
+    {
+        "accuracy": 3,
+        "data": [
+            0.103847094,
+            0.8752172,
+            0.5317582
+        ],
+        "experimentId": 16,
+        "patientId": 12,
+        "sensorId": "LSM6DSV Gyroscope",
+        "sensorType": 4,
+        "timestamp": 1553985578383294
+    },
+    {
+        "accuracy": 3,
+        "data": [
+            0.64980793,
+            0.29703322,
+            0.6936375
+        ],
+        "experimentId": 16,
+        "patientId": 12,
+        "sensorId": "LSM6DSV Gyroscope",
+        "sensorType": 4,
+        "timestamp": 1553985424750903
+    },
+    {
+        "accuracy": 3,
+        "data": [
+            -0.054825157,
+            -0.13607024,
+            -1.4590516
+        ],
+        "experimentId": 16,
+        "patientId": 12,
+        "sensorId": "LSM6DSV Gyroscope",
+        "sensorType": 4,
+        "timestamp": 1553985296031918
+    },
+    {
+        "accuracy": 3,
+        "data": [
+            -0.064751714,
+            2.5117252,
+            -0.038026363
+        ],
+        "experimentId": 16,
+        "patientId": 12,
+        "sensorId": "LSM6DSV Gyroscope",
+        "sensorType": 4,
+        "timestamp": 1553985615753177
+    },
+    {
+        "accuracy": 3,
+        "data": [
+            0.4014912,
+            0.3746131,
+            -0.75518215
+        ],
+        "experimentId": 16,
+        "patientId": 12,
+        "sensorId": "LSM6DSV Gyroscope",
+        "sensorType": 4,
+        "timestamp": 1553985358319548
+    },
+    {
+        "accuracy": 3,
+        "data": [
+            118.95695,
+            68.30022,
+            40.762775
+        ],
+        "experimentId": 16,
+        "patientId": 12,
+        "sensorId": "Orientation Sensor",
+        "sensorType": 3,
+        "timestamp": 1553988898091686
+    },
+    {
+        "accuracy": 3,
+        "data": [
+            0.33261612,
+            0.22266038,
+            -1.02717
+        ],
+        "experimentId": 16,
+        "patientId": 12,
+        "sensorId": "LSM6DSV Gyroscope",
+        "sensorType": 4,
+        "timestamp": 1553985345864856
+    },
+    {
+        "accuracy": 3,
+        "data": [
+            144.94647,
+            56.115807,
+            45.51946
+        ],
+        "experimentId": 16,
+        "patientId": 12,
+        "sensorId": "Orientation Sensor",
+        "sensorType": 3,
+        "timestamp": 1553985501580192
+    },
+    {
+        "accuracy": 3,
+        "data": [
+            -0.0032070426,
+            0.7334964,
+            0.2302962
+        ],
+        "experimentId": 16,
+        "patientId": 12,
+        "sensorId": "LSM6DSV Gyroscope",
+        "sensorType": 4,
+        "timestamp": 1553985536858045
+    },
+    {
+        "accuracy": 3,
+        "data": [
+            0.44959682,
+            -1.6042849,
+            -1.347416
+        ],
+        "experimentId": 16,
+        "patientId": 12,
+        "sensorId": "LSM6DSV Gyroscope",
+        "sensorType": 4,
+        "timestamp": 1553985146560296
+    },
+    {
+        "accuracy": 3,
+        "data": [
+            0.15607607,
+            -1.5696182,
+            -1.3593279
+        ],
+        "experimentId": 16,
+        "patientId": 12,
+        "sensorId": "LSM6DSV Gyroscope",
+        "sensorType": 4,
+        "timestamp": 1553985175630823
+    },
+    {
+        "accuracy": 3,
+        "data": [
+            -0.66614854,
+            -0.9077458,
+            -1.6481144
+        ],
+        "experimentId": 16,
+        "patientId": 12,
+        "sensorId": "LSM6DSV Gyroscope",
+        "sensorType": 4,
+        "timestamp": 1553985208851426
+    },
+    {
+        "accuracy": 3,
+        "data": [
+            0.3791946,
+            0.24358252,
+            0.27305678
+        ],
+        "experimentId": 16,
+        "patientId": 12,
+        "sensorId": "LSM6DSV Gyroscope",
+        "sensorType": 4,
+        "timestamp": 1553985516100139
+    },
+    {
+        "accuracy": 3,
+        "data": [
+            14.068003,
+            -4.182056,
+            1.9142581
+        ],
+        "experimentId": 16,
+        "patientId": 12,
+        "sensorId": "LSM6DSV Accelerometer",
+        "sensorType": 1,
+        "timestamp": 1553985271119005
+    },
+    {
+        "accuracy": 3,
+        "data": [
+            0.1591304,
+            0.53130007,
+            0.21853705
+        ],
+        "experimentId": 16,
+        "patientId": 12,
+        "sensorId": "LSM6DSV Gyroscope",
+        "sensorType": 4,
+        "timestamp": 1553985528569745
+    },
+    {
+        "accuracy": 3,
+        "data": [
+            15.890736,
+            -1.5529419,
+            3.0448668
+        ],
+        "experimentId": 16,
+        "patientId": 12,
+        "sensorId": "LSM6DSV Accelerometer",
+        "sensorType": 1,
+        "timestamp": 1553985634438125
+    },
+    {
+        "accuracy": 3,
+        "data": [
+            0.35216382,
+            0.27687466,
+            -0.9401216
+        ],
+        "experimentId": 16,
+        "patientId": 12,
+        "sensorId": "LSM6DSV Gyroscope",
+        "sensorType": 4,
+        "timestamp": 1553985349997018
+    },
+    {
+        "accuracy": 3,
+        "data": [
+            26.898916,
+            -5.0512486,
+            5.1475596
+        ],
+        "experimentId": 16,
+        "patientId": 12,
+        "sensorId": "LSM6DSV Accelerometer",
+        "sensorType": 1,
+        "timestamp": 1553988100861848
+    },
+    {
+        "accuracy": 3,
+        "data": [
+            1.073901,
+            -0.33628133,
+            0.61162883
+        ],
+        "experimentId": 16,
+        "patientId": 12,
+        "sensorId": "LSM6DSV Gyroscope",
+        "sensorType": 4,
+        "timestamp": 1553985457968761
+    },
+    {
+        "accuracy": 3,
+        "data": [
+            -1.3077098,
+            -0.24587326,
+            -1.7602082
+        ],
+        "experimentId": 16,
+        "patientId": 12,
+        "sensorId": "LSM6DSV Gyroscope",
+        "sensorType": 4,
+        "timestamp": 1553985229593420
+    },
+    {
+        "accuracy": 3,
+        "data": [
+            -0.22220223,
+            1.3672692,
+            0.40469822
+        ],
+        "experimentId": 16,
+        "patientId": 12,
+        "sensorId": "LSM6DSV Gyroscope",
+        "sensorType": 4,
+        "timestamp": 1553985565926770
+    },
+    {
+        "accuracy": 3,
+        "data": [
+            0.26847526,
+            -1.6432275,
+            -1.3724614
+        ],
+        "experimentId": 16,
+        "patientId": 12,
+        "sensorId": "LSM6DSV Gyroscope",
+        "sensorType": 4,
+        "timestamp": 1553985167326603
+    },
+    {
+        "accuracy": 3,
+        "data": [
+            12.863814,
+            -4.8562336,
+            0.22671995
+        ],
+        "experimentId": 16,
+        "patientId": 12,
+        "sensorId": "LSM6DSV Accelerometer",
+        "sensorType": 1,
+        "timestamp": 1553986948630461
+    },
+    {
+        "accuracy": 3,
+        "data": [
+            155.19296,
+            52.008987,
+            32.94527
+        ],
+        "experimentId": 16,
+        "patientId": 12,
+        "sensorId": "Orientation Sensor",
+        "sensorType": 3,
+        "timestamp": 1553985709178261
+    },
+    {
+        "accuracy": 3,
+        "data": [
+            124.67127,
+            61.07311,
+            37.513325
+        ],
+        "experimentId": 16,
+        "patientId": 12,
+        "sensorId": "Orientation Sensor",
+        "sensorType": 3,
+        "timestamp": 1553986525110887
+    },
+    {
+        "accuracy": 3,
+        "data": [
+            0.21655174,
+            -1.6100881,
+            -1.3677273
+        ],
+        "experimentId": 16,
+        "patientId": 12,
+        "sensorId": "LSM6DSV Gyroscope",
+        "sensorType": 4,
+        "timestamp": 1553985171478439
+    },
+    {
+        "accuracy": 3,
+        "data": [
+            0.12583824,
+            -0.1301143,
+            -1.4842498
+        ],
+        "experimentId": 16,
+        "patientId": 12,
+        "sensorId": "LSM6DSV Gyroscope",
+        "sensorType": 4,
+        "timestamp": 1553985308486305
+    },
+    {
+        "accuracy": 3,
+        "data": [
+            -1.3119859,
+            0.111177474,
+            -1.5044084
+        ],
+        "experimentId": 16,
+        "patientId": 12,
+        "sensorId": "LSM6DSV Gyroscope",
+        "sensorType": 4,
+        "timestamp": 1553985254509690
+    },
+    {
+        "accuracy": 3,
+        "data": [
+            0.95157534,
+            -0.31673363,
+            0.54641896
+        ],
+        "experimentId": 16,
+        "patientId": 12,
+        "sensorId": "LSM6DSV Gyroscope",
+        "sensorType": 4,
+        "timestamp": 1553985478745962
+    },
+    {
+        "accuracy": 3,
+        "data": [
+            0.24556783,
+            -0.07284568,
+            -1.4104879
+        ],
+        "experimentId": 16,
+        "patientId": 12,
+        "sensorId": "LSM6DSV Gyroscope",
+        "sensorType": 4,
+        "timestamp": 1553985320961282
+    },
+    {
+        "accuracy": 3,
+        "data": [
+            4.0588255,
+            -2.5220351,
+            -0.01794617
+        ],
+        "experimentId": 16,
+        "patientId": 12,
+        "sensorId": "LSM6DSV Accelerometer",
+        "sensorType": 1,
+        "timestamp": 1553987081487449
+    },
+    {
+        "accuracy": 3,
+        "data": [
+            0.3202461,
+            0.16722436,
+            -1.1042917
+        ],
+        "experimentId": 16,
+        "patientId": 12,
+        "sensorId": "LSM6DSV Gyroscope",
+        "sensorType": 4,
+        "timestamp": 1553985341718921
+    },
+    {
+        "accuracy": 3,
+        "data": [
+            -1.0888673,
+            0.053145275,
+            -1.4425583
+        ],
+        "experimentId": 16,
+        "patientId": 12,
+        "sensorId": "LSM6DSV Gyroscope",
+        "sensorType": 4,
+        "timestamp": 1553985262814389
+    },
+    {
+        "accuracy": 3,
+        "data": [
+            0.30757064,
+            0.06414085,
+            -1.2463179
+        ],
+        "experimentId": 16,
+        "patientId": 12,
+        "sensorId": "LSM6DSV Gyroscope",
+        "sensorType": 4,
+        "timestamp": 1553985333415557
+    },
+    {
+        "accuracy": 3,
+        "data": [
+            0.81382525,
+            -0.26083946,
+            0.50442195
+        ],
+        "experimentId": 16,
+        "patientId": 12,
+        "sensorId": "LSM6DSV Gyroscope",
+        "sensorType": 4,
+        "timestamp": 1553985487046479
+    },
+    {
+        "accuracy": 3,
+        "data": [
+            -0.26374108,
+            1.2405146,
+            0.29428434
+        ],
+        "experimentId": 16,
+        "patientId": 12,
+        "sensorId": "LSM6DSV Gyroscope",
+        "sensorType": 4,
+        "timestamp": 1553985553469527
+    },
+    {
+        "accuracy": 3,
+        "data": [
+            0.74372846,
+            -0.22556199,
+            0.474795
+        ],
+        "experimentId": 16,
+        "patientId": 12,
+        "sensorId": "LSM6DSV Gyroscope",
+        "sensorType": 4,
+        "timestamp": 1553985491199109
+    },
+    {
+        "accuracy": 3,
+        "data": [
+            0.59742624,
+            0.3643811,
+            0.6800457
+        ],
+        "experimentId": 16,
+        "patientId": 12,
+        "sensorId": "LSM6DSV Gyroscope",
+        "sensorType": 4,
+        "timestamp": 1553985420598480
+    },
+    {
+        "accuracy": 3,
+        "data": [
+            -0.52763486,
+            -1.0088439,
+            -1.571909
+        ],
+        "experimentId": 16,
+        "patientId": 12,
+        "sensorId": "LSM6DSV Gyroscope",
+        "sensorType": 4,
+        "timestamp": 1553985204696263
+    },
+    {
+        "accuracy": 3,
+        "data": [
+            -1.3991868,
+            -0.11927144,
+            -1.72264
+        ],
+        "experimentId": 16,
+        "patientId": 12,
+        "sensorId": "LSM6DSV Gyroscope",
+        "sensorType": 4,
+        "timestamp": 1553985233749192
+    },
+    {
+        "accuracy": 3,
+        "data": [
+            29.140991,
+            -8.850452,
+            7.3345995
+        ],
+        "experimentId": 16,
+        "patientId": 12,
+        "sensorId": "LSM6DSV Accelerometer",
+        "sensorType": 1,
+        "timestamp": 1553986298794858
+    },
+    {
+        "accuracy": 3,
+        "data": [
+            0.4578435,
+            0.6107125,
+            0.44211373
+        ],
+        "experimentId": 16,
+        "patientId": 12,
+        "sensorId": "LSM6DSV Gyroscope",
+        "sensorType": 4,
+        "timestamp": 1553985399837563
+    },
+    {
+        "accuracy": 3,
+        "data": [
+            9.132208,
+            -4.488337,
+            1.2418749
+        ],
+        "experimentId": 16,
+        "patientId": 12,
+        "sensorId": "LSM6DSV Accelerometer",
+        "sensorType": 1,
+        "timestamp": 1553986431666067
+    },
+    {
+        "accuracy": 3,
+        "data": [
+            -0.5123632,
+            -0.094531395,
+            -1.4054482
+        ],
+        "experimentId": 16,
+        "patientId": 12,
+        "sensorId": "LSM6DSV Gyroscope",
+        "sensorType": 4,
+        "timestamp": 1553985279422910
+    },
+    {
+        "accuracy": 3,
+        "data": [
+            -0.3678936,
+            -0.6737844,
+            -0.82359904
+        ],
+        "experimentId": 16,
+        "patientId": 12,
+        "sensorId": "LSM6DSV Gyroscope",
+        "sensorType": 4,
+        "timestamp": 1553987808143492
+    },
+    {
+        "accuracy": 3,
+        "data": [
+            -3.4779677,
+            -0.95772725,
+            0.90448695
+        ],
+        "experimentId": 16,
+        "patientId": 12,
+        "sensorId": "LSM6DSV Accelerometer",
+        "sensorType": 1,
+        "timestamp": 1553985368688313
+    },
+    {
+        "accuracy": 3,
+        "data": [
+            -0.3987423,
+            -1.118647,
+            -1.4979943
+        ],
+        "experimentId": 16,
+        "patientId": 12,
+        "sensorId": "LSM6DSV Gyroscope",
+        "sensorType": 4,
+        "timestamp": 1553985200545802
+    },
+    {
+        "accuracy": 3,
+        "data": [
+            -0.27977628,
+            -1.2299771,
+            -1.4315627
+        ],
+        "experimentId": 16,
+        "patientId": 12,
+        "sensorId": "LSM6DSV Gyroscope",
+        "sensorType": 4,
+        "timestamp": 1553985196378188
+    },
+    {
+        "accuracy": 3,
+        "data": [
+            -2.0937407,
+            -0.29000828,
+            1.4906639
+        ],
+        "experimentId": 16,
+        "patientId": 12,
+        "sensorId": "LSM6DSV Gyroscope",
+        "sensorType": 4,
+        "timestamp": 1553989817822568
+    },
+    {
+        "accuracy": 3,
+        "data": [
+            16.494923,
+            -2.2217357,
+            2.196013
+        ],
+        "experimentId": 16,
+        "patientId": 12,
+        "sensorId": "LSM6DSV Accelerometer",
+        "sensorType": 1,
+        "timestamp": 1553986830293213
+    },
+    {
+        "accuracy": 3,
+        "data": [
+            -0.076358154,
+            -1.4103352,
+            -1.3538301
+        ],
+        "experimentId": 16,
+        "patientId": 12,
+        "sensorId": "LSM6DSV Gyroscope",
+        "sensorType": 4,
+        "timestamp": 1553985188080978
+    },
+    {
+        "accuracy": 3,
+        "data": [
+            143.79564,
+            64.38034,
+            44.96056
+        ],
+        "experimentId": 16,
+        "patientId": 12,
+        "sensorId": "Orientation Sensor",
+        "sensorType": 3,
+        "timestamp": 1553985296031918
+    },
+    {
+        "accuracy": 3,
+        "data": [
+            -0.8700248,
+            0.47219884,
+            0.7968737
+        ],
+        "experimentId": 16,
+        "patientId": 12,
+        "sensorId": "LSM6DSV Gyroscope",
+        "sensorType": 4,
+        "timestamp": 1553985690491054
+    },
+    {
+        "accuracy": 3,
+        "data": [
+            0.45616361,
+            -1.428203,
+            -1.2837334
+        ],
+        "experimentId": 16,
+        "patientId": 12,
+        "sensorId": "LSM6DSV Gyroscope",
+        "sensorType": 4,
+        "timestamp": 1553985138238153
+    },
+    {
+        "accuracy": 3,
+        "data": [
+            0.05497787,
+            2.4982862,
+            0.061391957
+        ],
+        "experimentId": 16,
+        "patientId": 12,
+        "sensorId": "LSM6DSV Gyroscope",
+        "sensorType": 4,
+        "timestamp": 1553985611601263
+    },
+    {
+        "accuracy": 3,
+        "data": [
+            153.19966,
+            48.814632,
+            29.550055
+        ],
+        "experimentId": 16,
+        "patientId": 12,
+        "sensorId": "Orientation Sensor",
+        "sensorType": 3,
+        "timestamp": 1553984689818473
+    },
+    {
+        "accuracy": 3,
+        "data": [
+            133.33546,
+            65.77605,
+            47.799847
+        ],
+        "experimentId": 16,
+        "patientId": 12,
+        "sensorId": "Orientation Sensor",
+        "sensorType": 3,
+        "timestamp": 1553987968005562
+    },
+    {
+        "accuracy": 3,
+        "data": [
+            -0.95722586,
+            0.0032070426,
+            -1.4176655
+        ],
+        "experimentId": 16,
+        "patientId": 12,
+        "sensorId": "LSM6DSV Gyroscope",
+        "sensorType": 4,
+        "timestamp": 1553985266967170
+    },
+    {
+        "accuracy": 3,
+        "data": [
+            0.55741453,
+            -0.04352415,
+            0.37018433
+        ],
+        "experimentId": 16,
+        "patientId": 12,
+        "sensorId": "LSM6DSV Gyroscope",
+        "sensorType": 4,
+        "timestamp": 1553985503656352
+    },
+    {
+        "accuracy": 3,
+        "data": [
+            4.4542394,
+            -1.3818551,
+            0.94695956
+        ],
+        "experimentId": 16,
+        "patientId": 12,
+        "sensorId": "LSM6DSV Accelerometer",
+        "sensorType": 1,
+        "timestamp": 1553987612969447
+    },
+    {
+        "accuracy": 3,
+        "data": [
+            -1.4596626,
+            -0.017715093,
+            -1.6798794
+        ],
+        "experimentId": 16,
+        "patientId": 12,
+        "sensorId": "LSM6DSV Gyroscope",
+        "sensorType": 4,
+        "timestamp": 1553985237900590
+    },
+    {
+        "accuracy": 3,
+        "data": [
+            0.6757697,
+            -0.18051068,
+            0.44150287
+        ],
+        "experimentId": 16,
+        "patientId": 12,
+        "sensorId": "LSM6DSV Gyroscope",
+        "sensorType": 4,
+        "timestamp": 1553985495351778
+    },
+    {
+        "accuracy": 3,
+        "data": [
+            -0.37293324,
+            -0.10781772,
+            -1.4147639
+        ],
+        "experimentId": 16,
+        "patientId": 12,
+        "sensorId": "LSM6DSV Gyroscope",
+        "sensorType": 4,
+        "timestamp": 1553985283575202
+    },
+    {
+        "accuracy": 3,
+        "data": [
+            152.30907,
+            52.78255,
+            24.646559
+        ],
+        "experimentId": 16,
+        "patientId": 12,
+        "sensorId": "Orientation Sensor",
+        "sensorType": 3,
+        "timestamp": 1553984822689704
+    },
+    {
+        "accuracy": 3,
+        "data": [
+            -0.9669997,
+            2.4743097,
+            0.31673363
+        ],
+        "experimentId": 16,
+        "patientId": 12,
+        "sensorId": "LSM6DSV Gyroscope",
+        "sensorType": 4,
+        "timestamp": 1553985648966762
+    },
+    {
+        "accuracy": 3,
+        "data": [
+            -0.023365596,
+            1.0963504,
+            0.4970916
+        ],
+        "experimentId": 16,
+        "patientId": 12,
+        "sensorId": "LSM6DSV Gyroscope",
+        "sensorType": 4,
+        "timestamp": 1553985574231265
+    },
+    {
+        "accuracy": 3,
+        "data": [
+            0.61621034,
+            -0.120493166,
+            0.4071417
+        ],
+        "experimentId": 16,
+        "patientId": 12,
+        "sensorId": "LSM6DSV Gyroscope",
+        "sensorType": 4,
+        "timestamp": 1553985499503665
+    },
+    {
+        "accuracy": 3,
+        "data": [
+            130.52112,
+            47.14446,
+            24.070797
+        ],
+        "experimentId": 16,
+        "patientId": 12,
+        "sensorId": "Orientation Sensor",
+        "sensorType": 3,
+        "timestamp": 1553987214360569
+    },
+    {
+        "accuracy": 3,
+        "data": [
+            1.0844386,
+            -0.37400225,
+            0.5920811
+        ],
+        "experimentId": 16,
+        "patientId": 12,
+        "sensorId": "LSM6DSV Gyroscope",
+        "sensorType": 4,
+        "timestamp": 1553985466276439
+    },
+    {
+        "accuracy": 3,
+        "data": [
+            2.187638,
+            -0.7435696,
+            -0.5419743
+        ],
+        "experimentId": 16,
+        "patientId": 12,
+        "sensorId": "LSM6DSV Accelerometer",
+        "sensorType": 1,
+        "timestamp": 1553989689084793
+    },
+    {
+        "accuracy": 3,
+        "data": [
+            0.75900006,
+            0.13423763,
+            0.689056
+        ],
+        "experimentId": 16,
+        "patientId": 12,
+        "sensorId": "LSM6DSV Gyroscope",
+        "sensorType": 4,
+        "timestamp": 1553985433055114
+    },
+    {
+        "accuracy": 3,
+        "data": [
+            0.8791878,
+            -0.03573562,
+            0.6588182
+        ],
+        "experimentId": 16,
+        "patientId": 12,
+        "sensorId": "LSM6DSV Gyroscope",
+        "sensorType": 4,
+        "timestamp": 1553985441359681
+    },
+    {
+        "accuracy": 3,
+        "data": [
+            -0.81245077,
+            -0.044135015,
+            -1.4025466
+        ],
+        "experimentId": 16,
+        "patientId": 12,
+        "sensorId": "LSM6DSV Gyroscope",
+        "sensorType": 4,
+        "timestamp": 1553985271119005
+    },
+    {
+        "accuracy": 3,
+        "data": [
+            0.4783075,
+            0.5502369,
+            0.57925296
+        ],
+        "experimentId": 16,
+        "patientId": 12,
+        "sensorId": "LSM6DSV Gyroscope",
+        "sensorType": 4,
+        "timestamp": 1553985408143157
+    },
+    {
+        "accuracy": 3,
+        "data": [
+            0.27168232,
+            -0.03313944,
+            -1.3663528
+        ],
+        "experimentId": 16,
+        "patientId": 12,
+        "sensorId": "LSM6DSV Gyroscope",
+        "sensorType": 4,
+        "timestamp": 1553985325117449
+    },
+    {
+        "accuracy": 3,
+        "data": [
+            0.010231993,
+            -1.4746287,
+            -1.3451253
+        ],
+        "experimentId": 16,
+        "patientId": 12,
+        "sensorId": "LSM6DSV Gyroscope",
+        "sensorType": 4,
+        "timestamp": 1553985183933313
+    },
+    {
+        "accuracy": 3,
+        "data": [
+            132.28789,
+            48.17026,
+            33.903828
+        ],
+        "experimentId": 16,
+        "patientId": 12,
+        "sensorId": "Orientation Sensor",
+        "sensorType": 3,
+        "timestamp": 1553986948630461
+    },
+    {
+        "accuracy": 3,
+        "data": [
+            -1.2608259,
+            1.8622227,
+            0.70646566
+        ],
+        "experimentId": 16,
+        "patientId": 12,
+        "sensorId": "LSM6DSV Gyroscope",
+        "sensorType": 4,
+        "timestamp": 1553985661428919
+    },
+    {
+        "accuracy": 3,
+        "data": [
+            -0.38927388,
+            0.22861631,
+            -0.54061574
+        ],
+        "experimentId": 16,
+        "patientId": 12,
+        "sensorId": "LSM6DSV Gyroscope",
+        "sensorType": 4,
+        "timestamp": 1553986753444490
+    },
+    {
+        "accuracy": 3,
+        "data": [
+            -0.07971791,
+            0.84681195,
+            0.23976462
+        ],
+        "experimentId": 16,
+        "patientId": 12,
+        "sensorId": "LSM6DSV Gyroscope",
+        "sensorType": 4,
+        "timestamp": 1553985541010816
+    },
+    {
+        "accuracy": 3,
+        "data": [
+            0.34498614,
+            -0.32498032,
+            -0.49434268
+        ],
+        "experimentId": 16,
+        "patientId": 12,
+        "sensorId": "LSM6DSV Gyroscope",
+        "sensorType": 4,
+        "timestamp": 1553986620589295
+    },
+    {
+        "accuracy": 3,
+        "data": [
+            0.3463606,
+            0.8958339,
+            0.5911648
+        ],
+        "experimentId": 16,
+        "patientId": 12,
+        "sensorId": "LSM6DSV Gyroscope",
+        "sensorType": 4,
+        "timestamp": 1553985590840631
+    },
+    {
+        "accuracy": 3,
+        "data": [
+            137.34259,
+            51.15261,
+            30.641937
+        ],
+        "experimentId": 16,
+        "patientId": 12,
+        "sensorId": "Orientation Sensor",
+        "sensorType": 3,
+        "timestamp": 1553985993618666
+    },
+    {
+        "accuracy": 3,
+        "data": [
+            0.46303585,
+            0.5900958,
+            0.516792
+        ],
+        "experimentId": 16,
+        "patientId": 12,
+        "sensorId": "LSM6DSV Gyroscope",
+        "sensorType": 4,
+        "timestamp": 1553985403989837
+    },
+    {
+        "accuracy": 3,
+        "data": [
+            0.31642818,
+            -1.6655241,
+            -1.3747523
+        ],
+        "experimentId": 16,
+        "patientId": 12,
+        "sensorId": "LSM6DSV Gyroscope",
+        "sensorType": 4,
+        "timestamp": 1553985163168339
+    },
+    {
+        "accuracy": 3,
+        "data": [
+            0.017256944,
+            -0.13836098,
+            -1.4747814
+        ],
+        "experimentId": 16,
+        "patientId": 12,
+        "sensorId": "LSM6DSV Gyroscope",
+        "sensorType": 4,
+        "timestamp": 1553985300185280
+    },
+    {
+        "accuracy": 3,
+        "data": [
+            146.93062,
+            54.499615,
+            22.519733
+        ],
+        "experimentId": 16,
+        "patientId": 12,
+        "sensorId": "Orientation Sensor",
+        "sensorType": 3,
+        "timestamp": 1553984955560647
+    },
+    {
+        "accuracy": 3,
+        "data": [
+            0.46043968,
+            -1.5296066,
+            -1.3217597
+        ],
+        "experimentId": 16,
+        "patientId": 12,
+        "sensorId": "LSM6DSV Gyroscope",
+        "sensorType": 4,
+        "timestamp": 1553985142400073
+    },
+    {
+        "accuracy": 3,
+        "data": [
+            -0.24938573,
+            -0.12018774,
+            -1.4291192
+        ],
+        "experimentId": 16,
+        "patientId": 12,
+        "sensorId": "LSM6DSV Gyroscope",
+        "sensorType": 4,
+        "timestamp": 1553985287726987
+    },
+    {
+        "accuracy": 3,
+        "data": [
+            0.47112983,
+            0.47555858,
+            -0.2910773
+        ],
+        "experimentId": 16,
+        "patientId": 12,
+        "sensorId": "LSM6DSV Gyroscope",
+        "sensorType": 4,
+        "timestamp": 1553985374911356
+    },
+    {
+        "accuracy": 3,
+        "data": [
+            17.397615,
+            -5.532804,
+            1.9716859
+        ],
+        "experimentId": 16,
+        "patientId": 12,
+        "sensorId": "LSM6DSV Accelerometer",
+        "sensorType": 1,
+        "timestamp": 1553989954865855
+    },
+    {
+        "accuracy": 3,
+        "data": [
+            133.96527,
+            58.59405,
+            32.101322
+        ],
+        "experimentId": 16,
+        "patientId": 12,
+        "sensorId": "Orientation Sensor",
+        "sensorType": 3,
+        "timestamp": 1553990752060803
+    },
+    {
+        "accuracy": 3,
+        "data": [
+            -0.34865135,
+            0.04596761,
+            -0.59040123
+        ],
+        "experimentId": 16,
+        "patientId": 12,
+        "sensorId": "LSM6DSV Gyroscope",
+        "sensorType": 4,
+        "timestamp": 1553989033075581
+    },
+    {
+        "accuracy": 3,
+        "data": [
+            0.39599338,
+            -1.6737708,
+            -1.3733778
+        ],
+        "experimentId": 16,
+        "patientId": 12,
+        "sensorId": "LSM6DSV Gyroscope",
+        "sensorType": 4,
+        "timestamp": 1553985154871748
+    },
+    {
+        "accuracy": 3,
+        "data": [
+            0.5047274,
+            0.5030475,
+            0.6270532
+        ],
+        "experimentId": 16,
+        "patientId": 12,
+        "sensorId": "LSM6DSV Gyroscope",
+        "sensorType": 4,
+        "timestamp": 1553985412294209
+    },
+    {
+        "accuracy": 3,
+        "data": [
+            -0.48762318,
+            0.6230826,
+            0.6444628
+        ],
+        "experimentId": 16,
+        "patientId": 12,
+        "sensorId": "LSM6DSV Gyroscope",
+        "sensorType": 4,
+        "timestamp": 1553987143773205
+    },
+    {
+        "accuracy": 3,
+        "data": [
+            -1.297325,
+            1.3608551,
+            0.8752172
+        ],
+        "experimentId": 16,
+        "patientId": 12,
+        "sensorId": "LSM6DSV Gyroscope",
+        "sensorType": 4,
+        "timestamp": 1553985673885260
+    },
+    {
+        "accuracy": 3,
+        "data": [
+            -1.3078625,
+            1.6843082,
+            0.79076505
+        ],
+        "experimentId": 16,
+        "patientId": 12,
+        "sensorId": "LSM6DSV Gyroscope",
+        "sensorType": 4,
+        "timestamp": 1553985665579961
+    },
+    {
+        "accuracy": 3,
+        "data": [
+            9.565309,
+            -1.5188441,
+            4.1198425
+        ],
+        "experimentId": 16,
+        "patientId": 12,
+        "sensorId": "LSM6DSV Accelerometer",
+        "sensorType": 1,
+        "timestamp": 1553984689818473
+    },
+    {
+        "accuracy": 3,
+        "data": [
+            22.770699,
+            -13.052848,
+            0.96550393
+        ],
+        "experimentId": 16,
+        "patientId": 12,
+        "sensorId": "LSM6DSV Accelerometer",
+        "sensorType": 1,
+        "timestamp": 1553988632349054
+    },
+    {
+        "accuracy": 3,
+        "data": [
+            0.37568212,
+            0.3286455,
+            -0.8507826
+        ],
+        "experimentId": 16,
+        "patientId": 12,
+        "sensorId": "LSM6DSV Gyroscope",
+        "sensorType": 4,
+        "timestamp": 1553985354173714
+    },
+    {
+        "accuracy": 3,
+        "data": [
+            -1.479363,
+            0.057726767,
+            -1.6358972
+        ],
+        "experimentId": 16,
+        "patientId": 12,
+        "sensorId": "LSM6DSV Gyroscope",
+        "sensorType": 4,
+        "timestamp": 1553985242056373
+    },
+    {
+        "accuracy": 3,
+        "data": [
+            0.22036964,
+            0.70524395,
+            0.5564982
+        ],
+        "experimentId": 16,
+        "patientId": 12,
+        "sensorId": "LSM6DSV Gyroscope",
+        "sensorType": 4,
+        "timestamp": 1553985582535293
+    },
+    {
+        "accuracy": 3,
+        "data": [
+            133.35867,
+            51.20761,
+            34.440006
+        ],
+        "experimentId": 16,
+        "patientId": 12,
+        "sensorId": "Orientation Sensor",
+        "sensorType": 3,
+        "timestamp": 1553989456578959
+    },
+    {
+        "accuracy": 3,
+        "data": [
+            -0.8707884,
+            -0.83260936,
+            -0.06612616
+        ],
+        "experimentId": 16,
+        "patientId": 12,
+        "sensorId": "LSM6DSV Gyroscope",
+        "sensorType": 4,
+        "timestamp": 1553991013664008
+    },
+    {
+        "accuracy": 3,
+        "data": [
+            0.35811976,
+            -1.6757561,
+            -1.3758212
+        ],
+        "experimentId": 16,
+        "patientId": 12,
+        "sensorId": "LSM6DSV Gyroscope",
+        "sensorType": 4,
+        "timestamp": 1553985159024316
+    },
+    {
+        "accuracy": 3,
+        "data": [
+            -1.099252,
+            -0.52778757,
+            -0.93737274
+        ],
+        "experimentId": 16,
+        "patientId": 12,
+        "sensorId": "LSM6DSV Gyroscope",
+        "sensorType": 4,
+        "timestamp": 1553988900167822
+    },
+    {
+        "accuracy": 3,
+        "data": [
+            -1.0859656,
+            2.2866213,
+            0.45723262
+        ],
+        "experimentId": 16,
+        "patientId": 12,
+        "sensorId": "LSM6DSV Gyroscope",
+        "sensorType": 4,
+        "timestamp": 1553985653123155
+    },
+    {
+        "accuracy": 3,
+        "data": [
+            0.46578476,
+            0.43844852,
+            -0.4392121
+        ],
+        "experimentId": 16,
+        "patientId": 12,
+        "sensorId": "LSM6DSV Gyroscope",
+        "sensorType": 4,
+        "timestamp": 1553985370761515
+    },
+    {
+        "accuracy": 3,
+        "data": [
+            -0.5018258,
+            2.4301746,
+            0.005955936
+        ],
+        "experimentId": 16,
+        "patientId": 12,
+        "sensorId": "LSM6DSV Gyroscope",
+        "sensorType": 4,
+        "timestamp": 1553985632362015
+    },
+    {
+        "accuracy": 3,
+        "data": [
+            0.37858373,
+            -0.7466301,
+            -1.1623238
+        ],
+        "experimentId": 16,
+        "patientId": 12,
+        "sensorId": "LSM6DSV Gyroscope",
+        "sensorType": 4,
+        "timestamp": 1553990083549524
+    },
+    {
+        "accuracy": 3,
+        "data": [
+            0.8177959,
+            0.053450707,
+            0.674548
+        ],
+        "experimentId": 16,
+        "patientId": 12,
+        "sensorId": "LSM6DSV Gyroscope",
+        "sensorType": 4,
+        "timestamp": 1553985437207529
+    },
+    {
+        "accuracy": 3,
+        "data": [
+            0.21365012,
+            -0.124311075,
+            -0.9289733
+        ],
+        "experimentId": 16,
+        "patientId": 12,
+        "sensorId": "LSM6DSV Gyroscope",
+        "sensorType": 4,
+        "timestamp": 1553988767312899
+    },
+    {
+        "accuracy": 3,
+        "data": [
+            -0.058643065,
+            -0.13026701,
+            -0.20311269
+        ],
+        "experimentId": 16,
+        "patientId": 12,
+        "sensorId": "LSM6DSV Gyroscope",
+        "sensorType": 4,
+        "timestamp": 1553987276660640
+    },
+    {
+        "accuracy": 3,
+        "data": [
+            -0.27000242,
+            1.3845261,
+            0.36163223
+        ],
+        "experimentId": 16,
+        "patientId": 12,
+        "sensorId": "LSM6DSV Gyroscope",
+        "sensorType": 4,
+        "timestamp": 1553985561775831
+    },
+    {
+        "accuracy": 3,
+        "data": [
+            7.0133634,
+            -1.3124632,
+            1.8293129
+        ],
+        "experimentId": 16,
+        "patientId": 12,
+        "sensorId": "LSM6DSV Accelerometer",
+        "sensorType": 1,
+        "timestamp": 1553985900193519
+    },
+    {
+        "accuracy": 3,
+        "data": [
+            0.3115413,
+            0.34132096,
+            0.24709499
+        ],
+        "experimentId": 16,
+        "patientId": 12,
+        "sensorId": "LSM6DSV Gyroscope",
+        "sensorType": 4,
+        "timestamp": 1553985520267438
+    },
+    {
+        "accuracy": 3,
+        "data": [
+            1.0106765,
+            -0.3462079,
+            0.56245416
+        ],
+        "experimentId": 16,
+        "patientId": 12,
+        "sensorId": "LSM6DSV Gyroscope",
+        "sensorType": 4,
+        "timestamp": 1553985474595102
+    },
+    {
+        "accuracy": 3,
+        "data": [
+            1.5790867,
+            0.22220223,
+            0.6834055
+        ],
+        "experimentId": 16,
+        "patientId": 12,
+        "sensorId": "LSM6DSV Gyroscope",
+        "sensorType": 4,
+        "timestamp": 1553988235810982
+    },
+    {
+        "accuracy": 3,
+        "data": [
+            -0.61391956,
+            2.4868324,
+            0.049785517
+        ],
+        "experimentId": 16,
+        "patientId": 12,
+        "sensorId": "LSM6DSV Gyroscope",
+        "sensorType": 4,
+        "timestamp": 1553985636514225
+    },
+    {
+        "accuracy": 3,
+        "data": [
+            0.3043636,
+            0.7118107,
+            0.5873469
+        ],
+        "experimentId": 16,
+        "patientId": 12,
+        "sensorId": "LSM6DSV Gyroscope",
+        "sensorType": 4,
+        "timestamp": 1553985586687524
+    },
+    {
+        "accuracy": 3,
+        "data": [
+            0.701426,
+            0.21502456,
+            0.6950119
+        ],
+        "experimentId": 16,
+        "patientId": 12,
+        "sensorId": "LSM6DSV Gyroscope",
+        "sensorType": 4,
+        "timestamp": 1553985428903126
+    },
+    {
+        "accuracy": 3,
+        "data": [
+            0.46670106,
+            0.55771995,
+            -0.0070249503
+        ],
+        "experimentId": 16,
+        "patientId": 12,
+        "sensorId": "LSM6DSV Gyroscope",
+        "sensorType": 4,
+        "timestamp": 1553985383219827
+    },
+    {
+        "accuracy": 3,
+        "data": [
+            0.25870144,
+            2.0018053,
+            0.35338554
+        ],
+        "experimentId": 16,
+        "patientId": 12,
+        "sensorId": "LSM6DSV Gyroscope",
+        "sensorType": 4,
+        "timestamp": 1553985603296931
+    },
+    {
+        "accuracy": 3,
+        "data": [
+            0.47051895,
+            0.59956425,
+            0.24266621
+        ],
+        "experimentId": 16,
+        "patientId": 12,
+        "sensorId": "LSM6DSV Gyroscope",
+        "sensorType": 4,
+        "timestamp": 1553985391535511
+    },
+    {
+        "accuracy": 3,
+        "data": [
+            125.98494,
+            64.81507,
+            27.306578
+        ],
+        "experimentId": 16,
+        "patientId": 12,
+        "sensorId": "Orientation Sensor",
+        "sensorType": 3,
+        "timestamp": 1553987480116904
+    },
+    {
+        "accuracy": 3,
+        "data": [
+            20.932413,
+            -12.034701,
+            -0.061615184
+        ],
+        "experimentId": 16,
+        "patientId": 12,
+        "sensorId": "LSM6DSV Accelerometer",
+        "sensorType": 1,
+        "timestamp": 1553989821978158
+    },
+    {
+        "accuracy": 3,
+        "data": [
+            -0.17852537,
+            2.4570527,
+            -0.08857546
+        ],
+        "experimentId": 16,
+        "patientId": 12,
+        "sensorId": "LSM6DSV Gyroscope",
+        "sensorType": 4,
+        "timestamp": 1553985619905370
+    },
+    {
+        "accuracy": 3,
+        "data": [
+            0.31398472,
+            0.11575896,
+            -1.1777482
+        ],
+        "experimentId": 16,
+        "patientId": 12,
+        "sensorId": "LSM6DSV Gyroscope",
+        "sensorType": 4,
+        "timestamp": 1553985337567015
+    },
+    {
+        "accuracy": 3,
+        "data": [
+            9.778868,
+            -2.4514468,
+            -0.9290134
+        ],
+        "experimentId": 16,
+        "patientId": 12,
+        "sensorId": "LSM6DSV Accelerometer",
+        "sensorType": 1,
+        "timestamp": 1553991266936252
+    },
+    {
+        "accuracy": 3,
+        "data": [
+            1.3435699,
+            -0.70947194,
+            0.46301118
+        ],
+        "experimentId": 16,
+        "patientId": 12,
+        "sensorId": "LSM6DSV Accelerometer",
+        "sensorType": 1,
+        "timestamp": 1553988499490886
+    },
+    {
+        "accuracy": 3,
+        "data": [
+            0.5448918,
+            0.43554693,
+            0.6591236
+        ],
+        "experimentId": 16,
+        "patientId": 12,
+        "sensorId": "LSM6DSV Gyroscope",
+        "sensorType": 4,
+        "timestamp": 1553985416446441
+    },
+    {
+        "accuracy": 3,
+        "data": [
+            3.0862439,
+            0.4540256,
+            0.21487185
+        ],
+        "experimentId": 16,
+        "patientId": 12,
+        "sensorId": "LSM6DSV Gyroscope",
+        "sensorType": 4,
+        "timestamp": 1553989340319516
+    },
+    {
+        "accuracy": 3,
+        "data": [
+            130.17351,
+            75.23816,
+            36.658554
+        ],
+        "experimentId": 16,
+        "patientId": 12,
+        "sensorId": "Orientation Sensor",
+        "sensorType": 3,
+        "timestamp": 1553989296721223
+    },
+    {
+        "accuracy": 3,
+        "data": [
+            139.71414,
+            47.569244,
+            30.119892
+        ],
+        "experimentId": 16,
+        "patientId": 12,
+        "sensorId": "Orientation Sensor",
+        "sensorType": 3,
+        "timestamp": 1553985860747814
+    },
+    {
+        "accuracy": 3,
+        "data": [
+            148.28925,
+            58.733498,
+            48.396362
+        ],
+        "experimentId": 16,
+        "patientId": 12,
+        "sensorId": "Orientation Sensor",
+        "sensorType": 3,
+        "timestamp": 1553985397761453
+    },
+    {
+        "accuracy": 3,
+        "data": [
+            1.26556,
+            0.45265114,
+            0.8342892
+        ],
+        "experimentId": 16,
+        "patientId": 12,
+        "sensorId": "LSM6DSV Gyroscope",
+        "sensorType": 4,
+        "timestamp": 1553987010915903
+    },
+    {
+        "accuracy": 3,
+        "data": [
+            -0.13637567,
+            1.2712106,
+            0.45265114
+        ],
+        "experimentId": 16,
+        "patientId": 12,
+        "sensorId": "LSM6DSV Gyroscope",
+        "sensorType": 4,
+        "timestamp": 1553985570079024
+    },
+    {
+        "accuracy": 3,
+        "data": [
+            -0.0317049,
+            -0.68075806,
+            0.06699903
+        ],
+        "experimentId": 16,
+        "patientId": 12,
+        "sensorId": "LSM6DSV Accelerometer",
+        "sensorType": 1,
+        "timestamp": 1553992161739264
+    },
+    {
+        "accuracy": 3,
+        "data": [
+            1.917506,
+            0.47403142,
+            0.27366763
+        ],
+        "experimentId": 16,
+        "patientId": 12,
+        "sensorId": "LSM6DSV Gyroscope",
+        "sensorType": 4,
+        "timestamp": 1553991898074369
+    },
+    {
+        "accuracy": 3,
+        "data": [
+            0.31948254,
+            1.5926784,
+            0.47723848
+        ],
+        "experimentId": 16,
+        "patientId": 12,
+        "sensorId": "LSM6DSV Gyroscope",
+        "sensorType": 4,
+        "timestamp": 1553985599144261
+    },
+    {
+        "accuracy": 3,
+        "data": [
+            131.10796,
+            58.213486,
+            28.39432
+        ],
+        "experimentId": 16,
+        "patientId": 12,
+        "sensorId": "Orientation Sensor",
+        "sensorType": 3,
+        "timestamp": 1553986259348471
+    },
+    {
+        "accuracy": 3,
+        "data": [
+            -1.3313808,
+            0.27962357,
+            -0.00061086525
+        ],
+        "experimentId": 16,
+        "patientId": 12,
+        "sensorId": "LSM6DSV Gyroscope",
+        "sensorType": 4,
+        "timestamp": 1553990349283092
+    },
+    {
+        "accuracy": 3,
+        "data": [
+            -0.21975878,
+            -0.5328272,
+            -0.19333886
+        ],
+        "experimentId": 16,
+        "patientId": 12,
+        "sensorId": "LSM6DSV Gyroscope",
+        "sensorType": 4,
+        "timestamp": 1553988501567022
+    },
+    {
+        "accuracy": 3,
+        "data": [
+            -1.689806,
+            -0.9793697,
+            0.17470746
+        ],
+        "experimentId": 16,
+        "patientId": 12,
+        "sensorId": "LSM6DSV Gyroscope",
+        "sensorType": 4,
+        "timestamp": 1553987409509551
+    },
+    {
+        "accuracy": 3,
+        "data": [
+            1.0902418,
+            -0.3640757,
+            0.601855
+        ],
+        "experimentId": 16,
+        "patientId": 12,
+        "sensorId": "LSM6DSV Gyroscope",
+        "sensorType": 4,
+        "timestamp": 1553985462122793
+    },
+    {
+        "accuracy": 3,
+        "data": [
+            17.111673,
+            -5.605187,
+            9.11486
+        ],
+        "experimentId": 16,
+        "patientId": 12,
+        "sensorId": "LSM6DSV Accelerometer",
+        "sensorType": 1,
+        "timestamp": 1553985767299309
+    },
+    {
+        "accuracy": 3,
+        "data": [
+            0.6879365,
+            1.079163,
+            -0.38584265
+        ],
+        "experimentId": 16,
+        "patientId": 12,
+        "sensorId": "LSM6DSV Accelerometer",
+        "sensorType": 1,
+        "timestamp": 1553989030999465
+    },
+    {
+        "accuracy": 3,
+        "data": [
+            -0.6592763,
+            -0.07422013,
+            -1.4008667
+        ],
+        "experimentId": 16,
+        "patientId": 12,
+        "sensorId": "LSM6DSV Gyroscope",
+        "sensorType": 4,
+        "timestamp": 1553985275271582
+    },
+    {
+        "accuracy": 3,
+        "data": [
+            -0.26267207,
+            0.97784257,
+            1.2968669
+        ],
+        "experimentId": 16,
+        "patientId": 12,
+        "sensorId": "LSM6DSV Gyroscope",
+        "sensorType": 4,
+        "timestamp": 1553989298800096
+    },
+    {
+        "accuracy": 3,
+        "data": [
+            132.6919,
+            50.42609,
+            31.712622
+        ],
+        "experimentId": 16,
+        "patientId": 12,
+        "sensorId": "Orientation Sensor",
+        "sensorType": 3,
+        "timestamp": 1553986126466874
+    },
+    {
+        "accuracy": 3,
+        "data": [
+            -0.34865135,
+            -0.2826779,
+            0.02443461
+        ],
+        "experimentId": 16,
+        "patientId": 12,
+        "sensorId": "LSM6DSV Gyroscope",
+        "sensorType": 4,
+        "timestamp": 1553985956248934
+    },
+    {
+        "accuracy": 3,
+        "data": [
+            -0.2826779,
+            2.4098635,
+            -0.07544186
+        ],
+        "experimentId": 16,
+        "patientId": 12,
+        "sensorId": "LSM6DSV Gyroscope",
+        "sensorType": 4,
+        "timestamp": 1553985624057916
+    },
+    {
+        "accuracy": 3,
+        "data": [
+            -1.363604,
+            -0.17394388,
+            -1.098183
+        ],
+        "experimentId": 16,
+        "patientId": 12,
+        "sensorId": "LSM6DSV Gyroscope",
+        "sensorType": 4,
+        "timestamp": 1553991366601956
+    },
+    {
+        "accuracy": 3,
+        "data": [
+            0.4260785,
+            -1.6513215,
+            -1.3622295
+        ],
+        "experimentId": 16,
+        "patientId": 12,
+        "sensorId": "LSM6DSV Gyroscope",
+        "sensorType": 4,
+        "timestamp": 1553985150745121
+    },
+    {
+        "accuracy": 3,
+        "data": [
+            0.3145956,
+            -0.37064248,
+            0.10903945
+        ],
+        "experimentId": 16,
+        "patientId": 12,
+        "sensorId": "LSM6DSV Gyroscope",
+        "sensorType": 4,
+        "timestamp": 1553986089107051
+    },
+    {
+        "accuracy": 3,
+        "data": [
+            0.9407325,
+            -0.12873985,
+            0.6430884
+        ],
+        "experimentId": 16,
+        "patientId": 12,
+        "sensorId": "LSM6DSV Gyroscope",
+        "sensorType": 4,
+        "timestamp": 1553985445510142
+    },
+    {
+        "accuracy": 3,
+        "data": [
+            -0.038026363,
+            -0.5363397,
+            0.47235155
+        ],
+        "experimentId": 16,
+        "patientId": 12,
+        "sensorId": "LSM6DSV Gyroscope",
+        "sensorType": 4,
+        "timestamp": 1553984951398182
+    },
+    {
+        "accuracy": 3,
+        "data": [
+            0.08933904,
+            -1.5257887,
+            -1.3497068
+        ],
+        "experimentId": 16,
+        "patientId": 12,
+        "sensorId": "LSM6DSV Gyroscope",
+        "sensorType": 4,
+        "timestamp": 1553985179782323
+    },
+    {
+        "accuracy": 3,
+        "data": [
+            0.5300102,
+            1.4907285,
+            -1.0402796
+        ],
+        "experimentId": 16,
+        "patientId": 12,
+        "sensorId": "LSM6DSV Accelerometer",
+        "sensorType": 1,
+        "timestamp": 1553986697408825
+    },
+    {
+        "accuracy": 3,
+        "data": [
+            1.2915218,
+            -0.53130007,
+            -0.29779682
+        ],
+        "experimentId": 16,
+        "patientId": 12,
+        "sensorId": "LSM6DSV Gyroscope",
+        "sensorType": 4,
+        "timestamp": 1553987542400698
+    },
+    {
+        "accuracy": 3,
+        "data": [
+            4.028317,
+            -1.4099708,
+            -0.42652065
+        ],
+        "experimentId": 16,
+        "patientId": 12,
+        "sensorId": "LSM6DSV Accelerometer",
+        "sensorType": 1,
+        "timestamp": 1553990087706344
+    },
+    {
+        "accuracy": 3,
+        "data": [
+            -0.28512135,
+            1.3377949,
+            0.32482758
+        ],
+        "experimentId": 16,
+        "patientId": 12,
+        "sensorId": "LSM6DSV Gyroscope",
+        "sensorType": 4,
+        "timestamp": 1553985557622103
+    },
+    {
+        "accuracy": 3,
+        "data": [
+            -1.8929187,
+            -0.3736968,
+            1.0317514
+        ],
+        "experimentId": 16,
+        "patientId": 12,
+        "sensorId": "LSM6DSV Gyroscope",
+        "sensorType": 4,
+        "timestamp": 1553988634425199
+    },
+    {
+        "accuracy": 3,
+        "data": [
+            130.8458,
+            65.96184,
+            50.03847
+        ],
+        "experimentId": 16,
+        "patientId": 12,
+        "sensorId": "Orientation Sensor",
+        "sensorType": 3,
+        "timestamp": 1553990353472149
+    },
+    {
+        "accuracy": 3,
+        "data": [
+            -3.0634112,
+            -0.084346995,
+            0.9619147
+        ],
+        "experimentId": 16,
+        "patientId": 12,
+        "sensorId": "LSM6DSV Accelerometer",
+        "sensorType": 1,
+        "timestamp": 1553987745856727
+    },
+    {
+        "accuracy": 3,
+        "data": [
+            27.299713,
+            -3.4683964,
+            2.6512475
+        ],
+        "experimentId": 16,
+        "patientId": 12,
+        "sensorId": "LSM6DSV Accelerometer",
+        "sensorType": 1,
+        "timestamp": 1553992427481066
+    },
+    {
+        "accuracy": 3,
+        "data": [
+            0.10247265,
+            -0.72265357,
+            0.045662176
+        ],
+        "experimentId": 16,
+        "patientId": 12,
+        "sensorId": "LSM6DSV Gyroscope",
+        "sensorType": 4,
+        "timestamp": 1553989684937361
+    },
+    {
+        "accuracy": 3,
+        "data": [
+            -0.4229314,
+            -0.23030917,
+            1.9070797
+        ],
+        "experimentId": 16,
+        "patientId": 12,
+        "sensorId": "LSM6DSV Accelerometer",
+        "sensorType": 1,
+        "timestamp": 1553986033053253
+    },
+    {
+        "accuracy": 3,
+        "data": [
+            133.48465,
+            76.209785,
+            31.929441
+        ],
+        "experimentId": 16,
+        "patientId": 12,
+        "sensorId": "Orientation Sensor",
+        "sensorType": 3,
+        "timestamp": 1553990619189490
+    },
+    {
+        "accuracy": 3,
+        "data": [
+            0.39828414,
+            -0.17348573,
+            -0.7108944
+        ],
+        "experimentId": 16,
+        "patientId": 12,
+        "sensorId": "LSM6DSV Gyroscope",
+        "sensorType": 4,
+        "timestamp": 1553992163814133
+    },
+    {
+        "accuracy": 3,
+        "data": [
+            9.568898,
+            -0.71365935,
+            2.3461626
+        ],
+        "experimentId": 16,
+        "patientId": 12,
+        "sensorId": "LSM6DSV Accelerometer",
+        "sensorType": 1,
+        "timestamp": 1553984955560647
+    },
+    {
+        "accuracy": 3,
+        "data": [
+            25.179075,
+            -5.159524,
+            4.265805
+        ],
+        "experimentId": 16,
+        "patientId": 12,
+        "sensorId": "LSM6DSV Accelerometer",
+        "sensorType": 1,
+        "timestamp": 1553989296721223
+    },
+    {
+        "accuracy": 3,
+        "data": [
+            -1.4582881,
+            0.10827587,
+            -1.5905404
+        ],
+        "experimentId": 16,
+        "patientId": 12,
+        "sensorId": "LSM6DSV Gyroscope",
+        "sensorType": 4,
+        "timestamp": 1553985246217932
+    },
+    {
+        "accuracy": 3,
+        "data": [
+            -0.6538388,
+            0.48454657,
+            -0.06281159
+        ],
+        "experimentId": 16,
+        "patientId": 12,
+        "sensorId": "LSM6DSV Accelerometer",
+        "sensorType": 1,
+        "timestamp": 1553988366619204
+    },
+    {
+        "accuracy": 3,
+        "data": [
+            0.20952678,
+            -0.10048734,
+            -1.444849
+        ],
+        "experimentId": 16,
+        "patientId": 12,
+        "sensorId": "LSM6DSV Gyroscope",
+        "sensorType": 4,
+        "timestamp": 1553985316796059
+    },
+    {
+        "accuracy": 3,
+        "data": [
+            0.46761733,
+            0.5207626,
+            -0.1441642
+        ],
+        "experimentId": 16,
+        "patientId": 12,
+        "sensorId": "LSM6DSV Gyroscope",
+        "sensorType": 4,
+        "timestamp": 1553985379065252
+    },
+    {
+        "accuracy": 3,
+        "data": [
+            0.883922,
+            -0.28878653,
+            0.52671856
+        ],
+        "experimentId": 16,
+        "patientId": 12,
+        "sensorId": "LSM6DSV Gyroscope",
+        "sensorType": 4,
+        "timestamp": 1553985482894593
+    },
+    {
+        "accuracy": 3,
+        "data": [
+            123.98524,
+            77.319534,
+            31.54823
+        ],
+        "experimentId": 16,
+        "patientId": 12,
+        "sensorId": "Orientation Sensor",
+        "sensorType": 3,
+        "timestamp": 1553991134064087
+    },
+    {
+        "accuracy": 3,
+        "data": [
+            -0.70005155,
+            -0.6414085,
+            -1.1450669
+        ],
+        "experimentId": 16,
+        "patientId": 12,
+        "sensorId": "LSM6DSV Gyroscope",
+        "sensorType": 4,
+        "timestamp": 1553990216424110
+    },
+    {
+        "accuracy": 3,
+        "data": [
+            4.596014,
+            -2.108675,
+            0.5838487
+        ],
+        "experimentId": 16,
+        "patientId": 12,
+        "sensorId": "LSM6DSV Accelerometer",
+        "sensorType": 1,
+        "timestamp": 1553992028869011
+    },
+    {
+        "accuracy": 3,
+        "data": [
+            0.07803804,
+            0.63117653,
+            0.22067507
+        ],
+        "experimentId": 16,
+        "patientId": 12,
+        "sensorId": "LSM6DSV Gyroscope",
+        "sensorType": 4,
+        "timestamp": 1553985532704816
+    },
+    {
+        "accuracy": 3,
+        "data": [
+            6.3541408,
+            -1.6115661,
+            1.4446666
+        ],
+        "experimentId": 16,
+        "patientId": 12,
+        "sensorId": "LSM6DSV Accelerometer",
+        "sensorType": 1,
+        "timestamp": 1553986165923587
+    },
+    {
+        "accuracy": 3,
+        "data": [
+            -0.32146785,
+            -0.7724391,
+            -0.68859786
+        ],
+        "experimentId": 16,
+        "patientId": 12,
+        "sensorId": "LSM6DSV Gyroscope",
+        "sensorType": 4,
+        "timestamp": 1553986487757036
+    },
+    {
+        "accuracy": 3,
+        "data": [
+            130.6736,
+            73.64661,
+            47.159065
+        ],
+        "experimentId": 16,
+        "patientId": 12,
+        "sensorId": "Orientation Sensor",
+        "sensorType": 3,
+        "timestamp": 1553991630245913
+    },
+    {
+        "accuracy": 3,
+        "data": [
+            0.33948836,
+            0.68600166,
+            -0.08582657
+        ],
+        "experimentId": 16,
+        "patientId": 12,
+        "sensorId": "LSM6DSV Gyroscope",
+        "sensorType": 4,
+        "timestamp": 1553991200498355
+    },
+    {
+        "accuracy": 3,
+        "data": [
+            132.97972,
+            49.443516,
+            25.781261
+        ],
+        "experimentId": 16,
+        "patientId": 12,
+        "sensorId": "Orientation Sensor",
+        "sensorType": 3,
+        "timestamp": 1553987347251035
+    },
+    {
+        "accuracy": 3,
+        "data": [
+            130.40361,
+            39.907337,
+            39.84052
+        ],
+        "experimentId": 16,
+        "patientId": 12,
+        "sensorId": "Orientation Sensor",
+        "sensorType": 3,
+        "timestamp": 1553989689084793
+    },
+    {
+        "accuracy": 3,
+        "data": [
+            148.25325,
+            52.663177,
+            41.07957
+        ],
+        "experimentId": 16,
+        "patientId": 12,
+        "sensorId": "Orientation Sensor",
+        "sensorType": 3,
+        "timestamp": 1553985605373265
+    },
+    {
+        "accuracy": 3,
+        "data": [
+            -1.2053899,
+            0.08750644,
+            -1.4698945
+        ],
+        "experimentId": 16,
+        "patientId": 12,
+        "sensorId": "LSM6DSV Gyroscope",
+        "sensorType": 4,
+        "timestamp": 1553985258658342
+    },
+    {
+        "accuracy": 3,
+        "data": [
+            119.418175,
+            71.11724,
+            47.533558
+        ],
+        "experimentId": 16,
+        "patientId": 12,
+        "sensorId": "Orientation Sensor",
+        "sensorType": 3,
+        "timestamp": 1553989030999465
+    },
+    {
+        "accuracy": 3,
+        "data": [
+            -0.73853606,
+            0.3642284,
+            -0.33017266
+        ],
+        "experimentId": 16,
+        "patientId": 12,
+        "sensorId": "LSM6DSV Gyroscope",
+        "sensorType": 4,
+        "timestamp": 1553989165910656
+    },
+    {
+        "accuracy": 3,
+        "data": [
+            -1.0728321,
+            -0.539394,
+            -1.784032
+        ],
+        "experimentId": 16,
+        "patientId": 12,
+        "sensorId": "LSM6DSV Gyroscope",
+        "sensorType": 4,
+        "timestamp": 1553985221288712
+    },
+    {
+        "accuracy": 3,
+        "data": [
+            11.685349,
+            0.631107,
+            -1.1724831
+        ],
+        "experimentId": 16,
+        "patientId": 12,
+        "sensorId": "LSM6DSV Accelerometer",
+        "sensorType": 1,
+        "timestamp": 1553989163834505
+    },
+    {
+        "accuracy": 3,
+        "data": [
+            -0.28594232,
+            0.020338992,
+            0.79142606
+        ],
+        "experimentId": 16,
+        "patientId": 12,
+        "sensorId": "LSM6DSV Accelerometer",
+        "sensorType": 1,
+        "timestamp": 1553992693224761
+    },
+    {
+        "accuracy": 3,
+        "data": [
+            -1.1858422,
+            2.0576997,
+            0.5890268
+        ],
+        "experimentId": 16,
+        "patientId": 12,
+        "sensorId": "LSM6DSV Gyroscope",
+        "sensorType": 4,
+        "timestamp": 1553985657275691
+    },
+    {
+        "accuracy": 3,
+        "data": [
+            120.43265,
+            62.244324,
+            34.581337
+        ],
+        "experimentId": 16,
+        "patientId": 12,
+        "sensorId": "Orientation Sensor",
+        "sensorType": 3,
+        "timestamp": 1553987612969447
+    },
+    {
+        "accuracy": 3,
+        "data": [
+            0.35063666,
+            1.2049317,
+            0.5519168
+        ],
+        "experimentId": 16,
+        "patientId": 12,
+        "sensorId": "LSM6DSV Gyroscope",
+        "sensorType": 4,
+        "timestamp": 1553985594995354
+    },
+    {
+        "accuracy": 3,
+        "data": [
+            -0.4269948,
+            0.2828306,
+            0.61468315
+        ],
+        "experimentId": 16,
+        "patientId": 12,
+        "sensorId": "LSM6DSV Gyroscope",
+        "sensorType": 4,
+        "timestamp": 1553984818537238
+    },
+    {
+        "accuracy": 3,
+        "data": [
+            140.65009,
+            61.592278,
+            35.70824
+        ],
+        "experimentId": 16,
+        "patientId": 12,
+        "sensorId": "Orientation Sensor",
+        "sensorType": 3,
+        "timestamp": 1553985192236007
+    },
+    {
+        "accuracy": 3,
+        "data": [
+            -0.61651576,
+            -0.6073528,
+            -1.1989758
+        ],
+        "experimentId": 16,
+        "patientId": 12,
+        "sensorId": "LSM6DSV Gyroscope",
+        "sensorType": 4,
+        "timestamp": 1553987675258763
+    },
+    {
+        "accuracy": 3,
+        "data": [
+            -0.72601336,
+            2.5372288,
+            0.10934488
+        ],
+        "experimentId": 16,
+        "patientId": 12,
+        "sensorId": "LSM6DSV Gyroscope",
+        "sensorType": 4,
+        "timestamp": 1553985640666561
+    },
+    {
+        "accuracy": 3,
+        "data": [
+            1.7492126,
+            -0.6310238,
+            -0.018020526
+        ],
+        "experimentId": 16,
+        "patientId": 12,
+        "sensorId": "LSM6DSV Gyroscope",
+        "sensorType": 4,
+        "timestamp": 1553989552528518
+    },
+    {
+        "accuracy": 3,
+        "data": [
+            0.24862215,
+            -0.7881689,
+            -1.0546589
+        ],
+        "experimentId": 16,
+        "patientId": 12,
+        "sensorId": "LSM6DSV Gyroscope",
+        "sensorType": 4,
+        "timestamp": 1553991333395473
+    },
+    {
+        "accuracy": 3,
+        "data": [
+            -0.6731735,
+            0.34269542,
+            0.10629055
+        ],
+        "experimentId": 16,
+        "patientId": 12,
+        "sensorId": "LSM6DSV Gyroscope",
+        "sensorType": 4,
+        "timestamp": 1553986221978392
+    },
+    {
+        "accuracy": 3,
+        "data": [
+            131.58788,
+            36.810093,
+            51.20031
+        ],
+        "experimentId": 16,
+        "patientId": 12,
+        "sensorId": "Orientation Sensor",
+        "sensorType": 3,
+        "timestamp": 1553992693224761
+    },
+    {
+        "accuracy": 3,
+        "data": [
+            129.10242,
+            42.94715,
+            29.738464
+        ],
+        "experimentId": 16,
+        "patientId": 12,
+        "sensorId": "Orientation Sensor",
+        "sensorType": 3,
+        "timestamp": 1553988366619204
+    },
+    {
+        "accuracy": 3,
+        "data": [
+            128.44356,
+            64.52409,
+            36.870533
+        ],
+        "experimentId": 16,
+        "patientId": 12,
+        "sensorId": "Orientation Sensor",
+        "sensorType": 3,
+        "timestamp": 1553991266936252
+    },
+    {
+        "accuracy": 3,
+        "data": [
+            7.7425756,
+            0.2650051,
+            0.34037903
+        ],
+        "experimentId": 16,
+        "patientId": 12,
+        "sensorId": "LSM6DSV Accelerometer",
+        "sensorType": 1,
+        "timestamp": 1553991630245913
+    },
+    {
+        "accuracy": 3,
+        "data": [
+            -0.5587241,
+            1.3094722,
+            -0.023330022
+        ],
+        "experimentId": 16,
+        "patientId": 12,
+        "sensorId": "LSM6DSV Accelerometer",
+        "sensorType": 1,
+        "timestamp": 1553989556233258
+    },
+    {
+        "accuracy": 3,
+        "data": [
+            -1.2263216,
+            -0.32662028,
+            2.1134605
+        ],
+        "experimentId": 16,
+        "patientId": 12,
+        "sensorId": "LSM6DSV Accelerometer",
+        "sensorType": 1,
+        "timestamp": 1553986564550337
+    },
+    {
+        "accuracy": 3,
+        "data": [
+            134.49663,
+            64.7841,
+            34.332657
+        ],
+        "experimentId": 16,
+        "patientId": 12,
+        "sensorId": "Orientation Sensor",
+        "sensorType": 3,
+        "timestamp": 1553988100861848
+    },
+    {
+        "accuracy": 3,
+        "data": [
+            23.8373,
+            -6.5228343,
+            -0.20877378
+        ],
+        "experimentId": 16,
+        "patientId": 12,
+        "sensorId": "LSM6DSV Accelerometer",
+        "sensorType": 1,
+        "timestamp": 1553991763137804
+    },
+    {
+        "accuracy": 3,
+        "data": [
+            5.0045886,
+            1.2269198,
+            -0.0065802624
+        ],
+        "experimentId": 16,
+        "patientId": 12,
+        "sensorId": "LSM6DSV Accelerometer",
+        "sensorType": 1,
+        "timestamp": 1553990353472149
+    },
+    {
+        "accuracy": 3,
+        "data": [
+            -1.1976013,
+            -0.39400807,
+            -1.7843374
+        ],
+        "experimentId": 16,
+        "patientId": 12,
+        "sensorId": "LSM6DSV Gyroscope",
+        "sensorType": 4,
+        "timestamp": 1553985225441584
+    },
+    {
+        "accuracy": 3,
+        "data": [
+            133.97643,
+            54.7062,
+            31.93205
+        ],
+        "experimentId": 16,
+        "patientId": 12,
+        "sensorId": "Orientation Sensor",
+        "sensorType": 3,
+        "timestamp": 1553992028869011
+    },
+    {
+        "accuracy": 3,
+        "data": [
+            -0.26859435,
+            0.50787663,
+            1.3944174
+        ],
+        "experimentId": 16,
+        "patientId": 12,
+        "sensorId": "LSM6DSV Accelerometer",
+        "sensorType": 1,
+        "timestamp": 1553991497396198
+    },
+    {
+        "accuracy": 3,
+        "data": [
+            1.056186,
+            -0.36728272,
+            0.57848936
+        ],
+        "experimentId": 16,
+        "patientId": 12,
+        "sensorId": "LSM6DSV Gyroscope",
+        "sensorType": 4,
+        "timestamp": 1553985470441590
+    },
+    {
+        "accuracy": 3,
+        "data": [
+            24.14717,
+            -1.7766708,
+            6.3236322
+        ],
+        "experimentId": 16,
+        "patientId": 12,
+        "sensorId": "LSM6DSV Accelerometer",
+        "sensorType": 1,
+        "timestamp": 1553991134064087
+    },
+    {
+        "accuracy": 3,
+        "data": [
+            0.441961,
+            0.14355333,
+            0.30375275
+        ],
+        "experimentId": 16,
+        "patientId": 12,
+        "sensorId": "LSM6DSV Gyroscope",
+        "sensorType": 4,
+        "timestamp": 1553985511957033
+    },
+    {
+        "accuracy": 3,
+        "data": [
+            20.337198,
+            -3.8997028,
+            11.55853
+        ],
+        "experimentId": 16,
+        "patientId": 12,
+        "sensorId": "LSM6DSV Accelerometer",
+        "sensorType": 1,
+        "timestamp": 1553992944437505
+    },
+    {
+        "accuracy": 3,
+        "data": [
+            -1.0241156,
+            0.6977608,
+            0.829555
+        ],
+        "experimentId": 16,
+        "patientId": 12,
+        "sensorId": "LSM6DSV Gyroscope",
+        "sensorType": 4,
+        "timestamp": 1553985686341904
+    },
+    {
+        "accuracy": 3,
+        "data": [
+            127.81246,
+            58.54366,
+            49.6579
+        ],
+        "experimentId": 16,
+        "patientId": 12,
+        "sensorId": "Orientation Sensor",
+        "sensorType": 3,
+        "timestamp": 1553990220576037
+    },
+    {
+        "accuracy": 3,
+        "data": [
+            0.701097,
+            0.61794645,
+            0.54735816
+        ],
+        "experimentId": 16,
+        "patientId": 12,
+        "sensorId": "LSM6DSV Accelerometer",
+        "sensorType": 1,
+        "timestamp": 1553988898091686
+    },
+    {
+        "accuracy": 3,
+        "data": [
+            13.511671,
+            0.6831509,
+            1.0803595
+        ],
+        "experimentId": 16,
+        "patientId": 12,
+        "sensorId": "LSM6DSV Accelerometer",
+        "sensorType": 1,
+        "timestamp": 1553987968005562
+    },
+    {
+        "accuracy": 3,
+        "data": [
+            -2.0282254,
+            0.27412578,
+            1.5441146
+        ],
+        "experimentId": 16,
+        "patientId": 12,
+        "sensorId": "LSM6DSV Gyroscope",
+        "sensorType": 4,
+        "timestamp": 1553990482182499
+    },
+    {
+        "accuracy": 3,
+        "data": [
+            0.29275718,
+            0.013744468,
+            -1.3100005
+        ],
+        "experimentId": 16,
+        "patientId": 12,
+        "sensorId": "LSM6DSV Gyroscope",
+        "sensorType": 4,
+        "timestamp": 1553985329270476
+    },
+    {
+        "accuracy": 3,
+        "data": [
+            -0.3462079,
+            0.63178736,
+            -0.11484267
+        ],
+        "experimentId": 16,
+        "patientId": 12,
+        "sensorId": "LSM6DSV Gyroscope",
+        "sensorType": 4,
+        "timestamp": 1553991632322074
+    },
+    {
+        "accuracy": 3,
+        "data": [
+            132.25365,
+            77.85477,
+            40.785465
+        ],
+        "experimentId": 16,
+        "patientId": 12,
+        "sensorId": "Orientation Sensor",
+        "sensorType": 3,
+        "timestamp": 1553990486331108
+    },
+    {
+        "accuracy": 3,
+        "data": [
+            1.5146403,
+            -0.42531493,
+            -0.18509217
+        ],
+        "experimentId": 16,
+        "patientId": 12,
+        "sensorId": "LSM6DSV Gyroscope",
+        "sensorType": 4,
+        "timestamp": 1553992030945050
+    },
+    {
+        "accuracy": 3,
+        "data": [
+            120.792625,
+            66.45824,
+            45.052475
+        ],
+        "experimentId": 16,
+        "patientId": 12,
+        "sensorId": "Orientation Sensor",
+        "sensorType": 3,
+        "timestamp": 1553987745856727
+    },
+    {
+        "accuracy": 3,
+        "data": [
+            1.0424415,
+            -0.2855795,
+            0.6189592
+        ],
+        "experimentId": 16,
+        "patientId": 12,
+        "sensorId": "LSM6DSV Gyroscope",
+        "sensorType": 4,
+        "timestamp": 1553985453816436
+    },
+    {
+        "accuracy": 3,
+        "data": [
+            13.0355,
+            -2.841477,
+            3.3936207
+        ],
+        "experimentId": 16,
+        "patientId": 12,
+        "sensorId": "LSM6DSV Accelerometer",
+        "sensorType": 1,
+        "timestamp": 1553985088419060
+    },
+    {
+        "accuracy": 3,
+        "data": [
+            11.413764,
+            1.3657036,
+            3.493521
+        ],
+        "experimentId": 16,
+        "patientId": 12,
+        "sensorId": "LSM6DSV Accelerometer",
+        "sensorType": 1,
+        "timestamp": 1553984556930704
+    },
+    {
+        "accuracy": 3,
+        "data": [
+            12.199806,
+            -6.350551,
+            1.5463617
+        ],
+        "experimentId": 16,
+        "patientId": 12,
+        "sensorId": "LSM6DSV Accelerometer",
+        "sensorType": 1,
+        "timestamp": 1553987347251035
+    },
+    {
+        "accuracy": 3,
+        "data": [
+            -0.31764722,
+            0.7926225,
+            -1.2376875
+        ],
+        "experimentId": 16,
+        "patientId": 12,
+        "sensorId": "LSM6DSV Accelerometer",
+        "sensorType": 1,
+        "timestamp": 1553985501580192
+    },
+    {
+        "accuracy": 3,
+        "data": [
+            0.4653266,
+            0.6107125,
+            0.35033122
+        ],
+        "experimentId": 16,
+        "patientId": 12,
+        "sensorId": "LSM6DSV Gyroscope",
+        "sensorType": 4,
+        "timestamp": 1553985395687632
+    },
+    {
+        "accuracy": 3,
+        "data": [
+            122.608925,
+            59.85061,
+            32.69365
+        ],
+        "experimentId": 16,
+        "patientId": 12,
+        "sensorId": "Orientation Sensor",
+        "sensorType": 3,
+        "timestamp": 1553988632349054
+    },
+    {
+        "accuracy": 3,
+        "data": [
+            2.1948166,
+            -0.63828546,
+            1.6271194
+        ],
+        "experimentId": 16,
+        "patientId": 12,
+        "sensorId": "LSM6DSV Accelerometer",
+        "sensorType": 1,
+        "timestamp": 1553987214360569
+    },
+    {
+        "accuracy": 3,
+        "data": [
+            1.016327,
+            0.87872964,
+            -0.37216964
+        ],
+        "experimentId": 16,
+        "patientId": 12,
+        "sensorId": "LSM6DSV Gyroscope",
+        "sensorType": 4,
+        "timestamp": 1553989950681977
+    },
+    {
+        "accuracy": 3,
+        "data": [
+            3.3254254,
+            -0.6538388,
+            0.16211374
+        ],
+        "experimentId": 16,
+        "patientId": 12,
+        "sensorId": "LSM6DSV Accelerometer",
+        "sensorType": 1,
+        "timestamp": 1553989456578959
+    },
+    {
+        "accuracy": 3,
+        "data": [
+            129.58257,
+            54.942696,
+            41.705444
+        ],
+        "experimentId": 16,
+        "patientId": 12,
+        "sensorId": "Orientation Sensor",
+        "sensorType": 3,
+        "timestamp": 1553991017815966
+    },
+    {
+        "accuracy": 3,
+        "data": [
+            -0.9411906,
+            -0.6737844,
+            -1.760361
+        ],
+        "experimentId": 16,
+        "patientId": 12,
+        "sensorId": "LSM6DSV Gyroscope",
+        "sensorType": 4,
+        "timestamp": 1553985217148911
+    },
+    {
+        "accuracy": 3,
+        "data": [
+            129.33624,
+            72.9542,
+            47.94733
+        ],
+        "experimentId": 16,
+        "patientId": 12,
+        "sensorId": "Orientation Sensor",
+        "sensorType": 3,
+        "timestamp": 1553991497396198
+    },
+    {
+        "accuracy": 3,
+        "data": [
+            -0.17180584,
+            -1.328021,
+            -1.3811663
+        ],
+        "experimentId": 16,
+        "patientId": 12,
+        "sensorId": "LSM6DSV Gyroscope",
+        "sensorType": 4,
+        "timestamp": 1553985192236007
+    },
+    {
+        "accuracy": 3,
+        "data": [
+            0.16997325,
+            2.3333526,
+            0.20250183
+        ],
+        "experimentId": 16,
+        "patientId": 12,
+        "sensorId": "LSM6DSV Gyroscope",
+        "sensorType": 4,
+        "timestamp": 1553985607448999
+    },
+    {
+        "accuracy": 3,
+        "data": [
+            -0.21991149,
+            1.1093313,
+            0.2724459
+        ],
+        "experimentId": 16,
+        "patientId": 12,
+        "sensorId": "LSM6DSV Gyroscope",
+        "sensorType": 4,
+        "timestamp": 1553985549311262
+    },
+    {
+        "accuracy": 3,
+        "data": [
+            127.2165,
+            44.728924,
+            33.690838
+        ],
+        "experimentId": 16,
+        "patientId": 12,
+        "sensorId": "Orientation Sensor",
+        "sensorType": 3,
+        "timestamp": 1553988499490886
+    },
+    {
+        "accuracy": 3,
+        "data": [
+            19.071993,
+            -6.4815583,
+            2.3838496
+        ],
+        "experimentId": 16,
+        "patientId": 12,
+        "sensorId": "LSM6DSV Accelerometer",
+        "sensorType": 1,
+        "timestamp": 1553985138238153
+    },
+    {
+        "accuracy": 3,
+        "data": [
+            0.4699081,
+            0.57986385,
+            0.12140947
+        ],
+        "experimentId": 16,
+        "patientId": 12,
+        "sensorId": "LSM6DSV Gyroscope",
+        "sensorType": 4,
+        "timestamp": 1553985387383340
+    },
+    {
+        "accuracy": 3,
+        "data": [
+            -0.7283041,
+            0.24327709,
+            -0.5564982
+        ],
+        "experimentId": 16,
+        "patientId": 12,
+        "sensorId": "LSM6DSV Gyroscope",
+        "sensorType": 4,
+        "timestamp": 1553987837186828
+    },
+    {
+        "accuracy": 3,
+        "data": [
+            15.680167,
+            -5.011169,
+            3.5736806
+        ],
+        "experimentId": 16,
+        "patientId": 12,
+        "sensorId": "LSM6DSV Accelerometer",
+        "sensorType": 1,
+        "timestamp": 1553990619189490
+    },
+    {
+        "accuracy": 3,
+        "data": [
+            0.49968776,
+            0.046883907,
+            0.33582318
+        ],
+        "experimentId": 16,
+        "patientId": 12,
+        "sensorId": "LSM6DSV Gyroscope",
+        "sensorType": 4,
+        "timestamp": 1553985507808291
+    },
+    {
+        "accuracy": 3,
+        "data": [
+            -1.4011722,
+            0.122783914,
+            -1.545031
+        ],
+        "experimentId": 16,
+        "patientId": 12,
+        "sensorId": "LSM6DSV Gyroscope",
+        "sensorType": 4,
+        "timestamp": 1553985250357306
+    },
+    {
+        "accuracy": 3,
+        "data": [
+            -0.11724831,
+            0.98584294,
+            0.20877378
+        ],
+        "experimentId": 16,
+        "patientId": 12,
+        "sensorId": "LSM6DSV Accelerometer",
+        "sensorType": 1,
+        "timestamp": 1553990884932276
+    },
+    {
+        "accuracy": 3,
+        "data": [
+            1.0569496,
+            -1.3087788,
+            -1.6071864
+        ],
+        "experimentId": 16,
+        "patientId": 12,
+        "sensorId": "LSM6DSV Gyroscope",
+        "sensorType": 4,
+        "timestamp": 1553992695300860
+    },
+    {
+        "accuracy": 3,
+        "data": [
+            13.040883,
+            -5.8241305,
+            0.062213387
+        ],
+        "experimentId": 16,
+        "patientId": 12,
+        "sensorId": "LSM6DSV Accelerometer",
+        "sensorType": 1,
+        "timestamp": 1553988765235125
+    },
+    {
+        "accuracy": 3,
+        "data": [
+            2.6265678,
+            -0.05100725,
+            0.069027774
+        ],
+        "experimentId": 16,
+        "patientId": 12,
+        "sensorId": "LSM6DSV Gyroscope",
+        "sensorType": 4,
+        "timestamp": 1553989398442117
+    },
+    {
+        "accuracy": 3,
+        "data": [
+            -1.5019649,
+            -0.3368922,
+            0.44028112
+        ],
+        "experimentId": 16,
+        "patientId": 12,
+        "sensorId": "LSM6DSV Gyroscope",
+        "sensorType": 4,
+        "timestamp": 1553992296700549
+    },
+    {
+        "accuracy": 3,
+        "data": [
+            -1.0109676,
+            -0.276371,
+            0.19202402
+        ],
+        "experimentId": 16,
+        "patientId": 12,
+        "sensorId": "LSM6DSV Accelerometer",
+        "sensorType": 1,
+        "timestamp": 1553990220576037
+    },
+    {
+        "accuracy": 3,
+        "data": [
+            7.9914293,
+            -3.1716864,
+            0.2105684
+        ],
+        "experimentId": 16,
+        "patientId": 12,
+        "sensorId": "LSM6DSV Accelerometer",
+        "sensorType": 1,
+        "timestamp": 1553988233734872
+    },
+    {
+        "accuracy": 3,
+        "data": [
+            1.919644,
+            -0.10125092,
+            0.08155051
+        ],
+        "experimentId": 16,
+        "patientId": 12,
+        "sensorId": "LSM6DSV Gyroscope",
+        "sensorType": 4,
+        "timestamp": 1553990747908487
+    },
+    {
+        "accuracy": 3,
+        "data": [
+            23.258835,
+            -6.321239,
+            7.9746795
+        ],
+        "experimentId": 16,
+        "patientId": 12,
+        "sensorId": "LSM6DSV Accelerometer",
+        "sensorType": 1,
+        "timestamp": 1553987480116904
+    },
+    {
+        "accuracy": 3,
+        "data": [
+            1.5019649,
+            -0.4793765,
+            -0.34391713
+        ],
+        "experimentId": 16,
+        "patientId": 12,
+        "sensorId": "LSM6DSV Gyroscope",
+        "sensorType": 4,
+        "timestamp": 1553990880779891
+    },
+    {
+        "accuracy": 3,
+        "data": [
+            -0.8034405,
+            -0.7993172,
+            -1.7146988
+        ],
+        "experimentId": 16,
+        "patientId": 12,
+        "sensorId": "LSM6DSV Gyroscope",
+        "sensorType": 4,
+        "timestamp": 1553985212997219
+    },
+    {
+        "accuracy": 3,
+        "data": [
+            2.2956316,
+            5.1526484,
+            0.8014552
+        ],
+        "experimentId": 16,
+        "patientId": 12,
+        "sensorId": "LSM6DSV Gyroscope",
+        "sensorType": 4,
+        "timestamp": 1553993135435455
+    },
+    {
+        "accuracy": 3,
+        "data": [
+            3.4707892,
+            -0.40917268,
+            3.0287154
+        ],
+        "experimentId": 16,
+        "patientId": 12,
+        "sensorId": "LSM6DSV Accelerometer",
+        "sensorType": 1,
+        "timestamp": 1553992826106412
+    },
+    {
+        "accuracy": 3,
+        "data": [
+            0.42562035,
+            -0.57009,
+            0.6516405
+        ],
+        "experimentId": 16,
+        "patientId": 12,
+        "sensorId": "LSM6DSV Gyroscope",
+        "sensorType": 4,
+        "timestamp": 1553992429555544
+    },
+    {
+        "accuracy": 3,
+        "data": [
+            -1.2399037,
+            1.1566733,
+            0.8765916
+        ],
+        "experimentId": 16,
+        "patientId": 12,
+        "sensorId": "LSM6DSV Gyroscope",
+        "sensorType": 4,
+        "timestamp": 1553985678036750
+    },
+    {
+        "accuracy": 3,
+        "data": [
+            12.44208,
+            -5.9024954,
+            0.43848476
+        ],
+        "experimentId": 16,
+        "patientId": 12,
+        "sensorId": "LSM6DSV Accelerometer",
+        "sensorType": 1,
+        "timestamp": 1553991017815966
+    },
+    {
+        "accuracy": 3,
+        "data": [
+            124.06388,
+            55.059082,
+            38.80845
+        ],
+        "experimentId": 16,
+        "patientId": 12,
+        "sensorId": "Orientation Sensor",
+        "sensorType": 3,
+        "timestamp": 1553990087706344
+    },
+    {
+        "accuracy": 3,
+        "data": [
+            1.5691601,
+            -1.0852021,
+            1.1976013
+        ],
+        "experimentId": 16,
+        "patientId": 12,
+        "sensorId": "LSM6DSV Gyroscope",
+        "sensorType": 4,
+        "timestamp": 1553985823381053
+    },
+    {
+        "accuracy": 3,
+        "data": [
+            6.341578,
+            -2.0745773,
+            -0.48993045
+        ],
+        "experimentId": 16,
+        "patientId": 12,
+        "sensorId": "LSM6DSV Accelerometer",
+        "sensorType": 1,
+        "timestamp": 1553992560353908
+    },
+    {
+        "accuracy": 3,
+        "data": [
+            0.74021596,
+            -0.5148067,
+            0.24266621
+        ],
+        "experimentId": 16,
+        "patientId": 12,
+        "sensorId": "LSM6DSV Gyroscope",
+        "sensorType": 4,
+        "timestamp": 1553988368695365
+    },
+    {
+        "accuracy": 3,
+        "data": [
+            21.262623,
+            -6.5347986,
+            0.10468599
+        ],
+        "experimentId": 16,
+        "patientId": 12,
+        "sensorId": "LSM6DSV Accelerometer",
+        "sensorType": 1,
+        "timestamp": 1553990486331108
+    },
+    {
+        "accuracy": 3,
+        "data": [
+            124.851616,
+            58.02838,
+            42.268616
+        ],
+        "experimentId": 16,
+        "patientId": 12,
+        "sensorId": "Orientation Sensor",
+        "sensorType": 3,
+        "timestamp": 1553986657962686
+    },
+    {
+        "accuracy": 3,
+        "data": [
+            0.23777929,
+            0.43875396,
+            0.2284636
+        ],
+        "experimentId": 16,
+        "patientId": 12,
+        "sensorId": "LSM6DSV Gyroscope",
+        "sensorType": 4,
+        "timestamp": 1553985524417503
+    },
+    {
+        "accuracy": 3,
+        "data": [
+            131.37608,
+            43.673946,
+            27.394573
+        ],
+        "experimentId": 16,
+        "patientId": 12,
+        "sensorId": "Orientation Sensor",
+        "sensorType": 3,
+        "timestamp": 1553987081487449
+    },
+    {
+        "accuracy": 3,
+        "data": [
+            -0.15393804,
+            0.97249746,
+            0.25427267
+        ],
+        "experimentId": 16,
+        "patientId": 12,
+        "sensorId": "LSM6DSV Gyroscope",
+        "sensorType": 4,
+        "timestamp": 1553985545163983
+    },
+    {
+        "accuracy": 3,
+        "data": [
+            120.845604,
+            62.988056,
+            30.02365
+        ],
+        "experimentId": 16,
+        "patientId": 12,
+        "sensorId": "Orientation Sensor",
+        "sensorType": 3,
+        "timestamp": 1553989954865855
+    },
+    {
+        "accuracy": 3,
+        "data": [
+            1.0425943,
+            0.65026605,
+            1.8245018
+        ],
+        "experimentId": 16,
+        "patientId": 12,
+        "sensorId": "LSM6DSV Gyroscope",
+        "sensorType": 4,
+        "timestamp": 1553988102936316
+    },
+    {
+        "accuracy": 3,
+        "data": [
+            -1.1479685,
+            0.93126404,
+            0.8585711
+        ],
+        "experimentId": 16,
+        "patientId": 12,
+        "sensorId": "LSM6DSV Gyroscope",
+        "sensorType": 4,
+        "timestamp": 1553985682188971
+    },
+    {
+        "accuracy": 3,
+        "data": [
+            133.55128,
+            47.731514,
+            34.75777
+        ],
+        "experimentId": 16,
+        "patientId": 12,
+        "sensorId": "Orientation Sensor",
+        "sensorType": 3,
+        "timestamp": 1553990884932276
+    },
+    {
+        "accuracy": 3,
+        "data": [
+            136.3176,
+            57.766636,
+            39.15567
+        ],
+        "experimentId": 16,
+        "patientId": 12,
+        "sensorId": "Orientation Sensor",
+        "sensorType": 3,
+        "timestamp": 1553992294624449
+    },
+    {
+        "accuracy": 3,
+        "data": [
+            -0.14172074,
+            -0.13026701,
+            -1.4434745
+        ],
+        "experimentId": 16,
+        "patientId": 12,
+        "sensorId": "LSM6DSV Gyroscope",
+        "sensorType": 4,
+        "timestamp": 1553985291879636
+    },
+    {
+        "accuracy": 3,
+        "data": [
+            -0.70463306,
+            -0.054061573,
+            2.7543914
+        ],
+        "experimentId": 16,
+        "patientId": 12,
+        "sensorId": "LSM6DSV Gyroscope",
+        "sensorType": 4,
+        "timestamp": 1553991765211808
+    },
+    {
+        "accuracy": 3,
+        "data": [
+            -1.3197744,
+            1.5253305,
+            0.85062987
+        ],
+        "experimentId": 16,
+        "patientId": 12,
+        "sensorId": "LSM6DSV Gyroscope",
+        "sensorType": 4,
+        "timestamp": 1553985669732529
+    },
+    {
+        "accuracy": 3,
+        "data": [
+            -0.029932396,
+            0.33429602,
+            2.467743
+        ],
+        "experimentId": 16,
+        "patientId": 12,
+        "sensorId": "LSM6DSV Gyroscope",
+        "sensorType": 4,
+        "timestamp": 1553986878043575
+    },
+    {
+        "accuracy": 3,
+        "data": [
+            1.2437216,
+            -0.77625704,
+            -0.3857614
+        ],
+        "experimentId": 16,
+        "patientId": 12,
+        "sensorId": "LSM6DSV Gyroscope",
+        "sensorType": 4,
+        "timestamp": 1553986354862530
+    },
+    {
+        "accuracy": 3,
+        "data": [
+            1.3732251,
+            0.2585487,
+            0.015118915
+        ],
+        "experimentId": 16,
+        "patientId": 12,
+        "sensorId": "LSM6DSV Gyroscope",
+        "sensorType": 4,
+        "timestamp": 1553989493943746
+    },
+    {
+        "accuracy": 3,
+        "data": [
+            -0.38881573,
+            2.3993258,
+            -0.0364992
+        ],
+        "experimentId": 16,
+        "patientId": 12,
+        "sensorId": "LSM6DSV Gyroscope",
+        "sensorType": 4,
+        "timestamp": 1553985628210331
+    },
+    {
+        "accuracy": 3,
+        "data": [
+            -0.8335256,
+            1.4026994,
+            -0.047647487
+        ],
+        "experimentId": 16,
+        "patientId": 12,
+        "sensorId": "LSM6DSV Gyroscope",
+        "sensorType": 4,
+        "timestamp": 1553987970081617
+    },
+    {
+        "accuracy": 3,
+        "data": [
+            126.474335,
+            55.67528,
+            31.169584
+        ],
+        "experimentId": 16,
+        "patientId": 12,
+        "sensorId": "Orientation Sensor",
+        "sensorType": 3,
+        "timestamp": 1553986392222263
+    },
+    {
+        "accuracy": 3,
+        "data": [
+            1.3903292,
+            0.32727104,
+            -0.008093964
+        ],
+        "experimentId": 16,
+        "patientId": 12,
+        "sensorId": "LSM6DSV Gyroscope",
+        "sensorType": 4,
+        "timestamp": 1553989487746359
+    },
+    {
+        "accuracy": 3,
+        "data": [
+            127.93814,
+            49.43476,
+            33.881516
+        ],
+        "experimentId": 16,
+        "patientId": 12,
+        "sensorId": "Orientation Sensor",
+        "sensorType": 3,
+        "timestamp": 1553992560353908
+    },
+    {
+        "accuracy": 3,
+        "data": [
+            122.83589,
+            59.81247,
+            35.822166
+        ],
+        "experimentId": 16,
+        "patientId": 12,
+        "sensorId": "Orientation Sensor",
+        "sensorType": 3,
+        "timestamp": 1553989821978158
+    },
+    {
+        "accuracy": 3,
+        "data": [
+            138.43585,
+            65.90762,
+            30.237713
+        ],
+        "experimentId": 16,
+        "patientId": 12,
+        "sensorId": "Orientation Sensor",
+        "sensorType": 3,
+        "timestamp": 1553991895998264
+    },
+    {
+        "accuracy": 3,
+        "data": [
+            -0.59681535,
+            -0.25793785,
+            -0.20005837
+        ],
+        "experimentId": 16,
+        "patientId": 12,
+        "sensorId": "LSM6DSV Gyroscope",
+        "sensorType": 4,
+        "timestamp": 1553991499470182
+    },
+    {
+        "accuracy": 3,
+        "data": [
+            2.9891164,
+            -0.058490347,
+            0.1740966
+        ],
+        "experimentId": 16,
+        "patientId": 12,
+        "sensorId": "LSM6DSV Gyroscope",
+        "sensorType": 4,
+        "timestamp": 1553989391981505
+    },
+    {
+        "accuracy": 3,
+        "data": [
+            118.95252,
+            61.9179,
+            34.99033
+        ],
+        "experimentId": 16,
+        "patientId": 12,
+        "sensorId": "Orientation Sensor",
+        "sensorType": 3,
+        "timestamp": 1553988765235125
+    },
+    {
+        "accuracy": 3,
+        "data": [
+            134.36139,
+            76.65335,
+            32.405804
+        ],
+        "experimentId": 16,
+        "patientId": 12,
+        "sensorId": "Orientation Sensor",
+        "sensorType": 3,
+        "timestamp": 1553991763137804
+    },
+    {
+        "accuracy": 3,
+        "data": [
+            133.30621,
+            29.508652,
+            55.639812
+        ],
+        "experimentId": 16,
+        "patientId": 12,
+        "sensorId": "Orientation Sensor",
+        "sensorType": 3,
+        "timestamp": 1553992826106412
+    },
+    {
+        "accuracy": 3,
+        "data": [
+            3.7555351,
+            -1.4907285,
+            0.51266223
+        ],
+        "experimentId": 16,
+        "patientId": 12,
+        "sensorId": "LSM6DSV Accelerometer",
+        "sensorType": 1,
+        "timestamp": 1553990752060803
+    },
+    {
+        "accuracy": 3,
+        "data": [
+            124.65952,
+            72.28821,
+            48.759235
+        ],
+        "experimentId": 16,
+        "patientId": 12,
+        "sensorId": "Orientation Sensor",
+        "sensorType": 3,
+        "timestamp": 1553989163834505
+    },
+    {
+        "accuracy": 3,
+        "data": [
+            1.3495541,
+            0.4578435,
+            0.36254853
+        ],
+        "experimentId": 16,
+        "patientId": 12,
+        "sensorId": "LSM6DSV Gyroscope",
+        "sensorType": 4,
+        "timestamp": 1553990615035875
+    },
+    {
+        "accuracy": 3,
+        "data": [
+            132.14262,
+            56.02372,
+            44.64146
+        ],
+        "experimentId": 16,
+        "patientId": 12,
+        "sensorId": "Orientation Sensor",
+        "sensorType": 3,
+        "timestamp": 1553986790834109
+    },
+    {
+        "accuracy": 3,
+        "data": [
+            -3.1726813,
+            -0.4821254,
+            2.2015584
+        ],
+        "experimentId": 16,
+        "patientId": 12,
+        "sensorId": "LSM6DSV Gyroscope",
+        "sensorType": 4,
+        "timestamp": 1553991067629740
+    },
+    {
+        "accuracy": 3,
+        "data": [
+            121.70588,
+            73.96955,
+            26.485365
+        ],
+        "experimentId": 16,
+        "patientId": 12,
+        "sensorId": "Orientation Sensor",
+        "sensorType": 3,
+        "timestamp": 1553992427481066
+    },
+    {
+        "accuracy": 3,
+        "data": [
+            132.08286,
+            47.37364,
+            30.36784
+        ],
+        "experimentId": 16,
+        "patientId": 12,
+        "sensorId": "Orientation Sensor",
+        "sensorType": 3,
+        "timestamp": 1553988233734872
+    }
+]
